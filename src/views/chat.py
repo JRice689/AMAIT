@@ -59,10 +59,10 @@ def manageHistoyChat():
 
 def readStudyGuide():
     # Used for testing API without wasting tokens
-    # filePath = Path(settings.BASE_DIR, 'src', 'static', 'studyGuides', 'blank.txt')
+    filePath = Path(settings.BASE_DIR, 'src', 'static', 'studyGuides', 'blank.txt')
 
     # Reads actual study guide ~2K tokens required
-    filePath = Path(settings.BASE_DIR, 'src', 'static', 'studyGuides', 'blk3Unit1.txt')
+    # filePath = Path(settings.BASE_DIR, 'src', 'static', 'studyGuides', 'blk3Unit1.txt')
 
     with open(filePath, "r", encoding="utf-8") as file:
         currentStudyGudie = file.read()

@@ -13,6 +13,10 @@
     {% for text in historyChat %}
         <p>{{ text }}</p>
     {% endfor %}
+    <script>
+      var historyDiv = document.getElementById("history");
+      historyDiv.scrollTop = historyDiv.scrollHeight;
+    </script>  
   </div>
 
   <form action="/chat/" method="POST">
