@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #87CEEB;
+}
+
+h3 {
+  font-size: 40px;
+  color: #000069;
+}
+
+#history {
+  width: 720px;
+  height: 360px;
+  overflow-y: scroll;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+  background-color: #F5F5F5;
+}
+
+.icon {
+  width: 320px;
+}
+
+form {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 500px;
+  height: 30px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  width: 100px;
+  height: 40px;
+  background-color: #000069;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}

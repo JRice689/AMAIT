@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'styles.css' %}">
+  <title>CCAIT</title>
+</head>
+
+<body>
+    <img src="{% static 'F16.png' %}" class="icon"/>
+  <h3>Crew Chief AI Tutor</h3>
+
+  <div id="history" style="height:360px; width:720px; ; overflow-y: scroll;">
+    {% for text in historyChat %}
+        <p>{{ text }}</p>
+    {% endfor %}
+  </div>
+
+  <form action="/chat/" method="POST">
+    {% csrf_token %}
+    <input type="text" name="studentInput" placeholder="Ask you question here" required />
+    <input type="submit" value="Submit" />
+  </form>
+
+  <div>
+    <p>Token Count - Prompt: {{ tokenPrompt }}, Completion: {{ tokenCompletion }}, Total: {{ tokenTotal }}</p>
+  </div>
+
+</body>
