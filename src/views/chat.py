@@ -2,6 +2,8 @@ from django.shortcuts import render
 from pathlib import Path
 from django.conf import settings
 from django.contrib.auth.decorators import login_required
+from src.models.question import Question
+from src.models.profile import Profile
 
 import os
 import openai
@@ -12,32 +14,31 @@ load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 historyChat = []
 recentHistory = []
+tokenPrompt = 0
+tokenCompletion = 0
+tokenTotal = 0
 
 @login_required(login_url='/login')
 def as_view(request):
-    tokenPrompt = 0
-    tokenCompletion = 0
-    tokenTotal = 0
+
 
     if request.method == "POST":
         studentInput = request.POST["studentInput"]
         historyChat.append("Student: " + studentInput)
-        
-        # openAI API
-        response = openai.Completion.create(
-            model="text-davinci-003",
-            prompt=generate_prompt(studentInput),
-            temperature=0.6,
-            max_tokens=400,
-            top_p=1,
-            frequency_penalty=0,
-            presence_penalty=0
-        )
 
-        historyChat.append(response.choices[0].text)
-        tokenPrompt = response.usage.prompt_tokens
-        tokenCompletion = response.usage.completion_tokens
-        tokenTotal = response.usage.total_tokens
+        #response = get_openAI_response(studentInput)
+        response = "Text"
+
+        current_user = request.user
+        current_profile = Profile.objects.get(user_profile_id = current_user)
+        new_question = Question()
+        new_question.question = studentInput
+        new_question.response = response
+        new_question.submitted_by = current_user
+        new_question.instructor = getattr(current_profile, 'user_instructor')
+        new_question.save()
+        current_profile.user_question.add(new_question)
+
 
     context = {
         'historyChat' : historyChat,
@@ -47,6 +48,24 @@ def as_view(request):
     }    
 
     return render(request, 'chat.html', context)
+
+def get_openAI_response(input):
+    response = openai.Completion.create(
+        model="text-davinci-003",
+        prompt=generate_prompt(input),
+        temperature=0.6,
+        max_tokens=400,
+        top_p=1,
+        frequency_penalty=0,
+        presence_penalty=0
+    )
+    historyChat.append(response.choices[0].text)
+    tokenPrompt = response.usage.prompt_tokens
+    tokenCompletion = response.usage.completion_tokens
+    tokenTotal = response.usage.total_tokens
+
+    return response.choices[0].text
+
 
 # Grabs the last 8 chats from history
 # Used to pass to prompt in generate_prompt()

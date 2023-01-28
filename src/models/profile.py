@@ -16,6 +16,7 @@ class Profile(models.Model):
 
     user_group = models.CharField(max_length=1, choices=USER_TYPE)
     user_question = models.ManyToManyField(Question, blank=True)
+    user_instructor = models.ForeignKey('self', on_delete=models.PROTECT, default=1)
 
     
     '''
