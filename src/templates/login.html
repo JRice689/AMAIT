@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'styles.css' %}">
+  <title>CCAIT</title>
+</head>
+
+<body>
+    <img src="{% static 'F16.png' %}" class="icon"/>
+    <h3>Crew Chief AI Tutor</h3>
+
+
+    <form id="login"  action="/login/" method="POST">
+        {% csrf_token %}
+        
+        <input class="inputFields" name="username" placeholder="Username">
+        <input type="password" class="inputFields" name="password" placeholder="Password">
+        <input type="submit" id="submit" value="Submit">
+    </form>
+
+  
+
+
+</body>
