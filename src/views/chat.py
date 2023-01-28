@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from django.http import request
 from pathlib import Path
 from django.conf import settings
+from django.contrib.auth.decorators import login_required
 
 import os
 import openai
@@ -13,6 +13,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 historyChat = []
 recentHistory = []
 
+@login_required(login_url='/login')
 def as_view(request):
     tokenPrompt = 0
     tokenCompletion = 0

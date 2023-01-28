@@ -2,8 +2,7 @@ from django.contrib.auth import authenticate, login
 from django.shortcuts import redirect, render
 
 def as_view(request):
-    if request.method =='POST':  # comes here when you are making a post request via submitting the form
-        # Register user
+    if request.method =='POST':
         username = request.POST['username']
         password = request.POST['password']
         user = authenticate(request, username=username, password=password)
