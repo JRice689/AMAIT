@@ -22,12 +22,20 @@ tokenTotal = 0
 @login_required(login_url='/login')
 def as_view(request):
 
-    current_study_guide = Study_Guide.objects.get(course = 'Fundies')
-    print(current_study_guide)
+    study_guide_queryset = Study_Guide.objects.all()
+    course_list = list(study_guide_queryset.values_list('course', flat=True))
+
+
 
     if request.method == "POST":
         studentInput = request.POST["studentInput"]
         historyChat.append("Student: " + studentInput)
+
+        course_input = request.POST['course']
+        block_input = request.POST['block']
+        unit_input = request.POST['unit']
+        current_study_guide = Study_Guide.objects.get(
+            course = course_input, block = block_input, unit = unit_input)        
 
         #response = get_openAI_response(studentInput)
         response = "Text"
@@ -46,6 +54,7 @@ def as_view(request):
 
     context = {
         'historyChat' : historyChat,
+        'course_list' : course_list,
         'tokenPrompt' : tokenPrompt,
         'tokenCompletion' : tokenCompletion,
         'tokenTotal' : tokenTotal

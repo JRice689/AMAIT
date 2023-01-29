@@ -1,32 +1,90 @@
 <!DOCTYPE html>
 <head>
   {% load static %}
-  <link rel="stylesheet" href="{% static 'styles.css' %}">
+  <link rel="stylesheet" href="{% static 'styles.css' %}" />
   <title>CCAIT</title>
 </head>
 
 <body>
-    <img src="{% static 'F16.png' %}" class="icon"/>
+  <img src="{% static 'F16.png' %}" class="icon" />
   <h3>Crew Chief AI Tutor</h3>
 
   <div id="history" style="height:360px; width:720px; ; overflow-y: scroll;">
     {% for text in historyChat %}
-        <p>{{ text }}</p>
+    <p>{{ text }}</p>
     {% endfor %}
     <script>
       var historyDiv = document.getElementById("history");
       historyDiv.scrollTop = historyDiv.scrollHeight;
-    </script>  
+    </script>
   </div>
 
   <form action="/chat/" method="POST">
     {% csrf_token %}
-    <input type="text" name="studentInput" placeholder="Ask you question here" required />
+
+    <label for="course">Course:</label>
+    <select id="course" name="course">
+      {% for course in course_list %}
+      <option value="{{ course }}">{{ course }}</option>
+      {% endfor %}
+    </select>
+
+    <select id="block" name="block"></select>
+    <select id="unit" name="unit"></select>
+
+    <br />
+
+    <input
+      type="text"
+      name="studentInput"
+      placeholder="Ask you question here"
+      required
+    />
     <input type="submit" value="Submit" />
   </form>
 
   <div>
-    <p>Token Count - Prompt: {{ tokenPrompt }}, Completion: {{ tokenCompletion }}, Total: {{ tokenTotal }}</p>
+    <p>
+      Token Count - Prompt: {{ tokenPrompt }}, Completion: {{ tokenCompletion}}, Total: {{ tokenTotal }}
+    </p>
   </div>
 
+  <script>
+    let options = {
+        'Fundies': {
+            'Block': [1, 2, 3, 4],
+            'Unit': [1, 2, 3]
+        },
+        'Test': {
+            'Block': [1],
+            'Unit': [1]
+        }
+    };
+    let courseSelect = document.getElementById('course');
+    let blockSelect = document.getElementById('block');
+    let unitSelect = document.getElementById('unit');
+
+    courseSelect.addEventListener('change', function() {
+        let selectedCourse = this.value;
+        let blocks = options[selectedCourse].Block;
+        let units = options[selectedCourse].Unit;
+
+        blockSelect.innerHTML = '';
+        unitSelect.innerHTML = '';
+
+        for (let block of blocks) {
+            let option = document.createElement('option');
+            option.value = block;
+            option.innerText = block;
+            blockSelect.appendChild(option);
+        }
+
+        for (let unit of units) {
+            let option = document.createElement('option');
+            option.value = unit;
+            option.innerText = unit;
+            unitSelect.appendChild(option);
+        }
+    });
+  </script>
 </body>
