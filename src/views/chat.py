@@ -4,6 +4,7 @@ from django.conf import settings
 from django.contrib.auth.decorators import login_required
 from src.models.question import Question
 from src.models.profile import Profile
+from src.models.study_guide import Study_Guide
 
 import os
 import openai
@@ -21,6 +22,8 @@ tokenTotal = 0
 @login_required(login_url='/login')
 def as_view(request):
 
+    current_study_guide = Study_Guide.objects.get(course = 'Fundies')
+    print(current_study_guide)
 
     if request.method == "POST":
         studentInput = request.POST["studentInput"]
@@ -36,6 +39,7 @@ def as_view(request):
         new_question.response = response
         new_question.submitted_by = current_user
         new_question.instructor = getattr(current_profile, 'user_instructor')
+        new_question.from_study_guide = current_study_guide
         new_question.save()
         current_profile.user_question.add(new_question)
 
