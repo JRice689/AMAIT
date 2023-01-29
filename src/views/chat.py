@@ -19,13 +19,13 @@ tokenPrompt = 0
 tokenCompletion = 0
 tokenTotal = 0
 
+
 @login_required(login_url='/login')
 def as_view(request):
 
     study_guide_queryset = Study_Guide.objects.all()
     course_list = list(study_guide_queryset.values_list('course', flat=True))
-
-
+    error = ""
 
     if request.method == "POST":
         studentInput = request.POST["studentInput"]
@@ -34,31 +34,35 @@ def as_view(request):
         course_input = request.POST['course']
         block_input = request.POST['block']
         unit_input = request.POST['unit']
-        current_study_guide = Study_Guide.objects.get(
-            course = course_input, block = block_input, unit = unit_input)    
-        current_prompt = getattr(current_study_guide, 'prompt')
 
-        response = get_openAI_response(current_prompt, studentInput)
-        #response = "Text"
+        try:
+            current_study_guide = Study_Guide.objects.get(
+                course = course_input, block = block_input, unit = unit_input)    
+            current_prompt = getattr(current_study_guide, 'prompt')
 
-        current_user = request.user
-        current_profile = Profile.objects.get(user_profile_id = current_user)
-        new_question = Question()
-        new_question.question = studentInput
-        new_question.response = response
-        new_question.submitted_by = current_user
-        new_question.instructor = getattr(current_profile, 'user_instructor')
-        new_question.from_study_guide = current_study_guide
-        new_question.save()
-        current_profile.user_question.add(new_question)
+            response = get_openAI_response(current_prompt, studentInput)
 
+            current_user = request.user
+            current_profile = Profile.objects.get(user_profile_id = current_user)
+            new_question = Question()
+            new_question.question = studentInput
+            new_question.response = response
+            new_question.submitted_by = current_user
+            new_question.instructor = getattr(current_profile, 'user_instructor')
+            new_question.from_study_guide = current_study_guide
+            new_question.save()
+            current_profile.user_question.add(new_question)            
+
+        except:
+           error = "Submission Failed"
 
     context = {
         'historyChat' : historyChat,
         'course_list' : course_list,
         'tokenPrompt' : tokenPrompt,
         'tokenCompletion' : tokenCompletion,
-        'tokenTotal' : tokenTotal
+        'tokenTotal' : tokenTotal,
+        'error' : error
     }    
 
     return render(request, 'chat.html', context)
