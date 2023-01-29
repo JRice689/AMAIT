@@ -35,10 +35,11 @@ def as_view(request):
         block_input = request.POST['block']
         unit_input = request.POST['unit']
         current_study_guide = Study_Guide.objects.get(
-            course = course_input, block = block_input, unit = unit_input)        
+            course = course_input, block = block_input, unit = unit_input)    
+        current_prompt = getattr(current_study_guide, 'prompt')
 
-        #response = get_openAI_response(studentInput)
-        response = "Text"
+        response = get_openAI_response(current_prompt, studentInput)
+        #response = "Text"
 
         current_user = request.user
         current_profile = Profile.objects.get(user_profile_id = current_user)
@@ -62,10 +63,10 @@ def as_view(request):
 
     return render(request, 'chat.html', context)
 
-def get_openAI_response(input):
+def get_openAI_response(prompt, input):
     response = openai.Completion.create(
         model="text-davinci-003",
-        prompt=generate_prompt(input),
+        prompt=generate_prompt(prompt, input),
         temperature=0.6,
         max_tokens=400,
         top_p=1,
@@ -80,6 +81,18 @@ def get_openAI_response(input):
     return response.choices[0].text
 
 
+def generate_prompt(prompt, input):
+    return """The following is a conversation with an AI instructor for high school graduates 
+    trying to become aircraft mechanics. The AI is professional and will answer the student's 
+    questions correctly.  If the student asks a question that does not pertain to aircraft or 
+    mechanics please remind them to stay on topic.  Only use the following information given 
+    below when helping the student. \n""" + prompt + """\nStudent: I need help understanding 
+    aircraft mechanics AI Instructor: I am an AI created by OpenAI. What do you need help with 
+    today?""" + manageHistoyChat() + """
+    Student: {}
+    """.format(input)
+
+
 # Grabs the last 8 chats from history
 # Used to pass to prompt in generate_prompt()
 def manageHistoyChat():
@@ -88,30 +101,3 @@ def manageHistoyChat():
         deq.append(i)
     recentHistory = list(deq)
     return "\n".join(recentHistory)
-
-
-def readStudyGuide():
-    # Used for testing API without wasting tokens
-    filePath = Path(settings.BASE_DIR, 'src', 'static', 'studyGuides', 'blank.txt')
-
-    # Reads actual study guide ~2K tokens required
-    # filePath = Path(settings.BASE_DIR, 'src', 'static', 'studyGuides', 'blk3Unit1.txt')
-
-    with open(filePath, "r", encoding="utf-8") as file:
-        currentStudyGudie = file.read()
-        return(currentStudyGudie)
-   
-
-def generate_prompt(studentInput):
-    return """The following is a conversation with an AI instructor for high school graduates 
-    trying to become aircraft mechanics. The AI is professional and will answer the student's 
-    questions correctly.  If the student asks a question that does not pertain to aircraft or 
-    mechanics please remind them to stay on topic.  Only use the following information given 
-    below when helping the student. \n""" + readStudyGuide() + """\nStudent: I need help 
-    understanding aircraft mechanics AI Instructor: I am an AI created by OpenAI. What do you 
-    need help with today?""" + manageHistoyChat() + """
-    Student: {}
-    """.format(studentInput)
-
-
-
