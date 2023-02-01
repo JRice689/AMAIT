@@ -3,13 +3,13 @@
   {% load static %}
   <link rel="stylesheet" href="{% static 'styles.css' %}" />
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <title>CCAIT</title>
+  <title>AMAIT</title>
 </head>
 
 <body onload='courseOptions()'>
   <script src = "{% static 'scripts.js' %}"></script>
   <img src="{% static 'F16.png' %}" class="icon" />
-  <h3>Crew Chief AI Tutor</h3>
+  <h3>Aircraft Mx AI Tutor</h3>
 
   <div id="history" style="height:360px; width:720px; ; overflow-y: scroll;">
     {% for pair in historyChat %}
