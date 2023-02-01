@@ -11,6 +11,9 @@ class Question(models.Model):
     date_created = models.DateTimeField(auto_now_add=True)
     is_flagged = models.BooleanField(default=False)
     from_study_guide = models.ForeignKey(Study_Guide, on_delete=models.PROTECT, default=1)
+    token_prompt = models.IntegerField()
+    token_completion = models.IntegerField()
+    token_total = models.IntegerField()
 
     
 

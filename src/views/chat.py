@@ -18,9 +18,9 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 @login_required(login_url='/login')
 def as_view(request):
     
-    tokenPrompt = 0
-    tokenCompletion = 0
-    tokenTotal = 0
+    token_prompt = 0
+    token_completion = 0
+    token_total = 0
     error = ""
 
     current_user = request.user
@@ -28,6 +28,12 @@ def as_view(request):
     current_profile = Profile.objects.get(user_profile_id = current_user)
     current_chat_history = Question.objects.filter(submitted_by__profile=current_profile)
     chat_list = list(current_chat_history.values_list('question', 'response'))
+
+    last_study_guide = getattr(current_chat_history.last(), 'from_study_guide')
+    last_course = getattr(last_study_guide, 'course')
+    last_block = getattr(last_study_guide, 'block')
+    last_unit = getattr(last_study_guide, 'unit')
+
 
 
     study_guide_queryset = Study_Guide.objects.all()
@@ -47,9 +53,9 @@ def as_view(request):
 
             full_response = get_openfull_response(current_prompt, short_history, studentInput)
             text_response = full_response.choices[0].text
-            tokenPrompt = full_response.usage.prompt_tokens
-            tokenCompletion = full_response.usage.completion_tokens
-            tokenTotal = full_response.usage.total_tokens
+            token_prompt = full_response.usage.prompt_tokens
+            token_completion = full_response.usage.completion_tokens
+            token_total = full_response.usage.total_tokens
 
             # text_response = "Non-AI response to: " + studentInput
 
@@ -59,6 +65,9 @@ def as_view(request):
             new_question.submitted_by = current_user
             new_question.instructor = getattr(current_profile, 'user_instructor')
             new_question.from_study_guide = current_study_guide
+            new_question.token_prompt = token_prompt
+            new_question.token_completion = token_completion
+            new_question.token_total = token_completion
             new_question.save()
             current_profile.user_question.add(new_question)
 
@@ -71,9 +80,11 @@ def as_view(request):
         'historyChat' : chat_list,
         'username' : username,
         'course_list' : course_list,
-        'tokenPrompt' : tokenPrompt,
-        'tokenCompletion' : tokenCompletion,
-        'tokenTotal' : tokenTotal,
+        'block' : last_block,
+        'unit' : last_unit,
+        'tokenPrompt' : token_prompt,
+        'tokenCompletion' : token_completion,
+        'tokenTotal' : token_total,
         'error' : error
     }    
 
