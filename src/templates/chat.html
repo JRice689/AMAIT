@@ -12,8 +12,10 @@
   <h3>Crew Chief AI Tutor</h3>
 
   <div id="history" style="height:360px; width:720px; ; overflow-y: scroll;">
-    {% for text in historyChat %}
-    <p>{{ text }}</p>
+    {% for pair in historyChat %}
+      <p>{{username}}: {% for chat in pair %}
+        {{ chat }}</p>
+      {% endfor %}
     {% endfor %}
     <script>
       var historyDiv = document.getElementById("history");

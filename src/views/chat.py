@@ -13,51 +13,63 @@ from collections import deque
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
-historyChat = []
-recentHistory = []
-tokenPrompt = 0
-tokenCompletion = 0
-tokenTotal = 0
 
 
 @login_required(login_url='/login')
 def as_view(request):
+    
+    tokenPrompt = 0
+    tokenCompletion = 0
+    tokenTotal = 0
+    error = ""
+
+    current_user = request.user
+    username = getattr(current_user, "username")
+    current_profile = Profile.objects.get(user_profile_id = current_user)
+    current_chat_history = Question.objects.filter(submitted_by__profile=current_profile)
+    chat_list = list(current_chat_history.values_list('question', 'response'))
+
 
     study_guide_queryset = Study_Guide.objects.all()
     course_list = list(study_guide_queryset.values_list('course', flat=True))
-    error = ""
-
+    
     if request.method == "POST":
-        studentInput = request.POST["studentInput"]
-        historyChat.append("Student: " + studentInput)
-
-        course_input = request.POST['course']
-        block_input = request.POST['block']
-        unit_input = request.POST['unit']
-
         try:
+            studentInput = request.POST["studentInput"]
+            course_input = request.POST['course']
+            block_input = request.POST['block']
+            unit_input = request.POST['unit']
+
             current_study_guide = Study_Guide.objects.get(
                 course = course_input, block = block_input, unit = unit_input)    
             current_prompt = getattr(current_study_guide, 'prompt')
+            short_history = manageHistoyChat(chat_list)
 
-            response = get_openAI_response(current_prompt, studentInput)
+            full_response = get_openfull_response(current_prompt, short_history, studentInput)
+            text_response = full_response.choices[0].text
+            tokenPrompt = full_response.usage.prompt_tokens
+            tokenCompletion = full_response.usage.completion_tokens
+            tokenTotal = full_response.usage.total_tokens
 
-            current_user = request.user
-            current_profile = Profile.objects.get(user_profile_id = current_user)
+            # text_response = "Non-AI response to: " + studentInput
+
             new_question = Question()
             new_question.question = studentInput
-            new_question.response = response
+            new_question.response = text_response
             new_question.submitted_by = current_user
             new_question.instructor = getattr(current_profile, 'user_instructor')
             new_question.from_study_guide = current_study_guide
             new_question.save()
-            current_profile.user_question.add(new_question)            
+            current_profile.user_question.add(new_question)
+
+            chat_list = list(current_chat_history.values_list('question', 'response'))       
 
         except:
            error = "Submission Failed"
 
     context = {
-        'historyChat' : historyChat,
+        'historyChat' : chat_list,
+        'username' : username,
         'course_list' : course_list,
         'tokenPrompt' : tokenPrompt,
         'tokenCompletion' : tokenCompletion,
@@ -67,41 +79,41 @@ def as_view(request):
 
     return render(request, 'chat.html', context)
 
-def get_openAI_response(prompt, input):
+def get_openfull_response(prompt, history, input):
     response = openai.Completion.create(
         model="text-davinci-003",
-        prompt=generate_prompt(prompt, input),
+        prompt=generate_prompt(prompt, history, input),
         temperature=0.6,
         max_tokens=400,
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0
     )
-    historyChat.append(response.choices[0].text)
-    tokenPrompt = response.usage.prompt_tokens
-    tokenCompletion = response.usage.completion_tokens
-    tokenTotal = response.usage.total_tokens
-
-    return response.choices[0].text
+    return response
 
 
-def generate_prompt(prompt, input):
-    return """The following is a conversation with an AI instructor for high school graduates 
+def generate_prompt(prompt, history, input):
+    return """The following is a conversation with an AI tutor for high school graduates 
     trying to become aircraft mechanics. The AI is professional and will answer the student's 
     questions correctly.  If the student asks a question that does not pertain to aircraft or 
     mechanics please remind them to stay on topic.  Only use the following information given 
     below when helping the student. \n""" + prompt + """\nStudent: I need help understanding 
-    aircraft mechanics AI Instructor: I am an AI created by OpenAI. What do you need help with 
-    today?""" + manageHistoyChat() + """
+    aircraft mechanics AI Tutor: I am an AI created by OpenAI. What do you need help with 
+    today?""" + history + """
     Student: {}
     """.format(input)
 
 
 # Grabs the last 8 chats from history
 # Used to pass to prompt in generate_prompt()
-def manageHistoyChat():
+def manageHistoyChat(history):
     deq = deque(maxlen=8)
-    for i in historyChat:
+    for i in history:
         deq.append(i)
-    recentHistory = list(deq)
-    return "\n".join(recentHistory)
+    short_history_pairs = list(deq)
+
+    short_history_str = ""
+    for i in short_history_pairs:
+        short_history_str += f" Student: {i[0]} {i[1]}"
+
+    return short_history_str
