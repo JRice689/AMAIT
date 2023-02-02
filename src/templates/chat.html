@@ -8,9 +8,21 @@
 
 <body onload='courseOptions()'>
   <script src = "{% static 'scripts.js' %}"></script>
-  <img src="{% static 'F16.png' %}" class="icon" />
-  <h3>Aircraft Mx AI Tutor</h3>
 
+  <div style="float: right; margin-right: 10px;">
+    <form action="/logout/" method="POST">
+      {% csrf_token %}
+      Current User: {{username}}
+      <input type="submit" value="Logout">
+    </form>
+  </div>
+  
+  <div style="clear: both; text-align: center;">
+    <img src="{% static 'F16.png' %}" class="icon" />
+    <h3>Aircraft Mx AI Tutor</h3>
+  </div>
+  
+    
   <div id="history" style="height:360px; width:720px; ; overflow-y: scroll;">
     {% for pair in historyChat %}
       <p>{{username}}: {% for chat in pair %}

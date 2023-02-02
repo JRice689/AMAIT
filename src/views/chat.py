@@ -17,7 +17,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 @login_required(login_url='/login')
 def as_view(request):
-    
+    TEST_MODE = True
     token_prompt = 0
     token_completion = 0
     token_total = 0
@@ -34,8 +34,6 @@ def as_view(request):
     last_block = getattr(last_study_guide, 'block')
     last_unit = getattr(last_study_guide, 'unit')
 
-
-
     study_guide_queryset = Study_Guide.objects.all()
     course_list = list(study_guide_queryset.values_list('course', flat=True))
     
@@ -51,13 +49,14 @@ def as_view(request):
             current_prompt = getattr(current_study_guide, 'prompt')
             short_history = manageHistoyChat(chat_list)
 
-            full_response = get_openfull_response(current_prompt, short_history, studentInput)
-            text_response = full_response.choices[0].text
-            token_prompt = full_response.usage.prompt_tokens
-            token_completion = full_response.usage.completion_tokens
-            token_total = full_response.usage.total_tokens
-
-            # text_response = "Non-AI response to: " + studentInput
+            if TEST_MODE == False:
+                full_response = get_openfull_response(current_prompt, short_history, studentInput)
+                text_response = full_response.choices[0].text
+                token_prompt = full_response.usage.prompt_tokens
+                token_completion = full_response.usage.completion_tokens
+                token_total = full_response.usage.total_tokens
+            else:
+                text_response = "Non-AI response to: " + studentInput
 
             new_question = Question()
             new_question.question = studentInput
