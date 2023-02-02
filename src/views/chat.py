@@ -28,11 +28,17 @@ def as_view(request):
     current_profile = Profile.objects.get(user_profile_id = current_user)
     current_chat_history = Question.objects.filter(submitted_by__profile=current_profile)
     chat_list = list(current_chat_history.values_list('question', 'response'))
-
-    last_study_guide = getattr(current_chat_history.last(), 'from_study_guide')
-    last_course = getattr(last_study_guide, 'course')
-    last_block = getattr(last_study_guide, 'block')
-    last_unit = getattr(last_study_guide, 'unit')
+    
+    try:
+        last_study_guide = getattr(current_chat_history.last(), 'from_study_guide')
+        last_course = getattr(last_study_guide, 'course')
+        last_block = getattr(last_study_guide, 'block')
+        last_unit = getattr(last_study_guide, 'unit')
+    except:
+        last_study_guide = ""
+        last_course = ""
+        last_block = ""
+        last_unit = ""
 
     study_guide_queryset = Study_Guide.objects.all()
     course_list = list(study_guide_queryset.values_list('course', flat=True))
