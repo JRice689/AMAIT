@@ -10,7 +10,7 @@ class Question(models.Model):
     instructor = models.CharField(max_length=50)
     date_created = models.DateTimeField(auto_now_add=True)
     is_flagged = models.BooleanField(default=False)
-    from_study_guide = models.ForeignKey(Study_Guide, on_delete=models.PROTECT, default=1)
+    from_study_guide = models.TextField()
     token_prompt = models.IntegerField()
     token_completion = models.IntegerField()
     token_total = models.IntegerField()

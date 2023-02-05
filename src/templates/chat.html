@@ -37,25 +37,7 @@
 
   <form action="/chat/" method="POST">
     {% csrf_token %}
-
-    <select id="course" name="course">
-      <option disabled selected value>Select a Course</option>
-      {% for course in course_list %}
-      <option value="{{ course }}">{{ course }}</option>
-      {% endfor %}
-    </select>
-
-    <select id="block" name="block"></select>
-    <select id="unit" name="unit"></select>
-
-    <br />
-
-    <input
-      type="text"
-      name="studentInput"
-      placeholder="Ask you question here"
-      required
-    />
+    <input type="text" name="studentInput" placeholder="Ask you question here" required/>
     <input type="submit" value="Submit" />
   </form>
   {{ error }}

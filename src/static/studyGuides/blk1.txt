@@ -1,0 +1,482 @@
+Orientation Introduction
+Welcome to the Fundamentals course. This course is the first phase in a multi-phase training curriculum. This training is considered entry level; focused on basic facts, terms, and hands-on training.
+Helpful information to remember
+Fact—A thing that is known or proved to be true
+Term—A word that has an exact meaning
+Hands-On-Training—Training during which students practice skills that they will be expected to perform on aircraft
+*
+Multi-phase training
+Phase I–Fundamentals of Aircraft Maintenance course
+Block I—Maintenance Directives, Career Field Education and Training Plan (CFETP), Career Progression/Duties of Crew Chief, Crashed Damaged Disabled Aircraft Recovery (CDDAR), Operational Security (OPSEC), Air Force Occupational Safety and Health (AFOSH), and Housekeeping to include Foreign Object Damage (FOD) & Dropped Object Prevention (DOP) programs
+Block II—Technical Orders, Supply Concepts, Maintenance Data Documentation (MDD) Process, Air Frame Structure, Weight & Balance, Ground Handling, Inspections, Corrosion, Lubes and Sealants, Maintenance Records (AFTO Forms), Safe Aircraft for Maintenance, and Aircraft Marshalling
+Block III—Engine Systems, Engine Components, Utility Systems, Hydraulic Systems, Electrical Systems, Flight Control Systems, Hardware, and Hand Tools
+Block IV—Fuel System, Landing Gear, and Aerospace Ground Equipment (AGE)
+Phase II—Follow-on aircraft specific training
+At Sheppard AFB for A-10, B-52, C-130, C-135, F-15, F-16, F-22, MQ-1/MQ-9, and RQ-4
+At operational locations for B-1, B-2, C-5, C-17, C-40, CV-22, E-3, F-35, KC-10, KC-46, and U-2
+Phase III—Hands-On Technical Training (HOTT), accomplished at operational flying locations
+*
+AFI 36-2909
+Air Force Professional Relationships and Conduct and AFI 36-2909 AETCSUP
+Professional relationships between instructors/staff/faculty/contractor personnel are open communications and interactions with regards to careers, classroom performance, duties, and missions. Professional communication enhances performance, morale, and discipline. In addition, it preserves proper respect for authority and is mission focused.
+Instructors/staff/faculty/contractor personnel must ensure their relationships with students/trainees are professional and impartial, does not create the appearance of favoritism, and does not detract from the professional image the Air Force intends to project in the education and training environments.
+*
+Unprofessional Relations
+Any student in retraining, continuation, or upgrade training shall not engage in a personal relationship with any instructor/faculty or staff member associated with that students’ training program.
+Instructors/faculty and staff are prohibited from developing, establishing, or carrying on personal social relationships with trainees. This includes, but is not limited to, dating, handholding, kissing, embracing, caressing, and intimate or sexual activities/relationships, whether in person and/or via cards, letters, telephone calls, emails, texting, instant messaging, videos, photographs, or any other means of communication or social media.
+Making sexual advances toward, seeking or accepting sexual favors, using one’s grade or position, threats, pressure, or promised favorable treatment to gain, or attempt to gain, sexual favors will not be tolerated.
+A technical training instructor at one installation may not engage in a personal relationship with a student in initial skills training at another installation or current installation, even if there is no prior, current, or anticipated training relationship between the instructor and the student. Instructors/faculty and staff are prohibited from engaging in personal and social contact by any means. Prohibited contact includes, but is not limited to, email; texting; Facebook; Twitter; and any similar virtual social networks.
+*
+Orientation SUMMARY
+Training is a key component of your Air Force career and you will continuously be preparing for your next skill level, position, or assignment. Your responsibility while assigned at Sheppard is to become the best Airman you can be. The mission of the United States Air Force is to fly, fight and win in air, space and cyberspace. The Air Force’s rich history and vision guides Airmen to pursue the mission with excellence and integrity to become leaders, innovators and warriors. You will now be part of this mission.
+*
+Department of the Air Force Instructions and Air Force Manuals INTRODUCTION
+Since the inception of the Air Force, publications have been developed, distributed, and used by Air Force personnel for policy and guidance. The Air Force depends on orderly execution of the mission by following established guidelines and technical data. This unit of instruction provides you with the purpose of Air Force publications.
+*
+DAFI/DAFMAN
+The purpose of an DAFI or DAFMAN is to provide a standard and economical method of disseminating AF policies and procedures. They cover the basic professional military knowledge required of the men and women of the United States Air Force.
+Department of the Air Force Instructions (DAFI)
+Orders of the Secretary of the Air Force that mandates the use of DAFIs
+Used to direct action, ensure compliance and/or provide detailed procedures to standardize actions AF-wide
+May be supplemented at any level below Headquarters Air Force (HAF)
+Department of the Air Force Manuals (DAFMAN)
+Usually extensions of DAFIs
+Provide additional guidance for performing standard tasks, or supporting education and training programs
+May be supplemented at MAJCOM and lower levels
+A DAFMAN may stand in place of a DAFI, if appropriate
+MAJCOM and lower level issued instructions and manuals conform to the established AF number series
+Compliance
+The directive nature of DAFIs and DAFMANs give the documents a legal status that mandates compliance
+Failure to comply may result in disciplinary action or prosecution under the Uniform Code of Military Justice (UCMJ)
+*
+DAFI/DAFMAN Numbering System
+First Position
+Identifies general publications series and provides means of grouping related publications together by subject area
+Numbers range from 1–99
+Examples:
+01—Air Force Culture
+10—Operations
+20—Logistics
+21—Maintenance
+Second Position
+Separated from first by a dash (-)
+Identifies specific subject area
+Examples:
+DAFI 1–1, Air Force Standards
+DAFI 10–701, Operations Security (OPSEC)
+DAFI 21–101, Aircraft and Equipment Maintenance Management
+*
+Department of the Air Force Instructions and Air Force Manuals SUMMARY
+DAFIs and DAFMANs standardize the disseminations of information across the whole Air Force for immediate implementation and adherence.
+*
+Career Field Education and Training Plan (CFETP) INTRODUCTION
+All occupations of a technical nature follow a distinct path toward career advancement. Airmen move up the ladder with their increasing level of knowledge, skills, and responsibilities. The Air Force has established criteria to guide airmen through their assigned career path with training records called the Career Field Education and Training Plan (CFETP).
+*
+Purpose
+The CFETP provides the information necessary for the Air Force Career Field Manager (AFCFM), MAJCOM Functional Managers (MFMs), Commanders, Training Managers, supervisors, and trainers to plan, develop, manage, and conduct an effective and efficient career field training program. The CFETP outlines training individuals should receive to develop and progress throughout their careers. It identifies initial skill, upgrade, qualification, advanced, and proficiency training. Each individual will complete the mandatory training requirements specified in the CFETP to further progress through the required skill levels.
+
+The CFETP is used by supervisors and MFMs at all levels to ensure comprehensive and cohesive training programs are available for each individual in the specialty. AETC training personnel use it to develop or revise formal resident, non-resident, field, and exportable training based upon requirements established by the users and documented in Part II of the CFETP.
+*
+Training
+Initial Skills Training (Tech School)—Air Force Specialty (AFS) specific training an individual receives upon entry into the Air Force or upon retraining into a specialty for the award of the 3-skill level
+Upgrade Training—The mandatory courses, task qualification requirements, and correspondence course completion requirements for the award of the 5-, 7-, and 9-skill levels
+Qualification Training—Actual hands-on task performance training designed to qualify an Airman in a specific duty position
+*
+Career Field Education and Training Plan (CFETP) SUMMARY
+Training is the cornerstone of your Air Force career and you will always be training for your next job, position, or assignment. Your individual CFETP will guide you through your career with a road map to be successful.
+*
+Duties of the Crew Chief and Career Ladder Introduction
+All occupations of a technical nature follow a distinct path toward career advancement. They start at the lowest level because of their limited knowledge and skills. Through years of hard work, airmen move up the ladder with their increased level of knowledge and skills. Therefore, the Air Force (AF) has established criteria to guide airmen like you, through your assigned career path.
+*
+Crew Chief Career Ladder
+Upon Basic Military Training (BMT) graduation or entering retraining, you must attend initial skills training to receive basic knowledge of your assigned career path. Table 1-2 provides you with information to help you understand the steps required for crew chiefs to move up the career ladder.
+Skill Level Requirements
+Skill level
+Title
+Requirements
+1
+Student/Helper (Unskilled)
+Personnel must meet required AF physical and mental standards
+Individuals enlists for a specific career field and be assigned to training within the 2AXXX specialty
+Attend and complete appropriate technical training course
+3
+Apprentice
+(Semi-Skilled)
+Successfully complete each phase of technical training academically
+Continued adherence to Air Force standards of behavior and dress
+Maximum rank authorized is A1C (E-3)
+5
+Journeyman
+(Skilled)
+Possess a 2A3/2A5 (Aircraft maintenance) AFSC
+Must be recommended by your immediate supervisor
+Maximum rank authorized is SSgt (E-5)
+7
+Craftsman
+Possess a 5-skill level (aircraft maintenance)
+Must be a minimum rank of SSgt (E-5)
+Maximum rank authorized is MSgt (E-7)
+9
+Superintendent
+Possess a 7-skill level
+Must be a Senior Master Sergeant (E-8)
+Must graduate Senior NCO Academy in-residence course.
+Maximum rank authorized is CMSgt (E-9)
+*
+Maintenance Organization
+Purpose
+Department of the Air Force Instruction (DAFI) 21-101, Aircraft and Equipment Maintenance Management, governs the three distinct levels of maintenance that provide an orderly separation of maintenance tasks. Those levels are Organizational, Intermediate, and Depot. Each level has its own varying skill sets that are necessary to help ensure air superiority.
+*
+Organizational Level
+Consists of the day-to-day work performed by operating units in support of its own operations
+The direct work on the aircraft is known as “On-Equipment” maintenance
+Includes tasks such as launch (sending the aircraft to fly) and recovery (receiving the aircraft after a flight) of aircraft, repairs to its structures/systems, inspections, servicing, such as fuel, oil, ground handling (moving the aircraft on the ground), etc.
+*
+Intermediate Level
+Often for aircraft maintenance, components are removed from the aircraft for more in-depth repair
+These components are sent to a centrally located facility for in-shop (Backshop) repair in support of operating/organizational units
+Maintenance performed on these removed components is characterized as “off-equipment” maintenance
+Technicians who receive specialized training on the removed components are placed at the intermediate level and provide “specialist support”
+*
+Depot Level
+An industrial-type facility or major repair facility not normally associated with an operational base that provides engineering assistance
+Performs work on aircraft systems, components, or equipment requiring repairs or modifications beyond the capabilities of organizational or intermediate levels of maintenance
+Has the capability to perform BOTH on and off-equipment maintenance
+AF Specialty Positions
+*
+AF Specialty Positions
+Crew Chief
+In charge of managing overall maintenance and appearance of a specific aircraft
+Performs task to include aircraft inspections, servicing fluids, launch, and recovery, scheduled and unscheduled maintenance tasks and other ground handling tasks
+Document information/discrepancies in aircraft forms and computer databases
+Operate Aerospace Ground Equipment (AGE) and document discrepancies in AGE forms
+*
+Dedicated Crew Chief (DCC)
+Selected based on excellent initiative, management, leadership, and technical knowledge of aircraft maintenance
+Know the basic workings of the aircraft and understand it at a deeper level
+Manage and supervise maintenance on their respective aircraft
+*
+Flying Crew Chief (FCC)
+Normally assigned when maintaining heavy aircraft and selected based on mission requirements
+Fly with the aircraft to support ground maintenance at temporary duty (TDY) locations
+Responsible for launch, recovery, inspection, servicing, and maintenance of aircraft in remote locations where maintenance support may not be available
+*
+Inspection Dock
+Performs maintenance in conjunction with major aircraft scheduled inspections at the intermediate level of maintenance
+*
+Flight Chief
+Responsible for the leadership, supervision, and training of all assigned personnel
+Handle day-to-day operations in relation to a specific flight such as Enlisted Performance Reports (EPR), administrative paperwork and actions, upgrade training, leave requests, and arrange personnel shift assignments
+Ensure subordinates are properly trained and qualified for the mission
+*
+Flight line Expediter
+Works to ensure maintenance efforts (task/jobs) are accomplished effectively in relation to the daily flying schedule/operations
+Provides effective coordination between the following:
+Back shop support through Maintenance Operations Center (MOC)
+Production Superintendent
+Base supply personnel
+Maintenance personnel during launch, recovery, and maintenance task
+*
+Production Superintendent
+Experienced SNCO who directs overall daily maintenance efforts
+Serves as the technical advisor to the Commander
+Provides input for scheduling, personnel shortage resolution, specialist support, and other tasks beyond the capabilities of the expeditor
+Accomplishes the mission through effective management of personnel, equipment, and supply resources
+*
+Transient Alert
+Responsible for recovering, servicing, inspecting, and launching transient (visiting) aircraft
+May include aircraft from different branches of the military, civil service, and civilian aircraft
+*
+Aero-repair
+Highly specialized crew chiefs responsible for “heavy maintenance”
+Performs more in-depth maintenance such as removal, installation, and rigging (adjusting) of flight controls and landing gear to ensure components remain in established tolerances
+Maintenance Operation Center (MOC)
+Known as the central point of the entire maintenance
+efforts happening on-equipment and off-equipment
+Monitors and coordinates scheduled and unscheduled maintenance activities between various maintenance units in relation to flying schedule
+Resolves conflicts and established priorities regarding shared equipment and personnel
+*
+Quality Assurance (QA)
+Provide methods of gathering, analyzing, and maintaining information on the quality of maintenance being performed for daily maintenance and flying operations
+Responsible to the Maintenance Group Commander or equivalent and assesses the quality of maintenance performed throughout the maintenance organization
+Support Foreign Object Damage (FOD) program and manages the Weight and Balance Program
+*
+Duties of the Crew Chief and Career Ladder SUMMARY
+You now have an insight into your Air Force future in terms of some of the duties you will be performing as a crew chief at the various skill levels and different stages of your career.
+*
+Crashed, Damaged, Disabled Aircraft Recovery (CDDAR) INTRODUCTION
+When an aircraft suffers an accident, the Air Force dispatches teams of specially trained personnel to recover the aircraft. The accidents can be as simple as an aircraft going off the runway because the brakes failed or as terrible as landing without landing gear. Since every CDDAR situation is different, team members should be able to adjust to an ever-changing environment.
+*
+Purpose
+The purpose of CDDAR is to safely and expeditiously recover aircraft that have been involved in an accident and are unable to be moved on their own or be moved without sustaining additional damage.
+There are three separate recovery categories of operations listed below
+CDDAR Categories of Operations
+Category of Operation
+Definition
+Crashed
+Aircraft unable to return to designated or alternate field, or missed landing resulting in major or total destruction of the aircraft
+Damaged
+Aircraft that cannot be moved under its own power or supported by its undercarriage without sustaining secondary damage
+Disabled
+Aircraft that cannot or should not be moved under their own power, but can be towed using their own undercarriage
+*
+Recovery Team and Equipment
+Response and recovery actions take special training, equipment, and risk awareness so that injury and illness are mitigated to the greatest extent possible. In the Air Force, the aircraft recovery phase rests mainly on the Maintenance Group. CDDAR is a program that was developed to ensure there are trained personnel and equipment available to recover aircraft and get the airfield back into operations as quickly as possible.
+*
+Team
+The recovery team consists of personnel with unique training and skills to perform functions as situations dictate. A qualified Team Chief in the rank of SNCO or civilian equivalent will be in complete charge of the recovery operations. Qualified personnel will serve as the Special Vehicle Operators of a variety of vehicle needs (crane, forklift, and tow vehicle). In addition, other trained team members will be available as needed to recover and move the aircraft depending on the situation and the category of operations. For good planning and preparation, it is highly encouraged to diversify the CDDAR team members skills by incorporating aircraft maintenance AFSC (e.g., hydraulics, electrician, fuels, avionics, and engines).
+*
+Equipment
+Aircraft recovery operations can include unloading cargo and baggage, downloading external stores, defueling, and the removal of the aircraft from the mishap site. Each of these tasks requires equipment, either generic equipment or aircraft specific equipment. Having adequate recovery equipment on hand or readily available is essential to an effective recovery program. At the very least, units shall have the equipment on hand to recover the assigned aircraft. Additionally, they should consider having some equipment on hand to recover aircraft that frequently transit the base. Several things should be considered before selecting equipment for the recovery such as aircraft location, surface support, and weight reduction. Typical equipment may include: hydraulic jacks, pneumatic lifting bags, air distribution manifolds, cranes, lifting slings, cables, or other common and aircraft-specific items.
+*
+Safety Factors to Consider During Recovery
+The key point to remember when recovery operations are happening is to avoid injury to personnel and minimize secondary damage to the aircraft. Safety standards for CDDAR are established by specific aircraft technical data and Bio-Environmental Engineering (BEE). Proper Personal Protective Equipment (PPE) must be worn while in the recovery area, to include but not limited to steel toe boots, hard hats, and leather gloves. Some of the hazards the CDDAR team members may be exposed to include jet fuel, explosive devices, hydrazine, depleted uranium, and burning composites. The recovery team, therefore, must be aware of their surroundings, both physically and environmentally.
+Situational awareness is especially important when dealing with downed aircraft due to the potential for sharp metal, fluid leaks, and hazardous materials. Timely recovery of the aircraft is paramount to success and there is no time for delay, but care must be taken to prevent secondary damage to the aircraft due to recovery operations. If the situation allows for multiple actions to take place simultaneously, then many recovery actions can take place at the same time.
+*
+Crashed, Damaged, Disabled Aircraft Recovery (CDDAR) SUMMARY
+From the simplest disabled aircraft recovery to the more complex accident response, good leadership and moreover better followership, situational awareness, hazard knowledge, and good risk management practices are key for a successful recovery operation.
+*
+Operational Security (OPSEC) INTRODUCTION
+As a member of the military community, you are a vital player in the mission success of upholding the defense to the nation and Constitution of the United States of America by protecting the information that you know. The process known as Operational Security (OPSEC) in the military is a security and risk management process and strategy that classifies information, then determines what is required to protect sensitive information and prevent it from getting into the wrong hands.
+*
+OPSEC
+Utilizing OPSEC means to protect unclassified information so adversaries cannot use it against this nation. Apply OPSEC in accordance with Department of the Air Force Instruction (DAFI) 10-701. The process for OPSEC does not have to be followed sequentially, but should include the following:
+Identify critical information—Information that reveals facts about activities, intentions, capabilities or limitations that might benefit an adversary
+Analyze threats—Anyone or anything that has the capability and intent to take action that could harm mission success
+Analyze vulnerabilities—When there is a possibility that an adversary is capable of collecting critical information, analyzing it, and taking action that could impact the mission
+Assess risk—Measure the potential degree to which critical information could be lost to the adversary
+Apply countermeasures—Applying anything that stops or reduces an adversary’s ability to exploit Air Force vulnerabilities
+*
+OPSEC
+The military community ensures personnel are allowed access to classified information strictly on a "need to know" basis. However, OPSEC rules (Table 1-4) are often violated in casual conversation. You must deny unauthorized persons access to information that might benefit enemies in relation to alerts, deployments, Operational Readiness Inspections, and operations that involve:
+Numbers or types of aircraft, to include armament
+Missions, schedules, or aircraft departure times
+Aircraft maintenance, status, modifications, or flying schedule
+*
+Security Threat Terms
+Sabotage - An act designed to hurt a nation's war effort
+Espionage - The act of one nation spying on another
+Subversion - The act of overthrowing or attempting to overthrow a government or attempting to interfere with the loyalty or discipline of members of the armed forces
+Attack - An offensive act by an enemy group or force designated to slow or stop the mission of an installation
+*
+Individual Responsibilities
+The following actions must be reported to the Air Force Office of Special Investigations (AFOSI) or your Commander:
+When asked for defense information regardless of nationality
+Actions by individuals which you perceive as contrary to the interest of the US Government
+Acts of sabotage
+Any time you or your dependents are contacted by a citizen of a country hostile to the United States
+All AF personnel, government civilian employees, and contractors will receive unit specific OPSEC training upon assignment and AF OPSEC Awareness Training annually thereafter.
+*
+Operational Security (OPSEC)  SUMMARY
+The mission of the United States Air Force is to fly, fight, and win. The enemy has many ways of collecting data which is both classified and unclassified data. If they get this data, they can target the nation at any given moment. With the appropriate training, structure, and knowledge, it will deny or hinder the enemy’s collection abilities. OPSEC requires an integrated effort by everyone.
+*
+AFOSH Program INTRODUCTION
+As a crew chief, you will find yourself exposed to a variety of hazardous situations, dangerous machinery, loud equipment, and a variety of chemicals. By following established safety procedures covered in the Air Force Occupational Safety and Health (AFOSH) program and following technical manuals, each job will be completed safely which will also eliminate the potential for Foreign Object Damage (FOD) and dropped objects from the aircraft while completing its assigned mission.
+*
+AFOSH
+Safety always begins with following the guidance provided in technical data. Warnings Cautions and Notes are published because of the experiences of crew chiefs, technicians, and engineers. Following all technical data is a MANDATORY job requirement in accordance with DAFI 63-101/20-101, para 7.16.1. You must avoid unsafe acts such as:
+Horseplay
+Hurrying (rushing)
+Carelessness
+Sleep deprivation
+Risk Management Principles
+All personnel are responsible for minimizing the risk of damage to equipment and injury to personnel. Risk Management (RM) is a five-step decision-making process that must be incorporated to help reduce the risk associated with the day-to-day activities on the Flightline.
+*
+Risk Management 5 step process
+Identify the Hazards - Accurately identify potential harm associated with a job/task (i.e., working on top of an aircraft, working with chemicals, and exposure to weather elements)
+Assess the Hazards - Gain an understanding/insight of the risk and apply a measurement to it in an effort to determine the level of risk
+Develop Controls and Make Decisions - Reduce probability, severity, and/or exposure of risk for a task and determine a course of action to proceed a task
+Implement Controls - Develop a strategy that identifies who, what, when, where, and the cost associated with the control measures
+Supervise and Evaluate - Evaluate the impact of the control to ensure it does not contribute to the existing hazard or create a new hazard
+*
+High Intensity Sound
+Jet engines and Aerospace Ground Equipment (AGE) produce noise capable of causing temporary and permanent hearing loss. Exposure can cause long term hearing problems (ruptured eardrums or permanent hearing loss)
+Noise levels on the Flightline can exceed 150 decibels. Earplugs and ear defenders must be worn together when working around operating gas
+turbine jet engines
+*
+Engine Hazards
+There are three distinct hazards associated with aircraft engines while they are operating. Aircraft maintenance technicians must be alert around the intakes, exhausts, and the plane of rotation. At no time should safety precautions be ignored. The table below shows the dangers and steps to adhere to:
+WHILE ENGINES ARE OPERATING 
+Intake
+The engine has strong enough suction to pull a technician into the engine inside of these areas
+Must stay at least 25 feet away from the front of the engine intake
+At least 5 feet to the sides of the engine intake 
+Exhaust
+The velocity of the exhaust gases (e.g., C-130 can produce 107 knots, or 123 MPH, to the rear of the engine)
+Always stay a minimum of 200 feet to the rear of idling (low speed) engines
+High-temperature exhaust gases which can reach 800° Fahrenheit
+Plane of Rotation
+Path of potential projectiles from the rotating part of the engine should it fail
+Identified by a solid RED or BLACK stripe painted on the nacelle (engine enclosure) or fuselage (body of aircraft), avoid these areas when the engine(s) are operating
+*
+Radio Frequency Radiation (RFR) 
+Radiation from antennas is fed by high-powered radio frequency (RF) transmitters. The exposure can potentially damage human body soft tissue if within range of the radiating antenna. It is known to be a quiet, invisible hazard generated by navigational, radio, radar, and electronic countermeasures (ECM) systems that are easily undetected.
+Hazard is directly proportional to signal strength and distance to the transmitting antenna
+May feel a tingling sensation or no sensation at all so always remain alert
+To identify the hazard area, warning signs/cones will be posted at all access areas and visible from all directions
+*
+Hot Brakes
+During normal and/or emergency landings, the brakes may become susceptible to overheating due to the weight of the aircraft, speed, or extreme braking. This has the potential to create a hazardous situation where air pressure can build up in the tires due to the extreme friction created.
+Overheated aircraft wheels and tires present a potential explosion hazard or serious burns
+Approach only from the front or rear of the wheel/tire assembly
+When determining if the brakes are hot, take care not to touch hot surface with your hands–use a temperature-sensing device
+If hot brakes are discovered, the aircraft should be directed to an isolated area for natural air cooling
+*
+Use of Tools and Equipment
+A tool may be efficient, essential, timesaving, or even convenient, but it may also be dangerous. The following lists of “Do’s” and “Don’ts” summarize many of the key ideas for tool usage. Keep in mind that NOT following proper tool usage and control can potentially cause injury to personnel and/or damage to equipment.
+*
+Tools Do’s and Don’ts
+Do’s
+When using any tool, use them correctly
+Pull on tool handles/wrenches when possible (push with an open palm if necessary)
+Use tools for their designated purpose
+Use caution with sharp/pointed tools
+Keep tools clean, wiped dry, and serviceable
+Inventory tool kits: At sign out, Before and after each task/job and At sign in
+Don’ts
+Use a damaged tool.
+Misuse tools and equipment
+Carry tools in pockets
+Bring and utilize personal tools on Flightline or in maintenance areas
+*
+Ground Handling of Aircraft
+Ground handling covers all actions required for movement and handling of the aircraft while on the ground. Accidents resulting in injury to you, or others, and damage to equipment can be avoided or minimized by adherence to existing safety standards and following ground handling procedures. Pay close attention to the aircraft and surrounding area when involved those procedures.
+Ground handling includes taxiing (when the aircrew moves the aircraft) and towing (when a towing team repositions the aircraft for maintenance needs) along with all the different inspections, servicing, and maintenance procedures to prepare aircraft for launch and recovery of aircraft from flying missions. When preforming ground handling operations:
+Be aware of the surroundings to prevent any damage that could result from the aircraft striking other objects
+Be alert for sharp edges and pointed objects on aircraft
+Wear a light-reflective belt/vest during hours of darkness
+Use correct marshaling/hand signals for aircraft taxiing/towing
+*
+Servicing Aircraft Systems
+One of the most routine tasks in aircraft maintenance is to check and service aircraft fluids. Prior to servicing, consult the Safety Data Sheets (SDS) and aircraft specific Technical Order (TO) to determine the proper type of servicing equipment needed and the procedures to do so.
+Fuels, oils, and most other fluids are flammable, toxic, present a fetal hazard, and may be under pressure
+Wear Personal Protective Equipment (PPE) such as eye protection, apron, safety boots, and gloves as required
+Follow good housekeeping and maintenance practices—helps in eliminating problems
+Use the proper tools for the job and always practice the highest standards of work and cleanliness while maintaining your aircraft
+*
+Hazardous Chemicals/Cleaning Agents/Lubricants
+Cleaning and lubrication of aircraft is a part of the routine upkeep that you will perform when needed. It is essential to understand that both cleaning agents and lubricants are known to be hazardous chemicals and caution should be taken to protect yourself. They can present a hazard to you, to include both male and female reproductive health hazard, fetal health hazard (because of toxicity), property, and/or harm the environment. The following must be observed:
+Most are toxic
+Must be trained and qualified to use
+Wear the proper PPE
+Avoid skin and eye contact
+Clean up excess amounts of lubricants after applying to avoid accumulation of contaminants
+*
+Composite Materials
+Composite materials are a combination of individual materials brought together to create properties not found in the individual components (plywood, carbon fiber, etc.…). A hazard is created when dust and fibrous particles are generated from drilling, cutting, fire, or impact damage to the composite structures of an aircraft. Those fibers can potentially penetrate the skin and become difficult to remove. As a result, surgery may be required for removal. Fibers can also cause respiratory problems, eye irritation, and other health issues. Because of this, PPE must be used when working with composites. Solvents used on composites can cause permanent blindness in seconds along with respiratory issues.
+*
+Servicing with High-Pressure Gases
+When using high-pressure gases, it is important to identify the hazards that you could face. Using high-pressure compressed gases requires specialized knowledge and skills. You must ensure that:
+The servicing unit and equipment are inspected for serviceability prior to use
+Eye protection is worn at all times while working with gases (air/nitrogen)
+Avoid directing pressurized gases toward others
+There is adequate ventilation (nitrogen in high concentrations displaces oxygen)
+*
+Electrostatic Hazards
+Static electricity is electrical energy at rest. It is a buildup and rapid release of electrical energy, which can provide a source of ignition in oxygen rich environments and can cause damage to highly sensitive electrical equipment. Sources of static electricity can include:
+Operating engines, rotor blades, and propeller blades
+Fuel movement during ground refuels and defuels
+Liquid or gaseous oxygen servicing
+General guidelines for static grounding and electrical bonding to dissipate buildups are located in TO 00-25-172, Ground Servicing of Aircraft, and Static Grounding/Bonding. Aircraft specific TOs will also dictate what additional tasks are required for grounding and electrical bonding (fig. 1-19) of that aircraft.
+*
+AFTO Form 492, MX Warning Tag
+This tag indicates that the equipment or system is out of order or unable to perform its normal functions. The tag must be used to help ensure your safety. Certain maintenance actions require maintainers to disable systems in order to make it safe to work on. The tag is used to:
+Visually “flag” or draw attention to a disabled system’s condition that could cause damage to equipment or injury to personnel if ignored
+Prevent activation or operation of equipment or a system that is out of order or unable to perform its normal functions
+During certain maintenance actions required by applicable technical data and/or local procedures to ensure your safety
+NEVER ignore an AFTO Form 492
+*
+Aircraft Explosive Equipment
+An explosive is a material that can produce an explosion by its own energy. Preventing the premature, unintentional, or unauthorized discharge of explosives and devices containing explosives is the goal. The type installed will vary according to the type of aircraft and can facilitate aircrew escape. They can fire explosive charges to separate canopy assemblies from the aircraft and eject crew seats outward from the disabled aircraft while in flight. Examples of explosive devices:
+Ejection seats and canopies
+Jettison hatches, chaff, and flare dispensers
+Major assemblies/equipment on aircraft such as external fuel tanks, life rafts, and munitions have explosive devices installed
+*
+Safety precautions
+When working with explosives, three basic requirements to prevent accidents include:
+Awareness of danger
+Knowledge of how to avoid danger
+Constant vigilance
+Ground safety pins that must be removed before flight will be identified with ''REMOVE BEFORE FLIGHT'' streamers attached to them
+Ground safety pins are reinstalled after flight to prevent accidental actuation of systems
+Anyone working on or near explosive devices must remove and secure all loose items on clothing or in pockets (pens,
+pencils, etc. may block switches or accidentally trigger a system)
+Only qualified personnel are authorized to handle explosive equipment
+All personnel working in the cockpit or flight deck areas are required to have mandatory orientation (familiarization) training
+*
+Fall Protection/Prevention Equipment
+Fall protection and associated equipment is used to protect workers on unprotected elevated work areas, generally at heights above 4 feet. This is to provide a safe working environment for technicians working on top of aircraft or on elevated work platforms. There are two types of fall protection equipment, active and passive.
+*
+Types of Fall Protection
+Active - Components include an anchorage, connectors, and a full-body harness and may include a shock-absorbing lanyard, a retractable lifeline, and/or a deceleration device
+Passive - A guardrail system used as a barrier installed to prevent workers from falling off a work surface edge to a lower level
+*
+Operational Security (OPSEC) SUMMARY
+Knowing the hazards you will be exposed to and being informed of the Risk Management steps you can take and the ones you must adhere to are the major part of the AFOSH program. Using that information in conjunction with TOs will keep you, your fellow workers and your equipment safe. By following procedures, asking for help when needed, and using PPE, you will avoid most hazardous situations
+*
+FOD/DOP/Hazardous Chemicals/Tool Control Programs INTRODUCTION
+Many fall injuries occur on level ground when people trip over unexpected objects in their paths, such as tools, cords, hoses, and other items on the ground or floor where people walk. Misplaced rags, hardware, and tools, Foreign Object Damage (FOD), can destroy an aircraft engine in a matter of seconds. Poor housekeeping practices are the direct result of someone’s careless work attitude.
+*
+Housekeeping
+As a crew chief, you must develop good housekeeping and maintenance habits. A clean work environment encourages safe maintenance practices. Taking simple steps like putting items away or cleaning up spills helps address hazards to both you and the equipment. Hazards include:
+Spilled fluids
+Standing water
+Accumulating snow or ice (causes surfaces to be slippery)
+*
+Rules for Good Housekeeping
+The Air Force puts damage into two general categories: Preventable and Non-Preventable. Each time an aircraft sustains damage, or you are injured, your organization will have to explain why. With that said, clean up spills such as oil and hydraulic fluids immediately (post warning signs to alert others of the hazard until clean-up actions are complete). Straighten, coil, and stow electrical cords and servicing hoses when not in use. Dispose of hazardous materials, dirty, oily rags, and smoking materials in their respective properly labeled self-closing metal container. Dispose of trash in approved containers.
+*
+Foreign Object Damage (FOD) Prevention Program
+The program is designed and implemented to limit the damage to aircraft and support equipment caused by Foreign Objects (FO). FO is also a major safety hazard to you should it exist on the flightline. FOD prevention (fig.1-22) is the responsibility of all maintenance personnel. The following must be adhered to for FOD prevention:
+Females will only use rubber bands, cloth ponytail holders, and cloth headbands as hair retainers on the Flightline
+Hats or caps are NOT allowed around operating jet engines
+Account for all tools, equipment, and hardware before and after each task (job)
+When working in or around crew stations, cockpits, operating engines, and intake ducts remove all loose items (pens, pencils, coins, keys, etc.) from pockets
+Inspect engine intakes, cockpits, and other critical areas of aircraft for foreign objects
+AT NO TIME will items be placed in or on the areas of the engine intake duct
+Install protective covers when aircraft is to remain in an exposed area for an extended length of time to keep out dust, rain, and foreign matter.
+Ensure all protective covers, plugs, safety locks, and pins have red “REMOVE BEFORE FLIGHT” streamers attached to them
+*
+Dropped Object Prevention (DOP) Program
+A dropped object is any aircraft part, component, surface, or other item lost (dropped) from the aircraft during aircrew operations unless intentionally jettisoned (discarded) from engine start to engine shutdown. All maintenance units which fly, service, or maintain aircraft, develop a DOP program and will provide their personnel DOP training. As a routine preventative measure, maintenance personnel are responsible for ensuring the serviceability of the fasteners and hardware on aircraft doors, panels, or cowlings opened for maintenance.
+Reporting procedures:
+Each MAJCOM develops procedures for reporting dropped objects for their assigned aircraft
+If you discover an item missing from your aircraft and it meets the criteria of a dropped object, notify your Flightline Expediter or Production Superintendent
+In the event an item drops off an aircraft, the DOP Monitor will investigate each dropped object incident
+*
+Hazardous Chemicals
+Cleaning and lubrication of aircraft is a part of the routine upkeep that maintenance will perform when needed. It is essential to understand that both cleaning agents and lubricants are known to be hazardous chemicals and caution should be taken to protect yourself. They can present a hazard to you (because of toxicity), property, and/or harm the environment. The following must be observed:
+Hazardous chemicals MUST have a hazardous chemical or material identification label (fig. 1-23), placed where they are visible, easily read and understood
+Follow SDS and technical data (Table 1-9) to ensure that hazardous chemicals are properly used
+Adhere to the Warnings, Cautions, and Notes before the affected text in the technical data
+Wear the proper PPE
+Avoid skin and eye contact
+Avoid breathing of vapors
+Use in a well-ventilated area
+Use/apply only specified quantities and
+amounts of chemical, based on the specific aircraft TO
+Return unused or contaminated quantities to the appropriate collection point for storage or disposal (where you originally got it from)
+Clean up excess amounts of lubricants after applying to avoid accumulation of contaminants
+*
+Chemicals Handling/Storing/Transporting/Disposing
+Environmental Protection Agency (EPA)
+Provides regulatory guidance for the movement, storage, and disposal of hazardous chemicals
+Units will create and locate approved collection points/temporary storage areas at or near the workplace for the disposal of waste
+DAFIs and Department of Defense (DoD) instructions
+Provides prescribed safety precautions and procedures for using, handling, and disposing of hazardous chemicals. Listed below are three requirements:
+Only trained personnel will handle hazardous chemical containers
+Proper use of appropriate protective clothing is required
+Accumulation point managers are the ones responsible for ensuring containers are properly labeled
+*
+Tool Control
+The Tool Control Program provides a means to account for all tools in order to reduce potential FOD-related mishaps. This also helps to reduce tool costs through effective control and accountability of assets. The support section is responsible for procuring and issuing tools on a controlled basis. This section is the focal point for tool issue, turn-in, and storage for common and special tools.
+*
+Composite Tool Kits (CTKs)
+Inventoried at sign-out/in from Support Section and before starting and after completing each maintenance task
+Designed for quick inventory by using inlayed foam cutouts
+Contain tools and equipment necessary to accomplish maintenance tasks
+Individual work centers such as Crew chiefs, Weapons, Specialists, and Engines design their assigned CTKs to meet their needs
+When a tool is discovered missing, immediately conduct a search of the area and notify the Flightline Expediter or Production Superintendent
+*
+FOD/DOP/Hazardous Chemicals/Tool Control Programs  SUMMARY
+As a crew chief, you must take part in ensuring safety procedures are adhered to. Mishaps cost money. Eliminating unsafe acts, unsafe conditions, mishaps, and preventing lost tools needs to start with you. You must be sure to respect the hazards associated with your job and take the appropriate precautions. All good housekeeping practices will help in the active roll needed to take in both the Foreign Object Damage and Dropped Objects Prevention programs.

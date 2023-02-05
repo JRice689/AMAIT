@@ -5,11 +5,14 @@ from django.contrib.auth.decorators import login_required
 from src.models.question import Question
 from src.models.profile import Profile
 from src.models.study_guide import Study_Guide
-
 import os
 import openai
 from dotenv import load_dotenv
 from collections import deque
+import numpy as np
+import pandas as pd
+from openai.embeddings_utils import get_embedding
+from openai.embeddings_utils import cosine_similarity
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -17,7 +20,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 @login_required(login_url='/login')
 def as_view(request):
-    TEST_MODE = True
+    TEST_MODE = False
     token_prompt = 0
     token_completion = 0
     token_total = 0
@@ -29,47 +32,27 @@ def as_view(request):
     current_chat_history = Question.objects.filter(submitted_by__profile=current_profile)
     chat_list = list(current_chat_history.values_list('question', 'response'))
     
-    try:
-        last_study_guide = getattr(current_chat_history.last(), 'from_study_guide')
-        last_course = getattr(last_study_guide, 'course')
-        last_block = getattr(last_study_guide, 'block')
-        last_unit = getattr(last_study_guide, 'unit')
-    except:
-        last_study_guide = ""
-        last_course = ""
-        last_block = ""
-        last_unit = ""
-
-    study_guide_queryset = Study_Guide.objects.all()
-    course_list = list(study_guide_queryset.values_list('course', flat=True))
-    
     if request.method == "POST":
         try:
             studentInput = request.POST["studentInput"]
-            course_input = request.POST['course']
-            block_input = request.POST['block']
-            unit_input = request.POST['unit']
-
-            current_study_guide = Study_Guide.objects.get(
-                course = course_input, block = block_input, unit = unit_input)    
-            current_prompt = getattr(current_study_guide, 'prompt')
+            prompt = find_vector(studentInput)
             short_history = manageHistoyChat(chat_list)
 
             if TEST_MODE == False:
-                full_response = get_openfull_response(current_prompt, short_history, studentInput)
+                full_response = get_openfull_response(prompt, short_history, studentInput)
                 text_response = full_response.choices[0].text
                 token_prompt = full_response.usage.prompt_tokens
                 token_completion = full_response.usage.completion_tokens
                 token_total = full_response.usage.total_tokens
             else:
-                text_response = "Non-AI response to: " + studentInput
+                text_response = "AI Tutor: " + prompt
 
             new_question = Question()
             new_question.question = studentInput
             new_question.response = text_response
             new_question.submitted_by = current_user
             new_question.instructor = getattr(current_profile, 'user_instructor')
-            new_question.from_study_guide = current_study_guide
+            new_question.from_study_guide = prompt
             new_question.token_prompt = token_prompt
             new_question.token_completion = token_completion
             new_question.token_total = token_completion
@@ -84,9 +67,6 @@ def as_view(request):
     context = {
         'historyChat' : chat_list,
         'username' : username,
-        'course_list' : course_list,
-        'block' : last_block,
-        'unit' : last_unit,
         'tokenPrompt' : token_prompt,
         'tokenCompletion' : token_completion,
         'tokenTotal' : token_total,
@@ -94,6 +74,7 @@ def as_view(request):
     }    
 
     return render(request, 'chat.html', context)
+
 
 def get_openfull_response(prompt, history, input):
     response = openai.Completion.create(
@@ -106,6 +87,19 @@ def get_openfull_response(prompt, history, input):
         presence_penalty=0
     )
     return response
+
+
+def find_vector(search_text):
+    # Change is ready from DB later
+    filePath = Path(settings.BASE_DIR, 'src', 'static', 'studyGuides', 'blk1_embeddings.csv')    
+    df = pd.read_csv(filePath)
+    df['embedding'] = df['embedding'].apply(eval).apply(np.array)
+
+    search_vector = get_embedding(search_text, engine='text-embedding-ada-002')
+    df["similarities"] = df['embedding'].apply(lambda x: cosine_similarity(x, search_vector))
+    found_vectors = df.sort_values("similarities", ascending=False).head(1)
+    found_text = found_vectors.iloc[0]["text"]
+    return found_text
 
 
 def generate_prompt(prompt, history, input):
@@ -123,7 +117,7 @@ def generate_prompt(prompt, history, input):
 # Grabs the last 8 chats from history
 # Used to pass to prompt in generate_prompt()
 def manageHistoyChat(history):
-    deq = deque(maxlen=8)
+    deq = deque(maxlen=4)
     for i in history:
         deq.append(i)
     short_history_pairs = list(deq)
