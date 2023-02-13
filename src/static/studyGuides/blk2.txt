@@ -1,0 +1,823 @@
+Technical Orders INTRODUCTION
+In order for any Air Force technician to repair our legacy or new generation aircraft, the first tool that needs to be used is the Technical Order (TO). TOs give us the necessary steps and procedures to make proper and safe repairs and must be followed.
+*
+Technical Orders
+Technical Orders are necessary to maintain our modern weapons systems. The Air Force’s combat readiness depends on the quality of these publications to include the knowledge and skill of our technicians using them. They establish standardized policies and provide clear instructions.
+The basic source of information for the maintenance and upkeep of your aircraft
+Written military order, published under the authority of the Secretary of the Air Force
+Use is MANDATORY
+Technical Order Terms 
+Terminology
+Shall, Must, Will - Indicates mandatory requirements (Will—also used to express a future event)
+Should - Indicates a preferred method of accomplishment
+May - Indicates an acceptable or suggested means of accomplishment
+Electronic Tools (E-Tools)
+Provides user-friendly, accurate, and up to date TOs in a digital format
+E-Tools include desktops, laptops, and tablet devices
+*
+Numbering System
+A method of classifying, indexing, and numbering TOs for the Air Force
+Organizes technical information in a logical sequence for ease of use
+Each TO number is divided into at least three, but can be up to seven groups, separated by dashes
+Groups and Their Meanings
+Group 1
+Identifies the type of equipment and primary aircraft mission 
+Group 1 Designations
+Category - Identifies the type of equipment
+1 = Aircraft
+2 = Engines
+3 = Propellers
+4 = Landing Gear
+5 = Instruments
+6 = Fuel Systems
+Aircraft Mission - Identifies the basic mission or non-standard aircraft type
+A = Attack
+H = Helicopter
+B = Bomber
+Q = Unmanned Air Vechicles (UAV)
+C = Cargo
+T = Trainer
+E = Special Electronics
+V = VTOL/STOL
+F= Fighter
+X = Research
+*
+Group 2
+Contains two or three parts that incorporate the aircraft model number, the modified aircraft mission (in parenthesis) if applicable, and aircraft production series if required. 
+Group 2 Designations
+Model Number - The designation is given to the aircraft for identification
+-3
+-15
+-16
+-17
+-130
+Modified Aircraft Mission - Indicates a secondary or modified mission other than the original design
+A = Attack
+H = Search/Rescue/MedEvac
+K = Aerial Refueling (Tanker)
+M = Multi-Mission
+R = Reconnaissance
+Production Series Letter - Denotes the number of times the aircraft design has been changed or modified
+A = 1st production (Original )
+B = 1st change to the design
+C = 2nd change to the design
+D = 3rd change to design
+E = 4th change to design
+*
+Group 3
+Identifies the type of TO being utilized 
+Group 3 Designations
+Type of TO - Description
+-06 - Work Unit Code Manual (WUC)
+-1 - Flight Manual (includes Check Flight Procedures and Checklists, i.e., CF or CL)
+-2 - Maintenance Instruction (includes Job Guides and Checklists, i.e., JG or CL)
+-3 - Structural Repair
+-4 - Illustrated Parts Breakdown (IPB)
+-5 - Basic Weight Checklist and Loading Data (Weight & Balance)
+-6 - Inspection Requirements
+-6WC - Inspection Workcards
+-501 and higher - Time Compliance Technical Order (TCTO)
+*
+Type of TOs (Group 3) Breakdown
+-06 Work Unit Code Manual (WUC) (e.g., 1F-16A-06)
+Identifies assigned system-related equipment codes pertaining to various servicing and maintenance functions-lists codes required for recording maintenance data into an automated database.
+-1 Flight Manual (e.g., 1B-52D-1)
+Describes the aircraft, equipment operation, and flight characteristics for normal and emergency procedures.
+-2 Maintenance Manual (e.g., 1F-15E-2)
+Contain instructions for performing tasks on aircraft. Instructions include, but are not limited to; troubleshooting, installation, removal, and repair of system components
+Repetitive maintenance tasks tailored to specific tasks are placed in TOs designated as Job Guides (JG) or checklists (CL) (e.g., 1F-15E-2-21JG)
+-3 Structural Repair Manual (e.g., 1C-130J-3)
+Used as a guide in making structural repairs to the airframe
+-4 Illustrated Parts Breakdown (IPB) Manual (e.g., 1C-135(K)A-4)
+Used for identifying and ordering replacement items (parts) and it also includes an alphanumerical index of all part numbers
+-5 Basic Weight Checklist and Loading Data Manual (e.g., 1F-22A-2)
+Used to calculate an aircraft’s balance point, Center of Gravity (CG), which is where the aircraft rotates up-and-down and side-to-side in flight
+-6 Scheduled Inspection/Maintenance Requirement (e.g., 1V-22(C)B-6)
+Inspections are visual examinations and manual checks to determine the condition of your aircraft and its components
+Contains specific inspection requirements and component Time Change Items (TCI) schedules throughout your aircraft’s lifetime
+Common or routine inspections Pre-flight (PR), Basic Post-flight (BPO), and Thru-flight (TH) are provided in an abbreviated version called Work Cards (-6WC) (e.g., 1V-22(C)B-6WC) which streamline the inspection procedures by listing the minimum inspection requirements
+-501 or higher (e.g., 1E-3C-702)
+Identifies a Time Compliance Technical Order (TCTO)
+TCTOs initiate and document all permanent modifications, update changes, and retrofit changes to standard AF systems, equipment, and end items (aircraft)
+TCTOs include One Time Inspections (OTI). OTIs are normally look-only actions to verify the existence of suspected equipment conditions or malfunctions
+Have three categories based on importance and urgency of work involved
+TCTO Descriptions
+Action - Description - Result
+Immediate - Corrects safety conditions that are unacceptable due to risk of fatality/serious injury to personnel or damage to aircraft  - Grounds aircraft or makes equipment unusable
+Urgent - Corrects safety conditions that could cause injury to personnel or damage to property. Must be corrected within a specified timeframe - If not corrected in the timeframe, will be grounded/removed from service until completed
+Routine - Equipment or procedural deficiencies which could be hazardous to personnel or equipment - Timeframe to complete is based on safety
+Groups 4 thru 7 (if used)
+The remaining groups 4 through 7 further sectionalize the breakdown of Group 3
+*
+Warnings, Cautions, and Notes (placed before affected text)
+Warnings
+Highlights an operating or maintenance procedure, practice, condition, statement, etc., which must be strictly followed
+If not strictly observed, could result in injury, death, or long-term health hazards to personnel
+Cautions
+Highlights an operating or maintenance procedure, practice, condition, statement, etc. that must be adhered to
+If not strictly observed, could result in damage to or destruction of equipment, loss of mission effectiveness, or long-term health hazards to personnel
+Notes
+Covers any operating procedure, condition, etc., which is essential to highlight
+Notifies personnel to prevent accidental or inadvertent operation of systems
+*
+Technical Orders SUMMARY
+You will use many publications, directives, and TOs as you learn and perform your job. The guidance to which you will turn to for information about correct procedures. You should not memorize TOs due to constant changes to procedures and guidance. Instead, know where to locate the information. Air Force TOs are the only official means of providing technical information about the operation, safety procedures, maintenance, inspections, and servicing of your aircraft.
+*
+Supply Concepts INTRODUCTION
+Base supply maintains effective control of the maintenance organization’s supply needs by coordinating and properly managing supply assets. Supply and maintenance working together provide effective, timely, cost-efficient support for aircraft parts and other required resources. Everyone must adhere to supply discipline at all times. Supply discipline includes avoiding supply priority abuse, prompt turn-in of repairable assets, and ensuring that military property is used only for its intended purpose.
+When a part ordered; an assigned supply document number (14 characters) identifies and tracks the transaction. If the part is not available, a priority, based on the degree of urgency as denoted in the aircraft’s current mission capability and status, is established. Whether an aircraft is committed to the flying schedule or not affects the priority level of aircraft.
+*
+Maintenance/Supply Concept
+Defines the process of maintenance and supply working together with the common goal of providing maximum weapons systems operational readiness. The unit’s supply personnel are assigned to the Logistics Readiness Squadron (LRS) and are known as the Maintenance Supply Liaison (MSL). They manage all supply transactions on the flight line.
+Work Center Bench Stock
+Items that are low-cost/high-use consumable repair parts and supplies used at an unpredictable rate (screws, nuts, bolts, washers, etc.)
+Forward Supply Point
+Provides selected high-priority spare parts, components, and assemblies near the flight line for immediate availability (tires/wheels, brakes, batteries)
+Due In From Maintenance
+Designated as “Due In From Maintenance” (DIFM) assets. These items are assigned materiel control codes to identify mandatory
+turn-in. If these items have a turn-in code, they need to be turned in ASAP to ensure they are given to the appropriate supply channel to be repaired.
+Repairable parts must be turned in to the supply section when they become unserviceable
+*
+Supply Tags
+AFTO FORM 350, Repairable Item Processing Tag
+Used with DIFM assets for prompt processing for turn-in to the supply section
+Provides essential information about the removed part
+Condition Tags
+DD Form 1500 series tags are used to indicate a condition status of items/parts
+Alpha character condition codes indicate a more specific problem
+These tags represent conditions of a removed aircraft component
+DD Form 1574 (Yellow) Serviceable Tag
+This indicates that an item or part has been identified as serviceable
+DD Form 1575 (Brown Tag) Suspended Tag
+This tag is used for items that have been suspended and cannot be used at the current moment. The items that have these tags are usually awaiting status approval and cannot be issued to customers for use
+DD Form 1576 (Blue Tag) Test/Modification Tag
+Indicates an item/part that is serviceable for the use of testing, alteration, or disassembly
+DD Form 1577-2/3 (Green Tag) Unserviceable/Repairable Tag
+Indicates an item/part is unserviceable and not approved for use. These items/parts usually require limited restoration, repair, or the item is incomplete
+DD Form 1577-1 (Red Tag) Unserviceable/Condemned Tag
+Indicates an item/part is unserviceable and not approved for use. These items/parts are usually condemned, approved for reclamation, or are considered military munitions waste
+*
+Supply Discipline
+Responsibility of all military and civilian employees, regardless of grade or position
+Avoid priority abuse by matching the priority to the actual need
+Promptly turn in DIFM parts to the appropriate supply channels
+Do not use military property for personal use (punishable under UCMJ)
+*
+Part Requests
+Ordering parts
+Ordering aircraft parts involves many steps performed in a set order using an AF Form 2005, ISSUE/TURN-IN REQUEST form
+The document must contain the following entries
+Technical Order Number (-4)
+Figure Number
+Index/Item Number
+Part Number and Nomenclature
+National Stock Number (NSN)—identifies like parts from different manufactures
+End Item (aircraft serial number)
+Force Activity Designator (FAD)—identifies unit ordering and funding the needed part
+Name of requester
+When ordering parts, there are three different ways to order or inquire, which include:
+Radio net
+Call-in
+Walk-in
+Supply Document Number
+Standard Base Supply System assigns a 14-character document number (e.g., X362FLYJJJ####)
+First 6 characters—X362FL (Who Ordered)
+Activity Code (X) Identifies Priority
+Organizational Code (362) Identifies Squadron
+Shop Code (FL) Identifies section/shop
+Last 8 characters—YJJJ#### (When Ordered)
+Last digit of current year and Julian date (YJJJ) 31 Dec 2021= “1365”
+The sequence number of part ordered (####)
+Document number must be entered into appropriate blocks on AFTO Form 781A and AFTO Form 350 tag
+If the ordered part is confirmed as backordered
+Under certain circumstances a part can be removed from another aircraft (cannibalized) with required formal approval prior to removal action and the part ordered is transferred to the other aircraft on the AF 2005 and AFTO 781 Series.
+*
+Maintenance Repair Priority System
+Provides base supply with a response priority designator for aircraft maintenance and allows the maintenance unit that ordered the part at the highest priority to receive the available part.
+Aircraft priority levels
+Priority 1—aircraft on Alert Status, War Plan, or National Emergency mission
+Priority 2—used for aircraft for the first 8 hours after landing or within 6 hours prior to a scheduled launch
+Priority 3—aircraft undergoing scheduled or unscheduled maintenance (routine maintenance)
+*
+Supply Concepts SUMMARY
+Base Supply maintains effective control of the maintenance organizations supply needs by coordination and proper management of supply assets. Supply and maintenance working together provide effective, timely, cost-effective support for aircraft parts and other needed resources. Everyone must adhere to supply discipline at all times. Supply discipline includes avoiding supply priority abuse, prompt turn-in of repairable assets, and ensuring military property use is only for its intended purpose. A supply document number is given to track the transaction for a part ordered. Utilizing the appropriate supply priority for the current mission is also important.
+*
+Maintenance Data Documentation and Maintenance Information System INTRODUCTION
+Maintenance Data Documentation (MDD) deals with the most complex and widest range of data in the Maintenance Data System (MDS). Throughout the entire aircraft’s life, it is essential to record all maintenance actions from all crew chiefs and specialists. You will use the source document known as the AFTO 781 series forms to document maintenance actions as they happen, which will later be put (transcribed) into a computer database known as the Maintenance Information System (MIS). These records are maintained for each aircraft and play a key role in preventing unnecessary maintenance, stop potential accidents, or provide insight into causes of incidents. This unit of instruction introduces the tools and processes used to record maintenance actions for Air Force aircraft and equipment. It will provide you with an overview of MDD, MIS, and AFTO 781 series forms.
+*
+Maintenance Data Documentation (MDD)
+Purpose
+A formal method designed for the collection, storage, and retrieval of information about aircraft maintenance and utilization requirements
+Used at local and higher levels for management actions and decisions. Air Staff personnel also use it to identify availability, reliability, and maintainability problems with equipment
+Helps managers and supervisors control day-to-day operations and schedules
+Provides discrepancy information which aids in developing maintenance and inspection schedules
+Identifies recurring problems that might lead to equipment failures
+Managers use the information to project operational and support costs
+Helps to identify safety deficiencies that can immediately affect AF missions and personnel safety
+Common Forms Used
+AFTO Form 350, Reparable Item Processing Tag
+AFTO Form 781 series, Aerospace Vehicle Forms
+Stored in a loose-leaf binder and placed (kept) on each aircraft
+Data recorded in the 781 series include the following:
+Flight operational data
+Inspections
+Maintenance/Servicing actions
+Condition/Configuration status
+*
+Maintenance Information Systems (MIS)
+Refers to the automated databases which within maintenance is used to track day-to-day information about assigned aircraft. MIS systems include, but are not limited to:
+Core Automated Maintenance Systems for Mobility (GO81)
+Core Automated Maintenance Systems (CAMS)
+Integrated Maintenance Data Systems (IMDS)
+Autonomic Logistics Information System (ALIS)
+Integrated Maintenance Information System (IMIS)
+Purpose of MIS
+Maintain a current database for aircraft maintenance information
+All recorded maintenance performed over the operational lifetime of aircraft goes into this system
+Allows for the automation of aircraft information such as:
+Aircraft inspection scheduling
+Aircrew member debrief
+Aircraft history
+MIS Functions
+Information stored in the database represents the most up-to-date condition of your organization’s assigned equipment
+Stores aircraft information so supervisors can control and monitor the daily and long-term maintenance activities
+When using this system at the base level, it provides maintenance personnel the capability to:
+Create jobs
+Schedule/reschedule jobs/task
+Edit information
+Defer/Delay actions for future maintenance needs
+Delete obsolete or improper data
+Make inquiries (check the status of job/task)
+It is important to always remember to log out of your MIS account
+Passwords serve as a security device to prevent unauthorized access
+Stations are to be locked or logged off when unattended
+*
+Maintenance Data Documentation and Maintenance Information System SUMMARY
+Accurate Maintenance Data Documentation (MDD) is a very useful tool. The analysis personnel that comb through this information looking for different trends, both good and bad, can only affect change with accurate data. That starts with what the crew chief puts into the Maintenance Information System.
+*
+Airframe Structure INTRODUCTION
+The main body and frame of the aircraft is called the Airframe structure. It consists of two different construction types with many different components. By learning the terminology and definitions of the airframe structure it will vastly aid in the inspection and repair process.
+*
+Structural Members of the Airframe
+Fuselage—Known as the main structure (body) of the aircraft. It is divided into flight deck/cockpit/cargo and other compartments according to mission and design. The fuselage design is either Monocoque or Semi-Monocoque (Table 2-6). Each design will have the same structural members (Table 2-7), but different quantities based on the type of aircraft.
+Fuselage Designs
+Designs
+Monocoque - Little or no internal bracing other than bulkheads (walls) and the skin carries the primary load
+Semi-Monocoque (Most Common) - Frame and skin combine to support loads and absorb stresses & reinforced by formers and longerons
+Structural Members
+Longerons - Run longitudinally (nose to tail) and are known as the longest/strongest structural members of the fuselage
+Bulkheads - Walls that separate/divide the fuselage into compartments and provide cross-sectional strength
+Rings & Formers - Provide fuselage shape and cross-sectional strength. These are spread throughout the fuselage
+Stringers - Thin strips of metal that provide longitudinal shape and serve as attachment points for skin
+Skin - Covers, streamlines, and strengthens fuselage
+Access panels & doors - Provide access for inspections and maintenance. Usually secured with screws or quick-release fasteners
+Wings—Develop lift for support of the aircraft and can house fuel tanks. There are two types of wings, cantilever or non-cantilever. Most common military style wing is built as a cantilever design which helps reduce drag because of the internal structure 
+Cantilever—Wings are internally braced
+Non-cantilever—Wings have external braces
+Wing Structural Members
+Spars - Longest/strongest structural members of wing. They extend from wing root (where wings attach to the fuselage body of the airplane) to wing tip
+Ribs - Provide shape and cross-sectional strength and are placed perpendicular to spars
+Stiffeners - Provide additional support and strength between spars and ribs
+Note: Stringers, skin, access panels and doors serve same purpose for wing as for fuselage
+Empennage (tail section) — Provides directional stability in flight (nose up/down and nose left/right; referred to as Pitch and Yaw). The construction of the empennage is similar to wings as it contains the same structures. Most aircraft have a vertical stabilizer, and either a horizontal stabilizer or horizontal stabilators.
+Empennage Components
+Horizontal Stabilizer
+Stabilizes aircraft pitch (nose up/down)
+Typically a fixed structure, however some aircraft designs allow for slight movement for minor adjustments. Attachment points on each side of the fuselage for elevators, which generate and control pitching motion of the aircraft
+Horizontal Stabilators
+Stabilizes aircraft pitch (nose up/down)
+Stabilizer and Elevator functions are combined into a single control surface, attached to each side of the fuselage
+Generate pitch motion of the aircraft
+Vertical Stabilizer
+Stabilizes aircraft yaw (nose left/right movement)
+Attachment point for rudder
+*
+Airframe Components and Construction
+Fairing
+Curved piece of metal that is used to provide aerodynamic smoothness or streamlining to aircraft surfaces
+Nacelle
+Used on externally mounted engines which surround the engine protecting it and to provide
+aerodynamic smoothness and/or streamlining
+Cowling
+Are hinged panels/doors that are part of the nacelle which can be raised for inspections and maintenance
+Engine Struts
+Utilized to attach externally mounted engines to aircraft structure
+
+Honeycomb construction - Is used on aircraft sections and/or components to provide a high strength-to-weight ratio
+It is constructed of a faceplate (upper), multi-hexagonal (honeycomb shape) core, and a backing plate (lower) bonded with adhesive
+In order to prevent damage to the honeycomb, the seams are sealed to keep out moisture which could freeze causing delamination of the composites
+“NO STEP” areas are marked where walking on the surface can cause damage or structural failure
+*
+Airframe Location References
+Airframe location reference system is used to locate various points and components on the airframe and are usually made in inches.
+Locations of Measurement
+Reference Datum Line - Imaginary vertical line located at or near the nose of the aircraft and is the beginning point for all fuselage station measurements
+Fuselage/Aircraft Station Numbers - Measurements in inches forward or aft of the reference datum line used to locate specific locations or structural components on aircraft fuselage
+Water Line - Used to measure vertical height of an airplane. The measurement starts at the ground and goes to the top of the airplane
+Body Buttock Line - Most airplanes are symmetrical; meaning both left and right side are identical. The measurement is done by a top view of the aircraft (looking from above) and drawing a line down the center of the fuselage. Measurement starts at the center and works its way to the wingtip.
+Wing Station Numbers - Measurement starting at the wing root and ending at wing tip
+*
+Airframe Structure Summary
+You learned an aircraft is made up of major structural components such as the fuselage, wings, and empennage. The fuselage design is either monocoque or semi-monocoque, but majority of the aircraft in the USAF inventory are semi-monocoque. This means the longerons, bulkheads, rings, stringers, and skin share the stress loads. In the same manner, the wings and stabilizers have internal components and skin that give strength. The internal parts of the wings are spars, ribs, stiffeners, and stringers.
+Fig. 2-26, Wing Station Numbers
+*
+Weight & Balance INTRODUCTION
+From the time an aircraft is built until it is salvaged, the weight and balance of an aircraft has a direct effect on its stability and performance while in flight and on the ground. Whether the aircraft is the largest bomber or the smallest trainer, if the aircraft is too heavy it may never get off the ground, if it is not balanced it may be uncontrollable in flight and can lead to disaster. In order to find proper weight and balance procedures of an aircraft consult your aircrafts specific -5 TO.
+*
+Weight & Balance
+When an aircraft is designed, it is made as light as the required structural strength allows, and the wings are designed to support the maximum allowable weight in flight. An airplane is designed to have stability that allows it to be trimmed to maintain straight-and-level flight with hands off the controls. Engineers need to calculate the components weight and placement to determine how it affects the control of an aircraft. As a crew chief, you must understand a few technical terms used in weight & balance and as well as the techniques used in weighing an aircraft properly.
+
+Center of Gravity (CG)
+The Center of Gravity (CG) is the point about which an aircraft would balance if suspended, such as in flight. Just as a seesaw can balance on its fulcrum (CG), an aircraft may be considered to be in balance about its CG. The limits are determined by each specific aircraft in their respective -5 TO.
+
+Reference Datum Line
+The Reference Datum Line is a zero reference position and refers to an imaginary line at or near the nose of an aircraft that allows measurement to any point on the fuselage. This line gives a starting point for all longitudinal measurement distances for calculating weight and balance. The manufacturer establishes where the Reference Datum Line is and will remain standard for all like aircrafts.
+*
+Arm
+The arm is the longitudinal (horizontal) distance that a part of the aircraft (weight) is located from the reference datum line. When the arm for a piece of equipment is being determined, the measurement is taken in inches from the reference datum line to the center of gravity of any particular item (weight).
+*
+Moment
+Moment is the product of a weight multiplied by its distance from the reference datum line (Arm). When an object’s weight is multiplied by its arm, the result is known as its moment and is expressed in either foot-pounds or inch-pounds. In other words, moment is a downward force which results from an objects weight acting at a distance.
+*
+Mean Aerodynamic Chord
+The Mean Aerodynamic Chord (MAC) is located on the longitudinal axis (axis that runs from the aircrafts nose to tail) of the aircraft and is normally associated with the CG for flight characteristics. The MAC is the center point of the lateral axis rotation usually centered between the leading edge and trailing edge of the wing. Most aircraft wings are not a perfect rectangle, therefore, MAC is usually calculated and expressed in percent.
+*
+Ballast
+Ballast is weight placed in specific areas of an aircraft to adjust center of gravity along with the MAC to ensure stability of flight and favorable flight characteristics. Ballast can be permanently installed or removed to obtain proper aircraft’s CG and MAC
+*
+Weighing equipment
+The key information for determining weight distribution is knowing how much the aircraft weighs at specific locations. This helps to determine the amount of payload that can be added to the aircraft without exceeding maximum takeoff weight. There are two devices used to weigh aircraft, either scales or load cells. Using scales, aircraft are positioned on drive-up scales by towing them onto the scales. The weight exerted on each wheel assembly is recorded and analyzed to calculate the aircraft weight and CG. The other procedure is to position the aircraft on jacks fitted with load cells (specialized measuring devices), which transmit each cells’ results to a read-out device to calculate weight and CG.
+*
+Weight & Balance SUMMARY
+The weight and arm can move the CG within safe allowable limits. Maintenance personnel must be aware of any weight changes and the arm of those changes. To maintain the weight and balance of assigned aircraft the crew chief is the one maintainer who ensures equipment is secured in its proper place. They also need to ensure the aircraft’s fuel, oil, hydraulic fluid, and other fluids are properly filled not only for proper operations of the systems, but for the weight and balance in flight as well.
+*
+Inspection Concepts INTRODUCTION
+Inspections of equipment and aircraft are a major part of your job. The inspections on the aircraft and support equipment items ensure they are ready to perform its intended function. Unless you and other maintenance technicians certify the aircraft as 100% safe to fly, placing it into the flying schedule is not an option. Learning how to perform thorough inspections are a critical part of being a crew chief. It involves knowing which areas or items on the aircraft are prone to break and in what manner, as well as being able to identify a malfunction based on established operating criteria.
+*
+Scheduled Inspections
+TO 00-20-1, Aerospace Equipment Maintenance Inspection, Documentation, Policies, and Procedures provide inspection and documentation guidance to help standardize inspection practices. Aircraft inspections are performed IAW applicable aircraft -6 TO or -6WCs.
+*
+Inspection Requirements
+All requirements pertaining to inspections will normally be accomplished concurrently to avoid complications in scheduling and controlling the required maintenance. The inspection concepts for aerospace vehicles are periodic, phase, isochronal, and Programmed Depot Maintenance (PDM) The basic sub-elements for these types of inspections are called In-place inspections (Table 2-11) which are performed at the aircraft parking location by flight line crew chiefs with specialist support.
+In-Place Inspections
+Pre-flight (PR)
+Accomplished prior to the first flight of a specific 24-, 48-, or 72-hour flying period
+- Consists of checking the aircraft for flight readiness
+- Visual examination and/or operational tests to discover defects
+- Ensures the integrity of aircraft and no serious defects/malfunctions exist that would cause accidents or aborted missions
+End of Runway (EOR)
+Final visual and operational check performed on aircraft immediately prior to take-off
+- Mainly for fighter-type aircraft due to loaded munitions
+- Intended to detect any critical defects that may have developed from the parking spot to the point from which it will take-off
+Thru-Flight (TH)
+Accomplished after each flight when a turnaround sortie or a continuation flight is scheduled
+- Consist mainly of lighter visual inspections of aircraft components and systems
+Basic Post-Flight (BPO)
+Conducted after the last flight of the specific flying period
+- More thorough inspection than the PR or TH inspections
+- Extensive inspection intended to locate any discrepancies that may have occurred during the recently completed flying period
+Combined Preflight/Basic-Post Flight (PR/BPO)
+Accomplished after the last flight or prior to the first flight of a flying period
+- Consolidates the requirements of the PR and the BPO into a single inspection to save time and be more efficient
+Hourly Post-Flight (HPO)
+Accomplished at equally spaced hourly intervals (e.g., Every 200 hours)
+- An in-depth flying hour based inspection to ensure airworthiness of the aircraft
+- Considered as major maintenance (includes very in-depth requirements)
+*
+Major Inspection Methods
+Inspection Dock or “Dock” (Table 2-12)—Focuses on performing major scheduled inspections at a fixed site/location and is operated by permanently assigned crew chiefs and system specialists. Inspections are divided into small, numbered work card packages which layout areas (of the aircraft or systems) for the inspection needed to be accomplished. These are more extensive in scope than the HPO or BPO. The inspection cycles are required to be repeated throughout the aircraft’s service life. All inspection concepts are scheduled at equal intervals throughout the total inspection cycle, regardless of when inspections were completed.
+Major Scheduled Inspection Concepts
+Phase (PH)
+Accomplished based on specified number of flying hours
+Inspection of specific areas/systems of the aircraft
+Included Inspections PR, EOR, TH, BPO, PR/BPO, and HPO
+Periodic (PE)
+Due upon accrual of the number of flying hours, operating hours, or at the expiration of a calendar period.
+Thorough inspection of entire aircraft
+Included Inspections PR, EOR, TH, BPO, PR/BPO, and HPO
+Isochronal (ISO)
+Translates flying-hour utilization rates into calendar periods, usually expressed in days. Has 3 categories of inspections.
+Included Inspections PR, EOR, TH, BPO, PR/BPO, and HSC
+Minor (MIN) - Consists of checking certain components, areas or systems of the aerospace vehicle
+Major (MAJ) - Thorough inspection of the entire aerospace vehicle
+Home Station Check (HSC) - Accomplished upon the expiration of a specified short-term calendar interval, or the aircraft’s return from a long-range mission
+*
+Supplemental Inspections (applicable to ALL inspection concepts)
+No-Fly Calendar Inspections—When aerospace vehicles do not fly for a consecutive number of days. Helps to minimize deterioration of idle aircraft. It requires a BPO before the aerospace vehicle is returned to operational status.
+30-day Inspection—accomplished when aircraft does not fly or is out of commission for 30 consecutive days
+90-day Inspection—accomplished when aircraft does not fly or is out of commission for 90 consecutive days
+Acceptance Inspection—Accomplished to determine the condition on new, newly assigned or transferred, and post depot repaired aircraft prior to being placed in service. (e.g., if you are looking to buy something used, it is important to look at it before you take ownership of it.)
+Special Inspections—Unscheduled or unexpected events require special inspections (on the occurrence of an unusual or specific event) such as:
+Hard landing
+Bird strike
+Over-limit condition (over-speed, over-G, over-torque)
+Joint Oil Analysis Program (JOAP)—requires accomplishment based upon the accumulation of a specified number of flying/operating hours
+Some special inspections will be accomplished following a specified calendar period which is a set number of days, such as:
+Battery capacity check
+Survival equipment
+Egress system
+*
+Programmed Depot Maintenance
+Inspection and correction of defects that require skills, equipment, and/or facilities not normally possessed by operating locations
+Programmed Depot Maintenance (PDM)
+PDM maintenance tasks include, but are not limited to the following:
+Partially dismantled
+Stripped of paint
+Inspected for cracks/corrosion
+Repairing/reassembly
+Repainted
+Operationally tested
+*
+Inspection Work Cards
+Work Cards (WC) are the primary documents that control aircraft inspections and serves the guide on how to accomplish the inspection. Each airframe has its own specific set of WCs outlining the minimum inspection requirements and provides each technician with a standardized inspection guide. In order to allow the inspections to flow more efficiently the WC decks list the requirements to be performed and reflect the most logical sequence for
+accomplishment. They break down the aircraft into specific areas, which can cover several different types of inspections, to allow focus on smaller portions of the inspection(s) and can normally be accomplished by one individual. Each WC provides:
+Card number
+Work area (where to inspect)
+Type technician (mechanic)
+Card time (average time)
+Inspection requirements
+Work Unit Code(s)
+Electrical power ON/OFF requirements
+Common inspection items in the WCs may include but are not limited to:
+Fuel, oil, hydraulic leaks
+Damaged/faulty safety wire
+Burned/overheated components
+Cracks, dents, cuts, other surface damages
+Worn, chaffed, frayed components
+Loose, missing components
+Operational Checks
+*
+Documentation Requirements—Each time you do an inspection, you must record the action into the aircraft’s maintenance records. When documenting, you must record on two different AFTO Form 781 series forms:
+AFTO Form 781H—When completing and certifying in-place inspections
+AFTO Form 781A—Any abnormal condition or malfunction found during the inspection will be recorded in this form and entered into the MIS database
+Fig. 2-38, AFTO 781 Series
+*
+Non-Destructive Inspection (NDI)
+NDI is the examination of an object or material with technology that does not affect its future usefulness. It checks the soundness of a material or part without impairing or destroying the serviceability of the material or part. One of the programs NDI manages is the Joint Oil Analysis Program (JOAP). JOAP is used to detect changes in the condition of oil, other fluids, and unusual wear. It is also used to predict possible equipment failures.
+*
+Borescope
+Borescopes aid in inspecting various areas of the aircraft to include internal parts of an engine, the cockpit/flight deck, and any other areas that are hard to see or reach without dismantling any parts. There are two types of borescopes that can be used based off the needs of the job, rigid and flexible. The Rigid is a probe that contains a prism and lens that cannot be adjusted in length. Whereas the flexible probe allows viewing from different angles. Some rigid do, but all flex are capable of taking photographs of the inspected area.
+*
+Inspection Concepts SUMMARY
+Reading and understanding a -6 Work Card package is just the first part of inspection concepts you must learn. The rest of being proficient at inspections will be attained with experience and through proper inspection techniques and tool usage.
+*
+Corrosion Identification INTRODUCTION
+To withstand different forces and elements aircraft are being built out of materials that use a process to refine and strengthen metal. The fact remains metal’s tendency to return back to its natural state is always going to be there, which is why corrosion identification and treatment is crucial to prevention, early detection, reporting, and repair of corrosion damage.
+*
+Corrosion Identification–The purpose of corrosions identification is to detect and prevent corrosion (Table 2-14) from damaging equipment and aircraft. The reference for corrosion prevention, cleaning and control is TO. 1-1-691, Cleaning and Corrosion Prevention and Control.
+The speed of deterioration depends on:
+Presence of dissimilar metal
+Availability of oxygen
+Temperature and exposure to environment
+Type of metals
+Heat treatment of metal
+Types of Corrosion
+Pitting (localized)
+The most common type of corrosion on aluminum or magnesium alloys first appears as white or gray powdery deposit, when the deposit is removed, tiny pin holes appear
+Galvanic
+A buildup of corrosion between contacting points of dissimilar metals that results from electric currents flowing from one metal to the other
+Stress Cracking
+Form of galvanic caused by cumulative effects of corrosion and fatigue which causes metal to weaken and crack or fail. Not normally visually detectable and requires identification by NDI.
+Intergranular
+(severe type)
+Attacks metal grain boundaries and the reason this is known as the most severe types is because it can only be detected by using a non-destructive inspection (NDI)
+Exfoliation
+Advanced form of intergranular and it is identified by a lifting or swelling of metal surfaces
+Uniform Etch (most common)
+Also known as general corrosion. Initially appears as general dulling or etching of the surface, becomes rough and frosted in advanced stages. This is caused by direct chemical attack on unprotected surfaces. Usually occurs on polished surfaces.
+*
+Corrosion Treatment
+The purpose is to slow the process of metal returning to its natural state which begins when the manufacturing process is completed. It is the responsibility of everyone involved in aircraft maintenance to prevent corrosion from damaging equipment, but trained corrosion specialist will treat corrosion.
+*
+General procedures of aircraft wash
+Personnel must be task qualified and follow all safety precautions as outlined in the specific aircraft TO. The following must be adhered to in order to protect both yourself and the equipment:
+Cover pitot tubes and static ports during entire cleaning process
+Wash from bottom to top and rinse from top to bottom
+Do not climb or walk on upper surfaces of aircraft when wet without a safety harness
+*
+Cleaning agents
+Alkaline and solvent type cleaning agents are both hazardous, pose a fetal hazard, and require the proper PPE to be worn when handling
+Post cleaning requirements due after wash
+Aircraft are required to be lubricated after each wash as defined by specific aircraft TO/scheduled inspection criteria. This aids in displacing any entrapped water or cleaning agents helping to prevent corrosion damage to aircraft. It is important to follow the lubrication requirements in the applicable specific aircraft TO.
+Cleaning Agents
+Proper cleaning procedures remain the first step in corrosion prevention. It is extremely important to ensure the removal of contaminants from the aircraft and components to prevent corrosion. There are three types of cleaning agents used on the aircraft:
+Alkaline—used on exterior surfaces and clean by lifting the soil/dirt from the surface, where it can be washed away
+Solvent—used on heavily soiled areas and cleans by dissolving soil/dirt and will leave an oily film that repels contaminants
+General purpose cleaners—used for interior areas such as on windows and in-flight deck areas
+*
+Lubricants
+Lubricants help prevent excessive wear between moving parts due to friction. When applying grease to a component, do so until new grease is visible, then wipe off the excess to prevent contamination. Ensuring a lubrication schedule is maintained allows displacement of any entrapped water or cleaning materials that could cause corrosion damage to aircraft or failure of parts. Therefore, it must be used sparingly to avoid accumulation of dirt, dust, and other foreign matter.
+Types of lubricants:
+Hydraulic fluid
+Engine oil
+Grease
+Graphite
+Application methods:
+Hand - Using a fluid saturated cloth
+Brush
+Oil, squirt, aerosol spray cans 
+Grease gun 
+*
+Sealants
+Sealants are designed to contain or prevent leaks involving liquids, vapors and gases. For sealants to be effective, the correct sealant must be chosen and properly applied for a specific area according to the aircraft specific TO. Common types of sealants include:
+Weather and aerodynamic sealants for exterior skin
+Fuel tank sealants
+Engine firewall sealants
+Electrical connector and component sealants
+Acid resistant sealants for battery compartments
+*
+Adhesives
+There are many different types of adhesives for many different applications. They are all designed to bonds two surfaces together. Two of the most common types used in aircraft maintenance are:
+Fast setting—uses accelerators to speed up curing process
+Slow setting—cure time is based on air/time
+*
+Cleaning Methods
+Cleaning is a broad term covering methods and materials needed to remove contaminants and soils from a surface. When it comes to day-to-day cleaning of your aircraft there are three methods that can be used depending on the type of surface and the contaminant being cleaned.
+Hand cleaning is mainly used on windshields or other interior areas
+Spray washing is used on exterior surfaces
+Tank cleaning is used to clean small parts in solvent vats/tanks
+*
+Safety Hazards:
+Toxicity depends on type of chemical military specification (MIL-SPEC)
+Wear rubber gloves, splash-proof goggles (PPE)
+Keep away from source of flame
+Clean up spills immediately to avoid falls
+Use in well ventilated areas
+Avoid skin contact (adhesives can cause bonding of skin)
+If chemicals get into eyes, flush with water and seek medical attention
+Exposure routes for chemicals include:
+Inhalation
+Ingestion
+Skin absorption
+Skin contact
+When working with hazardous materials consult the globally harmonized system (GHS) classifications of hazardous, physical property information called Safety Data Sheets (SDS). They provide excellent references for hazard identification, as well as suggestions for handling, storage, exposure control (fetal hazards) and disposal.
+*
+Corrosion Identification SUMMARY
+Corrosion is a defect no aircraft maintainer ever wants to discover but you need to be educated to identify the different types you may find. The key to corrosion prevention is using the tried and proven cleaning and lubrication methods and when corrosion does develop, identify early and treat as prescribed in the Technical Order.
+*
+AFTO 781-Series INTRODUCTION
+AFTO Form 781 series is the method of communications used to report maintenance deficiencies from the aircrew to maintenance. This same form set is also used to track the servicing, inspections and repair of the aircraft systems and subsystems.
+*
+AFTO Form 781 series is an instrument to record the operational life of an aircraft. These forms are governed by TO 00-20-1 and are source documents for recording and reporting maintenance such as:
+Flight operational data
+Servicing
+Configuration
+Status
+Active and delayed maintenance actions/repairs
+Engine data
+Scheduled inspections and TCTOs
+Crew Chiefs are responsible for forms upkeep to include:
+Form Initiation (includes annotating headers)
+Ensuring adequate copies are available in binder
+Proper documentation
+Transferring active information to new forms (Transcription)
+Closing out old removed forms (filed into historical record set)
+Standard Entries
+All entries are printed on the forms “except” when a minimum signature is required
+Entries on maintenance documents will be made in black (pencil, ball point pen, stamp or preprinted stickers/labels), unless otherwise specified
+Symbol entries are made in RED
+Your minimum signature consists of the WRITTEN (cursive) first name initial, last name (not necessarily in this order), and employee number
+Abbreviations may be used for any word or term frequently used in making entries on documents. Abbreviations can be found in:
+Technical publications and manuals
+AFTO Forms
+MIS
+Standard Date Format—eight digits (YYYYMMDD)
+*
+Maintenance Symbols
+Used to record defects and make important form entry conditions readily visible
+Identify the seriousness of aircraft discrepancies and reflects current mechanical condition (overall status) of aircraft and equipment
+NEVER erase a red symbol
+Symbol Descriptions
+Discrepancy
+Category
+Description
+Red X (X) - MAJOR (Grounded)
+Requires two (2) separate signatures on the AFTO Form 781A to clear (complete the maintenance action)
+"Corrected by" box is signed by the person who completed the maintenance action (work)
+"Inspected by" box is signed by an authorized inspector who certifies the completed maintenance action was accomplished correctly
+After signing "Inspected by" box, inspector places their black last name initial over the symbol in the "SYM" box
+All red X corrections require a -2 TO reference
+Red Dash (–) - UNKNOWN
+(Requires Inspection, Flyable)
+Indicates a need for an inspection, special inspection, maintenance operational check or check flight
+Time Change Items - devices requiring change based on a specific timeframe
+A potentially dangerous condition may exist, and correction will occur as soon as possible
+Does not prevent the aircraft from flying
+Cleared by the person doing the work/inspection by placing their minimum signature in the "Inspected by" box and placing their last name initial (black) over the symbol in the "SYM" box–any skill level (leave the "Corrected by" box blank)
+Red Diagonal (/) - MINOR (Flyable)
+These write-ups are known as a flyable condition
+Cleared by the person doing the work by placing their minimum signature in the "Corrected by" box and placing their last name initial (black) over the symbol in the "SYM" box–any skill level
+Black last name initial
+Indicates the correction/completion of a discrepancy or that no discrepancies exists
+When used on the AFTO FORM 781H
+Placed in the "STATUS TODAY" section
+Indicates there are no discrepancies or inspections that exists
+When used on the AFTO FORM 781A
+Placed over a red symbol in the “SYM” box
+Certifies the correction of that discrepancy or completion of an inspection
+*
+Informational Note
+Informative in nature and does not affect the safety or reliability of the aircraft
+These entries do not require a symbol, job control numbers, or entry in the MIS
+Write the words "INFO NOTE" in the discrepancy box followed by the applicable information
+When the "INFO NOTE" is no longer valid, black line through the information
+*
+AFTO 781 Forms
+AFTO Form 781F—Aerospace Vehicle Identification Document
+Serves as the front cover sheet for aircraft’s forms binder
+Used to complete the headers on other AFTO Forms 781 series
+Provides a Time Conversion Table to convert flight time to airframe time (Minutes to tenths of an hour e.g., 40-45 min = 0.7 hrs.) and identifies the aircraft’s
+Mission Design Series
+Serial (tail) number
+Owning organization
+DoD Activity Address Code
+Provides information for the billing of customer’s fuel accounts
+All entries on this form must be in BOLD print
+*
+AFTO Form 781H—Aerospace Vehicle Flight Status and Maintenance Document
+Front side provides
+Aircraft’s current condition based on the status symbol in the “Status Today” box.
+Inspection certification, exceptional release, airframe time, and landing information
+Status of the Day
+This entry is the responsibility of the authorized individual who signs the exceptional release. (maintenance officer, SNCO or civilian equivalent)
+The status symbol in these columns ALWAYS represent the most serious condition
+When status changes occur, use the next open box to record the applicable symbol
+The same symbol will never appear consecutively in the numbered boxes
+Symbol entries in these columns will never be erased, initialed over, or changed even if entered in error
+Exceptional Release—required before flight
+Serves as a certification that the aircraft is safe for flight
+Signed by an authorized individual only
+Backside provides
+Servicing data (fuel grade, amount serviced, oil level and amount serviced, oxygen quantity)
+Servicing certification information
+*
+AFTO Form 781A—Maintenance Discrepancy and Work Document
+This form is used to document each discrepancy (defect) discovered by you, the aircrew, or other maintenance technicians noted before, during , and after each flight.
+Entries–follow guidelines prescribed by TO 00-20-1 and will contain the following items:
+Red symbols
+Job Control Number (JCN)—9 characters
+The JCN is used to report, control and identify each maintenance event (task/job)
+First five digits identify year and Julian day (See Appendix) event was discovered (YYJJJ)
+Last four digits identify jobs in sequence for the day (XXXX)
+Scheduled inspections, such as phased, periodic, and isochronal inspections will have an alpha-character in the 6th position
+Applicable MIS adds three numbers at the end of the JCN to identify specific work center events (WCE)
+Date Discovered–standard 8-digit format (YYYYMMDD)
+Supply Document Number—14-character number issued from supply during parts ordering
+Work Unit Code (WUC) (GP/CC option)—five-character code that identifies assigned system-related equipment codes pertaining to various servicing and maintenance functions (system, subsystem, and component)
+Discrepancy—brief narrative description of what is wrong and needing repair
+Discovered by/Employee Number–Requires discoverer’s printed first name initial, last name, and employee number
+Carried Forward
+Uncorrected discrepancies will be transcribed or “carried forward (CF)” to a new AFTO Form 781A
+To indicate the movement of a discrepancy from the old set of forms to the new set of forms, place a checkmark in the “CF 781A” box and sign the “Corrected by” box on the old set of forms
+Transferred To
+Red X discrepancies will NEVER be transferred to the AFTO Form 781K
+When transferring a discrepancy to the AFTO Form 781K, transcribe the symbol from the “SYM” box, JCN, original discrepancy and, if applicable, the supply document number
+To indicate the movement, place a checkmark in the “XF 781K” box and sign the “Corrected by” box
+Correcting (signing off) Discrepancies the following items are required
+Date corrected–(YYYYMMDD)
+Corrective Action–enter a brief, but specific description of what it took to fix the write-up
+Corrected by/Inspected by and Employee Number—enter minimum signature in the appropriate blocks based on the type of symbol entered in the “SYM” box
+Black last name initial placed over symbol (X–7 skill level, – & / any level)
+*
+AFTO Form 781J—Aerospace Vehicle-Engine Flight Document
+This form is used in conjunction with the AFTO Form 781H. It allows a cumulative (running) total of airframe time and engine operating hours
+Along with operating hours of an airplane, it also allows the tracking of oil samples that have been taken and the total amount of oil that has been serviced since last overhaul
+*
+AFTO Form 781K—Aerospace Vehicle inspection, Engine Data, Calendar Inspection, and Delayed Discrepancy Document
+On the front side of this form, you can see items such as the:
+Aerospace inspection status (PH, PE, ISO)
+Engine serial numbers
+Calendar and Hourly inspection schedule
+The backside is used to document:Delayed aircraft discrepancies, transferred from the AFTO Form 781A
+Any outstanding Urgent and Routine Actions TCTOs
+Once entered, symbols will not be erased or initialed over
+When an entry is transferred back to the AFTO Form 781A, the person accomplishing the transfer will enter their employee number in the TRANSFERRED BY EMPLOYEE NUMBER column.
+Line out the transferred entry with a single line except for the employee number block.
+The line will denote that the entry has been transferred.
+When a Red Dash symbol is involved, draw the line above or below the Red Dash, so it will not hide the symbol.
+*
+Automated Aircraft Forms
+When MISs are available, automated forms will be used—mandatory
+At a minimum, AFTO Forms 781A, 781J, and 781K, generated by the MIS will constitute fully automated forms
+It gives the user the ability to produce pre-filled and blank copies
+Pre-filled forms remove the need to handwrite all the data from old forms
+F-22 IMIS and F-35 ALIS utilize embedded electronic forms capabilities (no paper)
+*
+AFTO 781-Series SUMMARY
+Documentation is a continuous process. Documentation involves collecting, organizing, storing, and otherwise maintaining a complete record on an aircraft. Accurate and complete documentation helps to ensure the Air Force mission is a success. Proper documentation also helps to maintain the aircraft in a safe, serviceable, and mission ready condition. When it comes to maintenance actions involving the aircraft, documentation provides a record of which maintenance actions are completed and which actions are not. It also helps to keep maintenance and inspection schedules on time.
+*
+Ground Handling INTRODUCTION
+As you may have already picked up on by now, crew chiefs are considered a “jack of all trades.” You will be interacting with other maintenance personnel (specialists) daily. The success of aircraft maintenance needs this interaction. In these day-to-day actions, you will have the opportunity to perform a variety of maintenance tasks with the help of specialists. These tasks include preforming a safe for maintenance check, launching and recovering aircraft, towing, mooring, and jacking. As always, you must comply with all safety procedures and tool control requirements.
+*
+Ground Handling covers all tasks concerning moving and handling of the aircraft on the ground. Launching and recovering (parking) your aircraft, installing/removing covers, servicing, and towing are just some of the tasks you will accomplish on a day-to-day basis. With every task done on the flightline there are procedures that must be followed, so when it comes to ground handling, there is no exception. The technical data applicable to ground handling is DAFMAN 11-218, Aircraft Operations and Movement on the Ground, DAFMAN 91-203, Air Force Consolidated Occupational Safety Instruction, and TO 00-25-172, Ground Servicing of Aircraft and Static Grounding/Bonding. It is essential to become familiar with these, as this information will be used daily to ensure safe movement and handling of an aircraft while it is on the ground.
+*
+Launch/Recovery Procedures
+Launch–to send aircraft on a mission/sortie
+Aircraft preparation
+Assist aircrew/pilot as needed
+Recovery–receive a returning aircraft after flight and return to a mission-ready condition
+Identify servicing requirements (fuel, oil, hydraulic fluids)
+Inspection requirements for next
+mission/sortie
+*
+Safe For Maintenance
+Always ensure the aircraft is safe before starting any maintenance. Basic mandatory items needed to be checked as to not injure yourself or damage the aircraft are listed below:
+Verify condition in AFTO Form 781s
+Safety pins inserted for all landing gear
+Wheel chocks in place
+Ensure all egress safety devices are appropriately installed
+Properly ground ACFT IAW appropriate TOs
+Verify portable ground fire extinguishers are in place as required
+*
+Aircraft Towing
+This is the most common way to move or reposition aircraft. Personnel involved in the towing of the aircraft must be alert and exercise extreme care because towing can be a hazardous operation. Personnel should plan towing operations so that no part of an aircraft is within 25 horizontal feet of an obstruction. A tow team (Table 2-16) is required to accomplish this task and a team will consist of the following positions.
+*
+Tow Team Description
+Member
+Description
+Tow Supervisor
+In complete charge of tow team
+Conducts pre-brief for all tow team members
+Also acts as nose walker
+The only team member who can start towing process
+Brake Operator
+Applies aircraft brakes in case of an emergency
+Must be alert and always maintain eye contact with tow supervisor
+Tow Vehicle Operator
+Must always maintain a direct line of sight with the tow supervisor
+Must be licensed and trained to drive the tow vehicle
+Follow tow supervisor’s directions
+Wing Walkers
+Required when moving aircraft in and out of hangars
+Required in congested areas
+Must always maintain a direct line of sight with the tow supervisor
+Tail Walker
+Ensures adequate tail clearance while towing in congested areas
+Required when backing aircraft
+Must always maintain a direct line of sight with the tow supervisor
+*
+Equipment Required
+Tow Vehicle
+Utilized to reposition aircraft without having to use its engines
+The operator must be licensed and trained to drive
+Different types and sizes for different aircraft
+The larger the aircraft, the larger the tow vehicle
+Most equipped with four-wheel steering for ease in positioning aircraft
+Tow Bar
+Allows the movement of aircraft on the ground without the use of engines
+Connection between aircraft and tow vehicle (typically)
+All tow bars are equipped with shear bolts to prevent aircraft damage during high-stress applications
+Size of tow bar dependent on the size of aircraft (TO will specify which tow bar is to be used)
+Universal—used on multiple types of aircraft
+Aircraft Specific—can only be used on a specific type of aircraft
+Safety Precautions
+WARNING—NEVER step over a tow bar once it is connected to both the aircraft and tow vehicle
+Use approved hand signals per TO
+Use lighted wands during night tows/inclement weather
+Emergency audio can be used (whistles/portable horns)
+Towing speed—5 MPH or walking speed of the slowest tow team member
+Tow team members cannot ride on any exterior portion of aircraft or tow vehicle unless dictated by technical orders
+*
+Mooring of aircraft
+Secure or tie-down aircraft due to high winds or for long periods of time
+Restraint devices attached from aircraft to ramp (flight line) mooring points
+*
+Jacking of aircraft
+Raise aircraft for various maintenance tasks
+Tripod—are used to raise the entire aircraft off the ground allowing landing gear operational checks to take place
+Axle—for single wheel/brake components repair/operational checks
+*
+Ground handling safety
+Wear appropriate PPE as specified by aircraft TO
+Be aware of nearby aircraft intake/exhaust danger zones
+*
+Ground Handling SUMMARY
+Consider all maintenance actions performed on aircraft as ground handling. When you are involved in these actions, you must pay close attention to the aircraft and the surrounding area. Many crew chiefs have needed medical attention because they became complacent and ran or walked into many of the sharp edged and pointed objects that are scattered over the entire aircraft structure. One way to avoid this is to maintain your alertness to these hazards.
+*
+Aircraft Marshalling Signals INTRODUCTION
+During day-to-day activities, you will have the opportunity to launch and recover aircraft. You will be required to visuality communicate with the pilot. You, as the aircraft marshaller will focus on guiding aircraft to and from the parking locations on the flightline.
+*
+Marshalling
+A way to communicate with the aircrew, using approved hand signals, when there are no means to communicate verbally. It minimizes the risk of aircraft damage while taxiing in congested areas. The crew chief performing this duty is referred to as the Ground Marshaller.
+Approved hand signals can be found in DAFMAN 11-218, Aircraft Operations and Movement on the Ground, (Table 2-17) though some modifications are allowed depending on the aircraft design. During daytime operations we use our hands or high visibility paddles. During nighttime operations lighted wands are used. Below are some examples of what will be demonstrated in class.
+
+This MArshaller - Raise fully extended arms straight above head with wands pointing up
+Proceed to next marshaller - Right or left arm down, the other arm across the body indicating the direction of next Marshaller
+Move forward - bend extended arms at elbows, move hands up and down from shoulder height to head
+Turn right/left (from pilot's point of view) - Make "Move Forward" signal with one arm while extending the other downward to indicate the directions of the turn
+Stop - Fully extend arms and wands at a 90 degree angle to sides, slowly move hands up until wands cross
+Request/clearance for personnel to approach aircraft - make a beckoning motion with right hand at eye level
+Move backward - with arms down and wands towards ground, sweep arms forward and upward repeatedly to shoulder height. do not bend arms at elbows
+Turn while driving backward - (from pilot's point of view) make a move backward signal with one arm while extending the other downward to indication direction of turn
+Slow down - extend arms down and move wands up and down from waist to knees in a patting gesture
+Start engines - circular motion of right hand at head level with left arm pointing to engine
+Cut engines / rotor - extend arm forward at the body at shoulder level.  move hands to the top left shoulder and draw hand to top of right shoulder in a slicing motion across throat
+Engine or apu fire - make rapid horizontal figure-eight motion with one want, point other to source of fire
+Abandon aircraft - marshaller first give "cut engines" signal followed by pantomiming unfastening and throwing seat belts and shoulder straps up and off
+Chocks inserted - arms down, wands facing inward swing arms in
+Chocks removed - arms down, wands facing outward, swing arms out
+Affirmative (all clear) / Negative (not clear) - right hand raised, wand pointed up or down to indicate response
+Auxiliary power unit connected - hands above head, left fish partially clenched, right hand moved toward left hand with first 2 fingers extended and inserted into circle made by finders of the left hand
+Auxillary power unit disconnected - hands above head, left first partially clenched, right hand moves away from left hand, withdrawing fight 2 fingers from circle made by finders of the left hand
+External starting air connected - hands above head, left hand cupped, right first fully clenched, right fist moved in direction of left hand and inserted into cup made by left hand
+External starting air disconnected - hands above head, left hand cupped, right fist moved away from left hand withdrawing fist from cup made by left hand

@@ -1,0 +1,489 @@
+Fuel System Fundamentals INTRODUCTION
+The Fuel system is designed to deliver a positive flow of clean fuel under constant pressure to the engine under all operating conditions. These systems must work in both normal and emergency situations. The following components allow refuel, defuel, and transfer of fuel between tanks both in the air and on the ground.
+*
+Fuel Management Panel
+The fuel management panel (fig. 4-1) provides a centralized means of controlling fuel movement within the fuel system. It has gauges that reflect quantities and system operation. Its location on most aircraft is in the control cabin/cockpit, though some aircraft have an additional fuel management panel that is located externally to control fuel flow on the ground for servicing operations. A typical fuel management panel includes the necessary switches and indicators to accomplish the following:
+Control and monitor individual engine fuel feed
+Control tank-to-tank fuel transfer within aircraft
+Indicate quantity of fuel stored in fuel tanks
+Alert the pilot of fuel system malfunctions with warning lights
+Control/monitor air or ground refuel operation
+Rapidly dump (release) fuel in emergency situations
+*
+Fuel tanks or cells
+Provide fuel storage and can vary in design, size, construction, location and shape based on the aircrafts particular need (fig. 4-2, 4-3). Usually, a fuel tank is designed as an integral (built-in) part of a wing or the fuselage but can also be bladder and external styles.
+*
+Integral fuel cells
+Contained in the wing structure; however, in some aircraft, integral fuel cells are also built into the fuselage (main body) of the aircraft. An integral cell is a part of the aircraft structure that has been built with such precision that the seams, structural fasteners, and access doors have been properly sealed with fuel resistant sealant to prevent leaking.
+*
+Fuel Bladders
+Bladder type fuel tank (fig. 4-4) are installed into compartments called cavities and are constructed of either rubber or nylon.
+*
+Tank Filler Cap
+The filler cap allows for over-the-wing (gravity) servicing of both Integral and external tanks. The Filler cap is also used for visual and dip stick checks of fuel quantity in each tank. Filler caps typically have a locking tab to control the locking mechanism.
+*
+External fuel storage
+Increase range or mission by providing additional fuel. For some aircraft, the external fuel system consists of the fuel (drop) tanks (fig. 4-6), a transfer system, and a jettison (release) system.
+*
+Fuel pumps
+The aircraft fuel system uses various types of pumps to move fuel through the system plumbing. Electrically powered fuel pumps are mounted inside the tanks and use fuel for cooling while operating. The following pumps are used to move fuel from the tanks to the engine or from tank-to-tank.
+Boost pumps
+Ensure a positive fuel supply to engine driven pumps and can also be used to defuel tanks.
+Transfer pumps
+Utilized for the transfer of fuel from tank-to-tank and can also be used to defuel tanks.
+Ejector pumps
+Operates by fuel pressure from a transfer pump using the Venturi (fig. 4-7) principle to remove fuel from tanks or cavities that may have fuel fumes that could explode in the presence of a faulty or non-submerged electrical pump.
+*
+Fuel valves
+A valve is a device used to control fluid passing through a pipe or duct. They can be operated manually, mechanically, or electrically. Unless otherwise specified, the control switch for each valve will be located on the fuel management panel. The following valves are examples of what can be controlled on the different types of aircraft.
+Engine Feed Valve
+The engine feed valve controls the flow of fuel from a designated tank to its respective engine (i.e., from #1 main fuel tank to #1 engine). Closing the valve for an engine prevents fuel from its respective main tank to feed the engine. This allows the aircrew to use fuel from other tanks first and conserve the main tanks for a later part of the flight. In some aircraft, fuel in the main tank can gravity drain into the engine if the valve is open.
+Cross Feed Valve
+The cross feed system permits interconnection between the left and right sides of the aircraft and engine feed lines by using a shutoff valve referred to as a cross feed valve. This valve provides personnel the ability to move fuel from tank-to-tank on either side of the aircraft, as well as allow any engine to be fed by any fuel tank.
+*
+Engine Firewall Shutoff Valve
+Engine firewall shut-off valves are located on each engines firewall and provides the pilot the capability to electrical shutoff fuel to each engine in the event of an emergency. The normal (open) position holds the firewall shutoff valve open to allow fuel to the engine. T-handles or emergency pushbuttons located on or above the forward instrument panels in the crew compartment control the corresponding firewall shutoff valve.
+*
+Check Valve
+Check valves are installed in the fuel system wherever fuel flow in one direction is required.
+Direction of flow is indicated by an arrow on the valve. Pressure forces the valve open by pushing against a spring.
+*
+Fuel Level Control Valve
+Fuel level control valves are located internally at the top of each fuel tank. Fuel flows through this valve when servicing your aircraft’s fuel tanks, stop the flow of fuel into a fuel tank and prevent it from overfilling. You can selectively open and close individual tank valves at any point during the refuel operation using switches on the refuel management panel. Lastly the operation of this valve can be compared to the tank reservoir float on your toilet (fig. 4-8). As the fuel level in the tanks reach their maximum capacity, a float inside each tank senses the level and automatically closes the valve.
+*
+Pre-Check Selector Valve
+There are two potential hazards if the fuel level control valve does not close (fails), fuel will be forced from the tank through vents to the ground, or worse, the tank can be pressurized to the point it ruptures. To guard against these hazards some aircraft use a pre-check selector valve to check the fuel control valve for proper operation. Positioning the pre-check selector valve switch on the refuel control panel to the test position simulates a full tank. This causes the fuel level control valve to close and stop the flow of fuel into the aircraft’s fuel tanks.
+*
+Condensation Drain Valve (Sump Drain)
+Condensation drain valves are located at the lowest point of each sump to provide the ability to remove the water and other contaminants from the tank (water can enter fuel as condensation). It also provides a means to take a fuel sample from each tank. Condensation drain valves are spring-loaded valves held closed until they are operated by simply pushing upward on the bottom of the individual valves.
+*
+Fuel Manifolds
+Fuel manifolds (tubing and hoses) transports (carry) fuel from place-to-place within the fuel system and are constructed from steel, aluminum, or rubber and will vary in size depending on the quantity of fuel that needs to pass through them. Typical manifolds in the fuel system include the Single Point Refueling (SPR) manifold, which routes fuel from the SPR receptacle to each tank, the engine feed manifold which routes fuel from a fuel tank to its respective engine and the cross feed manifold which routes fuel from tank to tank or any tank to any engine. Pumps pressurize the fuel and valves control the fuel’s movement.
+*
+Fuel Filters
+Filters are placed in the fuel system to remove foreign material. This material may enter the fuel system during fuel servicing, maintenance, or from the wear of parts such as pumps and valves. The small openings make this type of filter susceptible to clogging; therefore, a bypass valve is necessary because without fuel the engine cannot operate.
+*
+Heat Exchangers
+As stated before, a heat exchanger is comparable to a car’s radiator. In a fuel system, the heat exchanger heats the fuel for better atomization and cools the oil or hydraulic fluid for better lubrication and cooling. Fuel flows into the heat exchanger through a series of tubes. Oil or hydraulic fluid passing around the tubes warms the fuel (fig. 4-9).
+*
+Fuel Subsystems
+Fuel vents and pressurization systems aid in fuel transfer and usage by maintaining positive air pressure in the tanks and prevents excessive pressure buildup. The vent components prevent excessive pressure due to temperature changes or during refueling/defueling. This is accomplished by allowing air to enter tanks to displace fuel being removed during engine operation, transfer, or defuel.
+The pressurization system keeps the tanks at a positive pressure which aids the pumps in keeping fuel flowing and helps control fuel vaporization resulting from negative pressure. A pressure relief valve is critical to the safe operation of the fuel system by ensuring the negative and positive pressures within the fuel system are maintained within safe limits throughout flight as the aircraft ascends and descends.
+*
+Fuel Dump System
+The aircraft fuel dump system provides a means of rapidly off-loading fuel in-flight in case of an emergency. It is used to reduce the possibility of fire during emergency landing, or to reduce the total weight of the aircraft. A dump valve is opened allowing fuel to transfer to a port, sometimes called a dump mast, where fuel is dumped overboard. This mast may be located near the wing tips or on the empennage.
+*
+Fuel Quantity Indicating System
+Regardless of the aircraft, a fuel quantity system must continually show the total quantity of fuel (in pounds) remaining in the aircraft fuel tanks. The tank sensor/probe is a transmitter that electrically measures the amount (level) of fuel in the tank. This information is sent to a to a fuel quantity indicator on the fuel management panel.
+There is a fuel quantity indicator for each tank that receives the signal from the tank sensor/probe unit, decodes the signal and shows the amount of fuel in the fuel tank. Heavy aircraft with multiple fuel tanks may contain different fuel levels in each tank. The fuel total indicator (totalizer) provides a quick reference point for personnel to determine the total amount of fuel in all tanks. When a fuel tank reaches empty, a low-level switch in the fuel level transmitter is activated and turns on an indicator light in the cockpit to warn the aircrew when the fuel level/ pressure is below a required minimum amount and is almost exhausted.
+*
+Refuel Methods
+Most aircraft are refueled using a pressurized refueling system known as SPR receptacle. This system provides for rapid fueling of all tanks by connecting a hose to a quick connect/disconnect SPR receptacle (fig. 4-10). Fuel from this single point is distributed to the various wing, fuselage, and external tanks. The SPR receptacle is standard on all aircraft that use the pressure-fueling method. However, the control panel and operations differ from one aircraft to another depending upon the complexity of the fuel system.
+Gravity (over-the-wing) method provides for individual tank filling through a port covered with a filler cap (fig. 4-11). Metal-to-metal contact between the nozzle and the aircraft fueling port must be maintained during the entire fueling operation to prevent static buildup and a possible explosion. Gravity refueling through tank filler caps are normally used as a backup if the SPR is inoperable.
+The In-flight Refueling (IFR) (fig. 4-12) receptacle provides in-flight refueling capabilities. It allows the aircraft to continue flying without having to stop for fuel.
+*
+Defuel Methods
+Defueling may be necessary for many reasons like, fuel tank/cell repairs, fuel system components failure, and changing fuel loads. Aircraft that use pressure-fueling are normally defueled from the SPR, allowing for rapid defueling of all tanks by connecting a hose to the quick disconnect SPR receptacle.
+Gravity defueling is the process of draining individual tanks by opening the drain valves on the bottom of that aircraft fuel tank. Some aircraft can be defueled by gravity methods using the condensation drain valves.
+Lastly the siphon method is used to remove fuel from external tanks (drop tanks) by inserting a defueling hose from the defuel truck into the tank’s filler port and having the fuel truck provide hose suction to remove the fuel out of that tank.
+*
+Fuel System Safety
+Refueling and defueling aircraft is extremely dangerous if not done correctly. You must follow the TO precisely. During refuels/defuels no other maintenance may be performed and only authorized personnel are allowed to be in the refuel/defuel area. It is imperative that all safety precautions are followed.
+Always ensure the aircraft is properly grounded
+Make sure the aircraft is parked no closer than 50 feet from any building and there is no AGE operating within 50 feet of the pressurized fuel source
+No smoking within 50 feet of the refuel/defuel operation.
+No radio transmissions within 10 feet of the aircraft
+Aircraft engines and ground radar will not be operated within 300 feet.
+Aircraft refuel team members will always establish a three-way static grounding and electrical bonding situation before fuel is added to or taken from the aircraft (fig. 4-14). The aircraft and all equipment used will be electrically bonded to each other and attached to an approved ground point located on the parking ramp.
+*
+Fuel Leak Classifications
+Containment of fuel leaks is critical, if left unchecked they can lead to fires and explosions. Fuel cell leaks are classified depending on the size of the leak evidence that accumulates within 6-minutes of the initial evidence being removed. The classification of fuel leaks also helps in determining the repair requirements for the system.
+There are four classifications of fuel leaks shown in Table 4-1, Leak Classifications.
+Leak Classification
+Criteria
+A — Slow Seep
+0-1/4 of an inch
+B — Seep
+Greater than 1/4 to 3/4 of an inch
+C — Heavy Seep
+Greater than 3/4 to 8 inches and/or less than 4 drops per minute
+D — Running Leak
+Greater than 8 inches or 4 drops per minute
+*
+Fuel System Fundamentals SUMMARY
+The complex fuel systems of modern aircraft deliver thousands of gallons of fuel to engines efficiently for mission success. Fuel lines, boost pumps, valves and storage tanks provide the necessary fuel supply to the engines. System failures on the ground and the air prevent this fuel delivery and maintenance crews must recognize these problems before an accident
+*
+Landing Gear System INTRODUCTION
+The Aircraft landing gear system must be exceptionally rugged to contend with the extreme stresses in which they are exposed. The landing gear provides support, ground steering, braking, and shock absorption. The size and configuration will vary from aircraft to aircraft, and it is up to the crew chief to ensure the landing gear is properly inspected and serviced to complete the mission.
+*
+Landing Gear Configurations
+Bicycle
+The bicycle landing gear has two main gears, one aft and one forward of aircraft center of gravity (CG), with two wheels of a similar size. To prevent the aircraft from tipping sideways, two auxiliary small wheels are employed on the wings.
+Tricycle
+The tricycle landing gear is the most widely used landing gear configuration. It offers better visibility and easier taxiing capability for pilots. Passenger and cargo handling is made easier with this configuration as the floor is level to the ground. Since main landing gears are attached slightly aft of the aircraft Center of Gravity, it offers better controllability of aircraft during landing and during ground operations.
+Quadricycle
+The quadricycle landing gear uses four gears. It uses two landing gear in the front and two at the rear closer to CG of the aircraft, so that weight of the aircraft will be almost equally distributed. The B-52’s landing gear is a quadricycle configuration (two wheels per shock strut). It consists of four main landing gear shock struts mounted to the fuselage in the form of a rectangle.
+Bicycle Retractable
+Tricycle
+Quadricycle
+*
+Landing Gear Components
+Various mechanical and hydraulic components make up a landing gear system. A standard landing gear system contains a shock strut, trunnion, selector valve, flow regulators, priority valves, check valves, actuating cylinders, and the necessary hydraulic tubing that routes hydraulic fluid to and from the required components.
+*
+Shock Strut
+Each landing gear is equipped with a shock strut. Shock struts (fig.4-17) are self-contained pneudraulic units relying on both hydraulic fluid and compressed gas to perform its job. It is sometimes referred to as an air/oil or oleo strut. The purpose of the shock strut is to absorb and dissipate the shocks experienced during take-off, landing, and ground operation; along with supporting the weight of the aircraft. Shock struts must be inspected and serviced regularly to function efficiently.
+*
+Trunnion
+The trunnion (fig.4-18) is a fixed structural support that is part of or attached to the upper strut cylinder of a landing gear strut. Aircraft landing gear are attached to the wing spars or other structural members, many of which are designed for the specific purpose of supporting the landing gear. Retractable gear must be engineered in such a way as to provide a strong attachment to the aircraft and still be able to move into a wheel well when stowed. It is attached to the aircraft structure in such a way that the gear can pivot from the vertical position required for landing and taxi to the stowed position used during flight.
+*
+Charging Valve
+The high-pressure air charging valve discussed during hydraulics (fig. 4-19) is used on most aircraft to provide a connection point to service struts with high pressure air or nitrogen. It is also used on struts for hydraulic fluid servicing where the entire valve body assembly is removed to service the strut with the hydraulic fluid.
+*
+Cylinders
+A shock strut is constructed of two telescoping cylinders or tubes that are closed on the external ends (fig. 4-20). The upper cylinder is fixed to the aircraft and does not move. The lower cylinder is called the piston and is free to slide in and out of the upper cylinder to create the desired shock absorbing qualities. Two chambers are formed. The lower chamber is always filled with hydraulic fluid and the upper chamber is filled with compressed air or nitrogen. An orifice located between the two cylinders provides a passage for the fluid from the bottom chamber to enter the top cylinder chamber when the strut is compressed.
+*
+Torque/Scissor Links
+To keep the piston and wheels aligned, most shock struts are equipped with torque links or scissor links (fig.4-21). One end of the links is attached to the fixed upper cylinder and the other end is attached to the lower cylinder (piston) so it cannot rotate. This keeps the wheels aligned. The links also retain the piston in the end of the upper cylinder when the strut is extended, such as after takeoff.
+*
+Tow/Mooring Points
+Attachment points are located on one or more landing gear shock struts for towing the aircraft (fig. 4-22). Aircraft mooring is done to minimize the possibility of movement of a parked, non-hangered aircraft due to high winds. High winds can result in damage to unsecured or inadequately secured aircraft and cause thousands of dollars in damage. In extreme instances, aircraft can be damaged beyond repair.
+*
+Jack Points
+Nose and main gear shock struts on many aircraft are equipped with jacking points (fig.4-23). The jacks should always be placed under the prescribed points. This is where the axle jack is placed to remove a wheel and tire or brake assembly.
+*
+Landing Gear Control Lever/Handle
+The landing gear control lever/handle (fig.4-24), located in each cockpit, is made of plastic formed into the shape of a wheel (tire) with a warning light inside. The warning light illuminates the entire handle any time the landing gear position does not agree with the position of the handle, or an inboard main landing gear door is not securely latched. The handle can be placed in two positions, up or down. Moving the handle UP or DOWN activates a switch, which controls the landing gear selector valve that directs the flow of pressurized hydraulic fluid to retract or lower the landing gear. A one-second time delay is provided in the landing gear circuit to protect the actuating system from damage in the event of a reversal caused by moving the landing gear handle in the opposite direction while the gear is in transit.
+Landing Gear Control/Selector Valve
+This component directs hydraulic pressure to gear and door sequence valves at each gear for either up or down cycle.
+Gear and Door-Actuators
+Hydraulic fluid, once routed through the sequence valves, is directed to the actuators. Landing gear and door actuators will then convert hydraulic pressure into mechanical energy to either retract or extend the landing gear and doors.
+Landing Gear Doors/Fairings
+Streamline wheel well openings.
+Landing Gear Restrictor Valves
+Slows the operation of the gear and doors during extension and retraction.
+Landing Gear Sequence Switch
+Controls the order in which the gear and doors operate
+Landing Gear Ground Safety Switches
+Micro-switches that control an electrical circuit that helps prevent retraction of landing gear when aircraft is on the ground. They are normally located on main gear torque links.
+*
+Ground Safety Locks
+Landing gear ground safety locks or pins are installed to prevent retraction of the gear. Locks or pins are installed after the aircraft lands and remain installed if the aircraft is on the ground. They are removed prior to engine start or taxiing for the next takeoff. All ground safety locks and pins will have a red “remove before flight” streamer attached.
+Landing Gear Uplock and Downlock Assemblies
+Lock gear in either UP or DOWN position.
+*
+Emergency Extension System
+The emergency extension system provides a means of extending the landing gear, manually, pneumatically, or hydraulically, if the normal system fails. To actuate this system, the pilot uses either the “pull” position of the landing gear control handle, an emergency extension handle, or other activating device.
+*
+Gear Position Indicating Systems
+Green Light Indicating System
+- Green light illuminates when each gear is down and locked
+- Handle illuminates when gear is in transit or is unsafe
+- All lights off when gear is up and locked
+- Uses a warning horn or audible tone/voice to indicate an unsafe condition
+- Warns pilot during landing approach if gear is retracted
+- A light in gear control handle/lever
+Tell-Tale Indicating System
+- Gear down and locked - picture of a wheel appears in window
+- Gear in transit, in unsafe position, or no power applied to aircraft - contrasting diagonal stripes (barber pole image) appears in window
+- Gear up and locked - word ''UP'' appears in window
+- Uses a warning horn or audible tone/voice to indicate an unsafe condition
+- Warns pilot during landing approach if gear is retracted
+- A light in gear control handle/lever
+*
+Nose Wheel Steering System
+Provides means for the pilot/co-pilot to maneuver the aircraft on the ground
+Rudder Pedals and/or Steering Wheel
+Provides the pilot a means to select the direction and degree of turn
+*
+Brake and Arresting Systems
+Wheel Brakes
+Slows or stops the aircraft wheel and tire assemblies
+Parking Brakes
+Parking brake valves lock system pressure to keep brakes engaged and prevent the aircraft from movement when:
+Wheel chocks are not installed
+During aircraft towing preparations
+Engine runs
+Refueling/defueling operations
+Arresting Gear
+Used to stop fighter aircraft in emergencies by catching a runway cable
+Danger area exists at the rear of the aircraft
+*
+Brake Components
+Rudder Pedals
+Operates the brake system by applying toe pressure to the top of the rudder pedals
+Brake Control Valve
+Directs hydraulic fluid to the brake assemblies
+Brake Assembly
+Slows or stops aircraft using friction between rotor disc and stators
+Multiple disc assembly provides more stopping power and it consist of the following components
+Brake Housing—Contains hydraulic pistons that push on pressure plate
+Pressure Plate—transfers pressure developed in the housing to the rotors and stators (causes friction)
+Rotors—Keyed to and rotate with the wheel
+Stators—Free floating stationary discs located between rotors, keyed to the brake
+Backing plate—Surface at the end of the brake assembly against which rotors and stators are pressed
+*
+Anti-Skid System
+Prevents wheel and tire assemblies from skidding during maximum braking using the following components:
+Anti-Skid Detector
+senses the speed of the wheel and sends an electrical signal to the anti-skid control unit
+Anti-Skid Control Unit
+determines the speed of the wheel and tire assembly and sends electrical signal to Anti-skid Control Valve
+Anti-Skid Control Valve
+applies/releases and reapplies brake pressure as needed to minimize skidding and maximize braking
+*
+Brake Bleeding
+Removes air from hydraulic fluid in the brake system and is only required when the brake is changed and when maintenance is performed on the brake system
+*
+Wheels and Tires
+Aircraft wheel and tire assemblies are removed and replaced as a unit. Utilize TO 4T-1-3 along with the aircraft specific TO for the inspection of tires for serviceability, maintenance, tire wear and servicing information
+Wheels
+Split Wheels (fig. 4-33)—where the two halves are bolted together are the most common type
+Tires
+Most common type is tubeless (fig. 4-34) and contain the flowing tire markings:
+Wear indicators
+Manufacture
+Size
+Cut limits
+*
+Associated Hazards
+Hot Brakes
+May cause explosion and/or fire
+Approach from the front or rear of the tire
+Verified by using temperature sensing devices
+Allow brakes to cool before performing maintenance
+Wheel and Tire
+Wear eye protection when working with compressed air or nitrogen
+When servicing tires always stand to the front or the rear of tire
+Always use low pressure tire servicing kits
+*
+Landing Gear System SUMMARY
+The landing gears of some modern aircraft support weights well over 400,000 lbs. and absorb tremendous stress related to landing and ground movement. Without these systems aircraft movement would not be possible.
+*
+Powered AGE INTRODUCTION
+This unit discusses Aerospace Ground Equipment (AGE) identification and the use of different types of powered AGE. You will learn about the hazards, safety precautions, and proper procedures to follow when using both powered and non-powered AGE. Powered AGE supplies the aircraft with electrical, hydraulic, and pneumatic power, as well as with heated/cooled air, and pressurized gasses. During night operations, lighting units help light up the work area.
+*
+Powered Aerospace Ground Equipment
+Purpose—provides electrical power, heating, cooling, lighting, pneumatic, and hydraulic pressure for the aircraft without operating aircraft engine(s). They will be used during all phases of launch, recovery, maintenance, and servicing operations and will always be maintained, serviced, inspected, and dispatched by AGE maintenance personnel.
+General information
+AFTO Form 244 is located on every unit, and MUST be reviewed prior to using the piece of AGE
+Maintenance personnel must perform a pre-use inspection prior to using AGE units
+All AGE units are to be operated by trained personnel only
+The operator panel contains necessary instructions, switches, and indicators to operate the unit
+Common hazards
+High-decibel engine noise levels are going to be present and will require DOUBLE HEARING PROTECTION
+Power cords/hoses are a tripping hazard
+Fuel vapors produced by the units are a source of ignition
+Fuel and lubricants used in and on these units are toxic and pose a fetal hazard
+*
+A/M32A-86 Diesel Generator Set
+Generates and delivers regulated electrical power for aircraft use
+Power is supplied at 115/200VAC, 3-phase, 400 Hz
+Can also provide 28 VDC power if equipped with a Transformer Rectifier pack and cable (not normally equipped)
+Towable unit
+Unit hazards
+Prior to connecting/disconnecting the power cable to/from the aircraft, ensure that the load control switch is in the OFF position
+Unit weighs excess of 6,000 pounds, use caution when moving it
+*
+A/M32A-95/Gas Turbine Air Compressor
+Is used to provide high-volume, low-pressure bleed air for:
+Starting aircraft engines
+Operating/testing aircraft systems and components that use bleed air
+Powering air conditioner units
+Unique Indicators
+Red fuel low light—Indicates when fuel in tank approaches empty
+White air load switch ON light—Illuminates when air load switch is placed to “ON”
+Safety
+Engine exhaust door must be fully opened and latched for unit to start
+Avoid the turbine plane of rotation
+Do not apply bleed air if the hose is not fully extended
+Use gloves to remove hose connection if bleed air was as it will be HOT
+*
+A/M32A-60 Gas Turbine Air Compressor/Generator Set
+Has the ability to provide both AC and DC electrical power and bleed air
+External electrical power range
+120/208 VAC, 3-phase, 400 HZ
+28 VDC
+Provides high-volume, low-pressure bleed air for
+Starting aircraft engines
+Operating/testing aircraft systems and components that use bleed air
+Air-conditioning units
+Unique Indicators
+Fuel Warning Air Horn—Warns of low fuel level
+GREEN “READY TO LOAD” light—indicates compressor is ready to provide bleed air to hose and Generator can supply electrical power
+GREEN AC Contactor light—indicates AC power is at the cable end
+GREEN DC Contactor light—indicates DC power is ready for use
+RED light—Indicates Bleed Air is on
+Safety
+Engine exhaust door must be fully opened and latched for unit to start
+Avoid the turbine plane of rotation
+Do not start if the RED “BLEED AIR ON” light is illuminated
+Do not apply bleed air if the hose is not fully extended
+Use gloves to remove hose connection if bleed air was applied
+Spring loaded tow bar automatically engages the wheel brakes when raised
+*
+Air Conditioning Equipment (ACE)
+Cools aircrew compartments during preflight and maintenance
+Cools avionic compartments to prevent overheating of equipment during preflight or before launch
+Collapsible ducts (fig.4-39) with splitters to fit most aircraft and compartments
+*
+Self-Generating Nitrogen Servicing Cart (SGNSC)
+Provides high- and low-pressure nitrogen to service aircraft pneudraulic and pneumatic components
+Pressure ranges
+Low pressure—0-400 psi
+High pressure—400-4,000 psi
+Unit Safety
+NEVER service low pressure systems with high pressure
+Servicing hose whip
+Always purge hose before connecting to aircraft components
+*
+Diesel Air Compressors
+Different air compressor units can provide low and high pressure compressed air for servicing pneudraulic and pneumatic components and systems
+Pressure range
+MC-2A, Low Pressure Air Compressor (fig. 4-42)—0-200 psi
+MC-1A, High Pressure Air Compressor (fig. 4-43)—0-3,500 psi
+Hazard
+High air pressure
+EMERGENCY USE ONLY (when nitrogen is not available)
+*
+Hydraulic Test Stand—(MULE)
+Provides the ability to pressurize hydraulic systems without operating the aircraft's engine(s) or auxiliary power unit which allows maintenance personnel the ability to do the following:
+Troubleshoot aircraft hydraulic system
+Perform operational and leak checks of the hydraulic system
+Operate all aircraft hydraulic systems simultaneously
+Drain, flush, and refill aircraft hydraulic systems
+Bleed air from aircraft hydraulic systems
+Most contain multiple hydraulic systems each with a supply and return hose, which are equipped with quick disconnect couplings that provides a means to quickly connect and disconnect the unit from the aircraft hydraulic systems
+Unit hazards/safety
+Hydraulic fluid under pressure is dangerous
+ENSURE hoses are depressurized before connecting/disconnecting
+Gloves and goggles required when handling hoses
+*
+Lighting Equipment
+FL-1D floodlight set
+Provides light for night maintenance and operations
+Equipped with a 120V AC, single phase, 60HZ electrical outlets (like house outlets) for test equipment and tools
+Electrically started diesel engine
+Equipped with 2 or 4, 1,000 watts lights mounted to a 12-foot telescopic tower
+Towable unit which can pose a hazard as the bar must be lowered to raise tower
+Ground heaters
+Are designed for heating aircraft engines and propellers prior to start, cockpits and crew compartments before take-off, and maintenance personnel shelters
+Unit has a pull-start feature (fig. 4-46b) in the event of a dead battery along with collapsible, flexible ducts in different sizes to fit all types of aircraft
+*
+Powered AGE SUMMARY
+As aircraft have become more complex, the equipment used to support them has become more complex. As a crew chief, you will use many different types of powered Aerospace Ground Equipment (AGE) to maintain your aircraft in top condition. Some support equipment such as tow vehicles and power units are common to many different aircraft.
+
+Non-Powered AGE INTRODUCTION
+Non-powered AGE aids maintenance personnel in the performance of their duties such as servicing, inspections, and maintenance of aircraft. There are maintenance stands to help reach objects that are out of reach, jacks capable of raising the entire aircraft, jacks that only raise a single axle, and servicing carts used to service various systems on the aircraft.
+*
+Non-Powered AGE
+Purpose—provides maintenance personnel with non-powered stands, jacks, and servicing equipment to help maintain aircraft. They will be used during all phases of launch, recovery, maintenance, and servicing operations and will always be maintained, serviced, inspected, and dispatched by AGE maintenance personnel.
+General information
+AFTO Form 244 is located on every unit, and MUST be reviewed prior to using the piece of AGE
+Maintenance personnel must perform a pre-use inspection prior to using AGE units
+*
+Maintenance Stands
+Stands
+Functions
+C-1
+Non- adjustable 4-foot platform
+2 wheels on rear legs
+B-1
+Hydraulically adjustable in height from 3 to 10 feet
+Ram lock must be engaged before ascending the ladder
+4 wheels, 2 with caster locks and hand brakes
+B-2
+Hydraulically adjustable in height from 13 to 20 feet
+Ram lock must be engaged prior to ascending the ladder
+4 angle jack pads (jackscrews)help stabilize the stand
+4 caster wheels with locks
+B-4
+Hydraulically adjustable from 3 to 7 feet
+Scissors-type stand
+2 lock pins engage platform rollers for safety
+Raised and lowered while standing on platform
+4 caster wheels with locks and hand brakes
+B-5
+Hydraulically adjustable from 7 to 12 feet
+All other specifications are identical to the B-4
+*
+Maintenance Stand Safety
+Ensure all handrails are installed. May be removed as required for maintenance, then reinstalled
+Do not ride on rolling stands
+Position stands close to, but not touching, aircraft structure
+Ensure adequate clearance when placing stands under the aircraft structure
+Always face the maintenance stand while ascending or descending if the angle is greater than 45 degrees
+Ensure all caster locks and brakes are set prior to use
+All stands have 500 pound weight limit
+*
+Aircraft jacks
+Tripod Jack
+used to raise an entire aircraft off ground for landing gear retraction/extension, operational checks and troubleshooting (also for weight & balance)
+Rated in tons of lifting capacity
+Operated by hand or by manifold jacking set
+Axle Jack
+Used to raise a single landing gear for such procedures as wheel/tire and brake removal
+Rated in tons of lifting capacity
+Operated by hand
+Jacking safety
+Jacking an aircraft outside is not permitted if winds exceed 15 MPH or designated by specific TO
+*
+Gaseous Nitrogen Servicing Cart
+Used to supply gaseous nitrogen to service low and high pressure components
+Contains eight nitrogen cylinders strapped length wise on towable unit
+Intermediate control valves control gas flow to manifold. (Ensure only one valve opened at a time)
+Single stage pressure regulator provides adjustment to system being serviced
+Manifold shutoff valve permits gas to enter a purifier before going to pressure regulator
+*
+Liquid Oxygen (LOX) Servicing Cart
+Are used to service LOX to systems and consist of the following components:
+Storage tank
+Valves
+Build-up
+Service
+Vent
+Flexible metal servicing hose
+Purging adapter for purging the servicing hose
+Ground wire
+Required PPE
+Eye protection
+Face shield or
+Safety goggles or
+Safety glasses with side shields
+Apron and white cotton coveralls
+Insulating gloves with cuffs
+Long sleeved shirt and hat
+AFTO Form 134
+Is an addition form located on the servicing cart
+Identifies the aircraft, date, and amount serviced from each servicing unit
+Easy method to identify the aircraft that has been serviced with contaminated LOX
+Hazards
+LOX is -297° F and will severely burn exposed skin
+Keep all ignition sources at least 50 feet away from the servicing area
+Ensure the servicing equipment is free from grease, oil, and dirt
+DO NOT smoke within 30 minutes of servicing
+Never ''stomp'' LOX droplets
+*
+Gaseous Oxygen (GOX) Servicing Cart
+Are used to service high and low pressure GOX systems
+Components
+Regulator
+Hose
+Manifold
+A typical GOX cart will contain eight oxygen cylinders
+The cylinders are painted green with a white band
+“Aviators Breathing Oxygen" is stenciled in white on the side of each bottle
+Uses the same AFTO Form 134 as the LOX cart
+Servicing Safety
+Eye protection must be worn when servicing GOX
+Never point hose at personnel or aircraft
+*
+Engine Stands and Dollies
+Purpose
+Used for removal, installation, and transport of aircraft engines
+Propulsion flight is focal point for coordination and use
+Description
+Engine Stand-A set of rails connected to an elevating main frame by a hydraulically controlled linkage system
+Engine Dolly-Four-wheeled hydraulically controlled mobile trailer with tow bar mounted forward and pintle hook aft to provide means of transporting engines singularly or in train
+*
+Non-Powered AGE SUMMARY
+Maintenance technicians depend on all manners of tools to support aircraft services. The simplicity of a C-1 stand in its small role plays an important part by providing access to panels and components quickly and safely. The importance of AGE to the mission of “Fly, Fight, and Win!” cannot be understated.

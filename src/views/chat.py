@@ -91,7 +91,7 @@ def get_openfull_response(prompt, history, input):
 
 def find_vector(search_text):
     # Change is ready from DB later
-    filePath = Path(settings.BASE_DIR, 'src', 'static', 'studyGuides', 'blk1_embeddings.csv')    
+    filePath = Path(settings.BASE_DIR, 'src', 'static', 'studyGuides', 'fundies.csv')    
     df = pd.read_csv(filePath)
     df['embedding'] = df['embedding'].apply(eval).apply(np.array)
 

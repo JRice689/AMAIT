@@ -1,0 +1,1017 @@
+Engine System Introduction
+There are many different models of turbojet engines in the Air Force today. Developments over the years have produced a more efficient engine, both from a performance and maintenance point of view. Modern engines are more complex, but they still operate according to the same basic principles as a car engine. The air needs to be sucked in, squeezed down, fuel added and ignited to get the bang, and blow out the exhaust gasses. A jet engine does it with a linear flow design instead of pistons moving up and down. In this unit you will learn about the major sections which are universal to all turbojet engines.
+
+Terms and Operating Principles
+Physic principles govern the action of matter, motion, force, and energy. An English scientist, Sir Isaac Newton, stated three laws of motion. His third law states that “for every acting force (action) there is an equal and opposite reacting force (reaction). This law is used to explain the principle of Conservation of Momentum. These laws and principles have words or terms with specific meanings. 
+
+Physics Terms of Jet Engine Operation
+Term
+Definition
+Mass
+Anything that occupies space and has weight
+Air Density
+Is the amount of air mass in a given space
+Acceleration
+Means the increase in velocity (speed)
+Thrust
+Is the power produced by a jet engine that drives an aircraft forward and is measured in pounds
+*
+Operating Principles
+Momentum is the mass of something multiplied by how it is accelerated. A jet engine uses this idea by taking a mass of air into the front at a slow speed and pushes the same mass of air out of the back a lot faster. Because the momentum going into the front of the engine is a lot smaller than that coming out the back, the engine generates forward trust thanks to physics i.e., conservation of momentum (e.g., action/reaction).
+A jet engine uses two key principles, the Venturi Effect and the Ideal Gas Law to accomplish the forward thrust. If you have a rigid tube with one end larger than the other, what goes into the system must still come out. This is like a garden hose when you squeeze the end of it, the same amount of water must come out of the hose even when you make the opening smaller, therefore the water coming out must travel faster. This is called the Venturi Effect and is why a jet engine is big in the front and very small in the middle.
+The Ideal Gas Law relates temperature to the pressure, volume and amount of air. The hotter a gas is, the more volume it takes up or the bigger it appears. Putting this together with the Conservation of Momentum the air can now start working on how to go faster. At the front of the engine there is a fan and compressor which sucks in air and compresses it increasing the mass of the air in the engine but keeping the intake velocity low. The air is then ignited with the help of some fuel and expands in size/volume. The same air mass going into the engine must leave it as well, but because it takes up more space or volume, it must travel a lot faster meaning we increase velocity.
+*
+Compressor Section
+The compressor section (fig. 3-2) is the first section common to all jet engines. The primary function of the compressor is to supply air with enough quantity to satisfy the requirements of the combustion section. Specifically, the compressor increases the air pressure of the air mass received from the inlet duct and directs it to the combustion section (burners) in the quantity and at the pressure required. As the air is compressed, its temperature increases; increase can be as high as 900° Fahrenheit.
+The group of rotating “rotor” blades attached to a rotating shaft is what creates the suction (air flow) to pull the air in and move it rearward. The stationary “stator” blades located behind each of the rotor blades straighten the airflow and direct it to the next stage of rotor/stator blades. Combining one row of rotor blades and one row of stator blades creates one stage of compression (fig. 3-3).
+*
+Combustion Section
+The hot compressed air leaving the compressor section enters into the combustion section of the engine where it is mixed with fuel and ignited (i.e., Ideal Gas Law). Burning the fuel/air mixture produces gaseous energy which then causes the air to expand rapidly and be expelled rearward.
+*
+Turbine Section
+Directly after the combustion section is the engine’s turbine section (fig. 3-5). The turbine and compressor sections are linked by the turbine shaft. In this section, each row of stator blades/vanes increases the velocity of the air mass onto the rotor blades/vanes to convert the gaseous energy exiting the combustion section into mechanical energy. This is where your plane of rotation markings will be located. Therefore, the turbine transforms a portion of the kinetic (velocity) energy of the exhaust gasses into mechanical energy that is transferred to the turbine shaft to drive the compressor and accessory sections.
+*
+Exhaust Section
+The exhaust section directs the flow of hot gasses rearward as it leaves the turbine, and accelerates the gasses being discharged from the exhaust nozzle at the rear of the exhaust duct. The nozzle opening and size are critical in regard to gas flow out of the engine; changing its size and length determines how much or how little thrust is produced by the engine.
+*
+Non-augmented exhaust
+This type of exhaust is the simplest to understand. It uses a fixed (non-moveable) exhaust nozzle to direct the air mass from the engine and thrust the aircraft forward. This is most commonly seen on aircraft using the high-bypass turbofan engine.
+*
+Augmented exhaust
+In its standard configuration, the gas turbine engine cannot meet certain demanded maneuvering performance levels. An additional component, the augmenter, provides that demanded increase in thrust to the aircraft over short periods of time. The augmenter mixes the exhaust of bypassed air and turbine exhaust gas into one exhaust. Additional fuel injectors are located downstream of the turbine blades which can be ignited to increase temperature significantly, resulting in a steep increase in engine net thrust. This is called the afterburner and the more sophisticated augmented exhaust design uses a variable (flexible) exhaust nozzle.to achieve that steep increase.
+*
+Accessory Section
+The accessory section of the engine has various functions. The primary function is to provide space for the mounting of accessories necessary for the operation and control of the engine. It also includes accessories such as a constant speed drive, integrated drive generators, fluid power pumps, system monitoring components, and various engine control devices. The secondary purpose includes acting as an oil reservoir, oil sump, and providing for transmittal of initial rotating force from starter to the turbine shaft. The accessory section is driven by the turbine shaft in the compressor section geared to a Power Take-off (PTO) drive shaft (tower shaft) gear coupling, which splines with the gearbox.
+*
+Turbofan Engines
+The term “turbofan” stands for “turbine” and “fan,” the “turbine” part represents a gas turbine that obtains mechanical power through combustion, and the “fan” part represents a ducted fan that utilizes the gas turbine’s mechanical power to accelerate the air backward. The fan of the turbofan draws excess power from the exhaust gases through the turbine by way of the turbine shaft. Simply put, the "turbine" and "fan" rely on each other to make the whole operation work. Turbofan engines can be broken into two basic types: High Bypass Fan and Low Bypass Fan. There is no technical difference between the two except the amount of air being bypassed around the core of the engine. There is either a high amount of air or a low amount of air that is bypassed through the duct.
+*
+High Bypass Fan
+An engine whose fan thrust is much larger than the jet thrust is called a high bypass fan. The air sucked inside the engine via the fan is divided into two paths. One enters the engine core where combustion takes place while the remaining part of the air (bypass air) moves outside of the engine core. This bypassed air creates the thrust for the aircraft, cools the engine, and calms it down by removing the engine exhaust gases. The engine’s core must produce adequate energy to run the fan based on fuel throttle position. To improve fuel consumption and reduce noise, almost all larger aircraft utilize this type because they do not need to accelerate quickly or to fly at Mach speed (760 mph).
+*
+Low Bypass Fan
+Low-bypass engines develop most of their thrust from air that enters through the fan and used by the combustion section of the engine. After leaving the turbine, the remaining pressure forces the hot gasses through the engine’s augmented exhaust duct at very high speeds. The air that entered the inlet is now expelled at a much higher speed than when it entered. This produces the engine thrust. The small amount of bypassed air around the core engine is used for engine cooling and augmenter operations. This engine is commonly used in fighter aircraft for rapid increases in thrust for flight operations that include takeoff, climb, missile evasion, combat maneuvers such as high-G turns (high gravity turn) and to fly above Mach speeds.
+*
+Turboprop engine
+The turboprop gas turbine engine is similar to a turbofan except the duct enclosed axial flow fan is replaced with a gearbox and propeller which are connected to the front of the compressor with an extension shaft. The shaft drives the propeller through the reduction gearbox assembly.
+*
+Components unique to turboprop engines
+The reduction gearbox (fig. 3-14) assembly changes the high Revolutions per Minute (RPM)/low torque of the turbine section to the low RPM/high torque necessary for efficient propeller operation. The reduction gear case also provides the drive and location to mount the propeller and accessories. Accessories mounted on the case include a starter, generator, engine-driven compressor, oil pump, and tachometer generator. An array of different diameter gears inside of the reduction gear assembly accepts the high-speed/low-torque output delivered from the engine via the extension shaft and converts it to the necessary low-speed/high-torque to turn the propeller at its most efficient speed.
+The extension shaft assembly transmits the high-speed/low-torque output of the engine to the reduction gear assembly. This extension shaft assembly also contains a torque-meter assembly to monitor the amount of power output. A signal from each torque-meter assembly is transmitted to gauge in the flight deck to indicate to the pilot power output of each engine.
+The turboprop propeller (fig. 3-15) is operated by a jet engine through a reduction gear assembly. The turboprop fuel control and the propeller governor are connected and operate in coordination with each other. The power lever directs a signal from the cockpit to the fuel control for a specific amount of power from the engine. The fuel control and the propeller governor together establish the correct combination of RPM, fuel flow, and propeller blade angle to create sufficient propeller thrust to provide the desired power.
+*
+Engine System SUMMARY
+The same basic operating principle applies to all Turbojet engines, action/reaction. The sections that make up the engines are compressor, combustion, turbine, exhaust and accessory. The type of Turbojet engine used depends on the aircraft design and function. Turbofans have a bypass duct for either fuel efficiency (high bypass) or speed (low bypass). The turboprop is used to for turning high RPM/low torque into low RPM/high torque which allows the aircraft to take off or land on much shorter runway strips and stop very quickly.
+*
+Engine Components INTRODUCTION
+Several different components mounted to the engine or incorporated inside the engine provide support systems for effective engine operation. The engine needs a method of starting, the moving surfaces must be lubricated, and the fuel control ensures the engines receive the necessary amount of fuel to operate in different environments.
+
+Starters
+Jet engine starters provide initial rotation of the gearbox and compressor, which provides air under pressure to support combustion and rotation of the engine to increase the rotor RPM until the engine reaches a self-sustaining speed. The starter is generally mounted on the main accessory section gearbox and consist of two different types, which are the pneumatic and mechanical types. The start and/or control switches or buttons are located at the pilot’s station console.
+Pneumatic type
+The air turbine starter (fig. 3-16) is pneumatically driven by low pressure high volume compressed air which is called bleed air and mechanically connected to the engine through a gearbox. The starter’s source of compressed bleed air derives from one of three possible sources: a piece of Aerospace Ground Equipment (AGE) containing an external gas turbine compressor, a small jet engine internally mounted in the aircraft called an auxiliary power unit (APU), or bleed air from another operating engine on the same aircraft.
+Mechanical type
+A Jet Fuel Starter (JFS), (fig. 3-17) is used mostly on fighter aircraft. A JFS is a small internally mounted gas turbine engine (like an APU) used to start the engines mechanically. Mechanical rotational speed and torque created by the JFS turns the engine compressor for start sequence through the accessory section gearbox tower shaft geared to the engine.
+*
+Ignition System
+Three things are necessary to cause a fire—a combustible material (such as aircraft fuel), oxygen, and heat. Ignition is necessary only during the start cycle to ignite the fuel-air mixture. Electronic ignition systems provide internal combustion for aircraft engines. All that is needed is a series of sparks with enough intensity to cause combustion. The ignition/exciter unit (fig. 3-18) is a dual-circuit and dual-output unit that supplies a high-voltage, high-energy electrical current for ignition. Therefore, the exciter (coil/distributor) develops voltage of sufficient amplitude to produce a spark as the voltage jumps across the gap at the end of the igniter plugs (spark plugs). The resultant spark across the gap is of high heat intensity, capable of igniting fuel mixtures.
+*
+Engine Fuel System
+The engine fuel system is used to provide regulated fuel flow to the combustion section of the engines (and augmenter sections of low-bypass engines) to meet engine demands. It schedules (meters) the correct amount of fuel to the combustion chambers. The fuel is then mixed with compressed air and ignited. The system relies on many sub-components such as pumps, control units, and manifolds working in unison to operate effectively.
+*
+Engine-Driven Fuel Pump
+The engine-driven fuel pump (fig. 3-20) is turned by gears in the accessory section of the engine. The purpose of this pump is to deliver a continuous supply of fuel at the proper pressure to the fuel control unit during engine operation. Constant pressure is maintained by a spring-loaded pressure relief valve.
+*
+Fuel Control Unit
+The fuel control unit (fig. 3-21) is the heart of the gas turbine engine fuel system. Depending upon the type of engine and the performance expected of it, fuel controls may vary in complexity. Modern fuel control units sense some or all of the following engine operating variables:
+Pilot’s demand (throttle position)
+Compressor inlet temperature
+Compressor discharge pressure
+Burner pressure
+Compressor inlet pressure
+RPM
+Turbine temperature
+The fuel control consists of a fuel-metering system and a computing system. These two internal systems work together to regulate the amount of fuel being delivered to the fuel nozzles in the combustion section, via the fuel manifold.
+*
+Fuel Manifold
+The fuel delivered from the fuel control unit is carried from outside the engine by a manifold system. The fuel manifold supplies metered fuel as it leaves the fuel control and delivers it to the fuel nozzles located at the front of the combustion chambers (burners). As you can see in, (fig. 3-22) the fuel manifold is a series of tubing and pipes designed to carry (distribute) fuel to multiple locations.
+*
+Fuel Nozzles
+In jet engines, the function of the fuel spray nozzles (fig. 3-23) is to inject fuel into the combustion area in a highly atomized, precisely patterned spray (fig. 3-24). This allows the fuel to burn evenly and in the shortest possible space and time. It is very important that the fuel be evenly distributed by the spray to prevent the formation of any hot spots in the combustion chambers. It is of particular value for this reason that the spray be well centered in the flame area of the combustion chamber liners.
+Fuel nozzle types vary between engines; mostly fuel is sprayed into the combustion area under pressure through small orifices in the nozzles. Atomization of the fuel occurs as it exits the fuel nozzle to help form the correct spray pattern (that resembles the spray of an aerosol can) inside the combustion chambers for proper burning of the fuel mixture.
+*
+Fuel Flow Indicator
+Fuel flow indicating systems provide a continuous indication of the rate of fuel delivery to the engine. The rate of flow is in Pounds per Hour (PPH). Fuel flow transmitters are incorporated into the engine fuel system to monitor the amount of fuel flowing into an engine. The signal from the transmitter is sent to the fuel flow indicator inside the cockpit or flight deck.
+*
+Engine Control System
+Throttles directly control the power output of the engines; more throttle, equals more power. In most engines (car, lawnmower, etc.) this also controls the RPMs of the engine. Push forward for higher RPMs, pull back for less. Aircraft use a throttle quadrant (fig. 1-24) to house all the engine’s throttle levers that are needed to operate the engine control systems through mechanical throttle linkage or electrical signals. The pilot moves the throttles to control the engine’s thrust. Therefore, the throttle linkage connects the throttle to the fuel control unit to determine how much power (thrust) the engine can develop by controlling the amount of fuel and air entering the engine. When full power is needed (pushed forward), the throttle allows the maximum amount of fuel and air to enter the system to produce maximum thrust. When idle power is warranted (pulled back) only a small amount of fuel and air can enter the system, and the engine produces minimum thrust. As you can see, the engine fuel control, one for each engine, responds to throttle positions and supplies the proper amount of fuel to the fuel manifolds.
+*
+Instrument System
+Aircraft instruments are essential to the pilot during flight, as well as to the mechanic when checking proper engine operation, troubleshooting, or performing maintenance on the engine. Instruments provide a means of monitoring critical engine operating conditions using separate indicators for each engine.
+*
+Range Markings
+Operating limitations and ranges are illustrated by colored markings which appear on an instrument’s face (fig. 3-27). Red markings indicate the limit above or below which continued operation is likely to cause damage or shorten life. The green markings indicate the safe or normal range of operation. The yellow markings indicate the range when special attention should be given to the operation covered by the instrument. Operation in the yellow range is permissible but should be avoided. Therefore, color-coded range markings on the indicators reflect normal and abnormal operating ranges. In addition, the instruments may be analog or digital depending on the type of aircraft configuration.
+*
+Types
+Engine instruments provide indications of exhaust temperature, oil and fuel pressure, engine
+RPM, oil temperature, and fuel flow rate. The pilot must always be aware of engine operations. If oil pressure falls below the normal operating limit or exhaust temperature becomes excessively high, the engine instruments provide these indications to the pilot.
+*
+Tachometer
+The tachometer indicator (fig. 3-28) is an instrument that shows the speed of a gas turbine engine (jet) main rotor assembly. The dials of tachometer indicators used with jet engines are shown in percentage of RPM. Basically, the tachometer system monitors compressor RPMs based upon the rotational speed of the compressor section. For example, an engine designed to operate at a maximum RPM of 5800 but is only spinning at 4600 would indicate an output amount of 80% on the tachometer indicator.
+*
+Exhaust Gas Temperature/Turbine Inlet Temperature
+To properly monitor the operation of an aircraft engine, you must know various temperature indications. Temperature sensing devices, called thermocouples, mounted near the turbine section of an engine extend into the exhaust gas stream. The thermocouples convert the gas temperature into an electrical signal to be displayed by the indicator in degrees Celsius, referred to as Exhaust Gas Temperature (EGT). Some aircraft place the thermocouples into the exhaust stream to measure the EGT. Others place them in front of the turbine and measure the Turbine Inlet Temperature (TIT). Regardless of which indicating system is used, they both provide a visual temperature indication using gauges (fig. 3-29) in the cockpit of the engine’s gasses. The EGT or TIT indicator is on the pilot’s main instrument panel and the scale ranges from 0°C to 1,200°C.
+*
+Oil Pressure Indicator
+Oil pressure indicators (fig. 3-30) show that oil is or is not circulating properly. Pressure sensors mounted in the system measure the oil pressure produced by the pumps and send the data to indicators in the flight deck or cockpit to display the pressure in pounds Per Square Inch (PSI).
+*
+Oil Temperature Indicators
+As oil passes through the engine, it absorbs heat from the metal it contacts. Unlike oil pressure, changes in oil temperature occur more slowly. This is particularly noticeable after starting a cold engine, when it may take several minutes or longer for the gauge to show any increase in oil temperature. Sensors in the system measure the temperature and send a signal to the gauges (fig. 3-31) located on the pilot’s control panels. A green area shows the normal operating range and the red area indicates the minimum/maximum allowable temperatures. High oil temperature indications may signal a plugged oil line, a low oil quantity, a blocked oil cooler, or a defective temperature gauge. Low oil temperature indications may signal improper oil viscosity during cold weather operations.
+*
+Thrust Reversers
+The extreme weight of modern cargo aircraft imparts a tremendous amount of stress on the landing gear and brakes during landing. A thrust reverser system (fig. 3-32) used on these aircraft relieves some of this stress by assisting with slowing the aircraft during landing roll or aborted take-off. Mechanical doors behind either the fan section or exhaust section redirect thrust forward to slow the aircraft. These doors are moved into the fan/exhaust air stream using actuators controlled by positioning the throttle. The doors, when activated, will redirect the exhaust air flow in a forward direction and assist in slowing the aircraft down without using breaks. Only high bypass engines have this system. If the engines are located under or behind the wings either the clamshell or bucket type is used. On most larger aircraft, with engines placed in front, the cold stream is utilized.
+NOTE: Some engine thrust reversers allow the aircrew to back up the aircraft on the ground.
+*
+Compressor Anti-stall System
+A compressor stall is caused when the airflow into an engine is disrupted. This causes turbulence and pressure fluctuations within the engine and can lead to engine failure. The compressor anti-stall system prevents compressor stalls and surges due to the disruption of the airflow into the compressor section during rapid acceleration or deceleration. The use of variable inlet guide vanes and/or variable stator vanes permits the angle of one or more rows of stator vanes in a compressor to be adjusted preventing airflow disruption.
+Variable Inlet Guide Vanes
+A gas turbine engine in which the angle of the inlet guide vanes can be changed to meet the requirements of the engine-operating conditions. These are normally in front of the first stage of an axial compressor and sometimes in the subsequent stages as well. Normally, they are closed during engine starting and low RPM, but they open progressively as the RPM is increased. At low RPM, the angle of attack of the low-pressure blades is kept moderate to avoid stalling.
+Variable Stator Vanes
+The Variable Stator Vane (VSV) system is positioned behind the compressor rotor blades. The function of the VSV system (fig. 3-34) changes the angle of the stator vane to optimize the airflow through the engine as the air passes from one stage to the next at all engine speeds. VSVs operate in the same manner as the IGV and are positioned aft of the rotor blades.
+*
+Engine Anti-Ice System
+Whenever icing conditions are encountered, the performance characteristics of aircraft deteriorate. Routing a portion of the hot bleed air from the engine compressor section through ducts in the fan and inlet sections prevents the formation of ice (fig. 3-35). Left unattended, this ice will disturb the airflow into the engine and cause damage to the engine.
+*
+Oil System
+Lubricating oils must perform three basic functions in a jet engine:
+Lubrication
+Cooling
+Cleaning
+In most cases, a pressure pump system furnishes oil to the engine to be lubricated and cooled in either a dry sump (fig. 3-36) or a wet sump (fig. 3-37) lubrication system. A scavenging pump returns the oil to the tank for reuse. Most systems will include a heat exchanger (air or fuel version) to cool the oil. In general, the parts to be lubricated and cooled include the main bearings and gears sealed within the engine.
+*
+Reservoir
+The reservoir stores the system oil supply. The location of the reservoir determines if the oil system is a dry-sump or wet-sump design. The wet-sump style uses the accessory gearbox located at the bottom of the engine to store the oil. In the dry-sump style (fig. 3-38), oil is stored in an external tank mounted somewhere near the engine.
+*
+Pumps
+The oil pressure pump (fig. 3-39) supplies oil under pressure to engine bearings and gears to cool and reduce friction between moving parts. Once the oil has served its purpose the scavenge pumps return the oil to the reservoir/tank.
+*
+Filter assemblies
+Filter assemblies contain the filter elements used to keep oil clean. The filters are an important part of the lubrication system, since they remove most foreign particles in the oil. Without some type of filter in the oil system, dirt or metal particles suspended in the oil could damage bearings, clog passages, and cause engine failure.
+To allow for oil flow in the event of filter blockage (clogged), some versions of filter assemblies incorporate a bypass or relief valve as part of the filter or in the oil passages. When the pressure differential reaches a specified value (about 15 to 50 psi), the internal bypass relief valve opens to allow oil to bypass the filter (fig. 3-40). When this occurs, the filtering action is lost, allowing unfiltered oil to be pumped to the bearings. This is a dangerous situation; however, unfiltered oil is better than no oil. Some filters have a Differential Pressure Indicating Pin (Delta-P), located somewhere on the filter assembly, which pops (extends) to alert you when a filter has clogged to the point that it needs to be checked.
+*
+Oil Cooler
+Oil coolers reduce the temperature of the oil by passing it near streams of ram air (fig. 3-41) or fuel (fig. 3-42). The heat energy in the oil transfer to the cooling medium (air or fuel) and exit the cooler at a lower temperature. Since the fuel flowing through the cooler is greater than the oil flow, the fuel can absorb a considerable amount of heat. These coolers keep the temperature of the oil within the proper range.
+*
+Pressure/Breather Vent
+Vapors created in the bearing cases is another issue that occurs when the oil heats up in the system. The vent system removes the oil vapors from the entire system by venting all the bearing compartments, oil tanks and accessory gearboxes.
+*
+Oil System Servicing
+Oil is the lifeblood of the aircraft engine. If the oil supply to the bearings stops, the lubricating films break down and cause scoring, seizing, and burning between moving parts. Manufactures normally require turbine engine oil servicing within a short time after shut-down, primarily to prevent over servicing as oil may leak from storage tank to gearbox over time. In all cases the TOs should be followed for the specific aircraft not only for servicing procedures, but also for type and grade of oil used.
+Servicing Requirements
+Aircraft oil tanks (fig. 3-43) are normally checked after each flight and serviced as needed IAW applicable aircraft TOs. Aircraft oil tanks are serviced with either clean unopened oil cans or oil servicing carts and should never be filled to above maximum capacity or above the labeled full mark on the gauge or dipstick. This is because oil expands when it becomes hot, and at high altitude it bubbles and expands. When pouring oil into the tanks through the filler neck or servicing through the connection port, be sure rags or other foreign substances do not get into the tanks. Foreign material in the oil system restricts the flow of oil and can cause engine failure.
+*
+Precautions
+Before servicing, get your aircraft’s specific maintenance TO for the task to determine the proper Military (MIL) preference of oil, servicing equipment, procedures, and PPE (gloves and goggles) for use. The extremely high engine temperatures transferred to the engine oil present a serious burn hazard to you. The highly toxic nature of the engine oil contributes to negative health effects, including fetal hazards. Always consult the Safety Data Sheet (SDS) to determine the exact toxicity and hazards associated with oil system servicing (fig. 3-44). If oil contact occurs, you must wash any effected skin areas and seek medical attention if you ingest oil.
+*
+Engine Components SUMMARY
+The core of powered flight is the use of very powerful engines producing massive amounts of thrust. Everything in the engine must work in perfect unison to provide this power and propel aircraft into the sky. If one piece of the system malfunctions the results can be catastrophic. Abnormal range mark readings on the instruments provide early indication of problems and maintenance technicians must understand these readings. Your knowledge of these systems and the decisions about engine maintenance may be the difference between many successful sorties or aircraft never returning from a mission.
+*
+Utility System Fundamentals INTRODUCTION
+Modern day aircraft fly higher and faster than those of the earlier days of flight. The effects of the atmosphere on the aircrew and aircraft as they fly at high altitudes can have negative impacts on mission completion. Utility systems are in place to counteract physiological symptoms aircrew experience in extreme conditions.
+*
+Bleed Air System
+It is important to understand what is meant by bleed air and where bleed air comes from. Bleed air is pressurized air originating from the engine compressor section. The compressing of the air into a confined space causes a tremendous increase in the air temperature as high as 900° F. This design gives a source for high temperature, high-volume and low-pressure air to operate various aircraft pneumatic systems. Many aircraft have utility systems that rely on bleed air to function (fig. 3-45). Some of the applications that use bleed air are:
+Pneumatic starting of engines.
+Deicing and anti-icing equipment
+Cabin pressurization, heating, and cooling
+*
+Components
+Bleed air is often bled from the final or highest pressure stage through devices called compressor bleed ports (fig. 3-46), at this point, pressure and air temperature are at a maximum. Bleed air ducts (fig. 3-47) route this air from each engine compressor section, APU or external air source to the aircraft systems. They are constructed of heat resistant materials to protect the airframe, other components and personnel from the excessive temperatures (800 - 900°F). Switches located in the control cabin or cockpit provide a means of isolating the engine bleed air shut off/isolation valves (fig. 3-48) to control air flow into or out of the engine enclosure. Bleed air pressure is sensed by the bleed air pressure regulator located in the bleed air supply duct downstream of the crossover duct isolation check valves. The bleed air pressure regulator maintains the bleed air output within the established tolerances. Check valves are installed in the bleed air system where needed to prevent the reverse flow of air. An external air receptacle (fig. 3-49) is installed as part of the duct system to provide an attachment point for an external source of bleed air. Some aircraft come equipped with an on-board APU. This is a small gas turbine compressor that can provide bleed air for engine starting and operational checks of supported pneumatic systems.
+*
+Air Conditioning System
+When a gas is compressed, it gets hot. When expanded, gas cools, meaning that it transfers heat to the surrounding air. Most turbine-powered aircraft air conditioning systems are based on an Air Cycle Machine (ACM) cooling device, often called the cooling turbine. In large aircraft, the whole environmental heating/cooling system is bundled together, including the bleed air heat source, the ACM, and mixing valves. This bundle is commonly referred to as a “pack.”
+Packs remove the excessive heat from bleed air to a few degrees above ambient temperature and rapidly expands the air via a cooling turbine to near freezing temperatures. Normally two packs are installed for capacity and redundancy to provide conditioned air for pilot/crew and passenger comfort, equipment cooling, and aircraft pressurization. To control cabin temperature the cooled air from the ACM is simply mixed with unconditioned bleed air. Two or more temperature mixing valves are used for this purpose. The conditioned air is then distributed throughout the aircraft via ducts.
+*
+Components
+The most basic air conditioning system consists of many interrelated components including heat exchangers, which are radiator like devices in a car to help cool the engine. The air conditioning heat exchanger (fig. 3-51) uses ram air to initially cool bleed air. After initially cooled, the air passes through the cooling turbines which cools the air to near freezing temperatures through rapid expansion. The rapid de-compression of the air releases water in the form of moisture. The moisture is removed from the cool air by the water separator (fig.3-52) installed downstream of the cooling turbine. The modulating/temperature mixing valves connects untreated bleed air and conditioned cold air ducts to obtain the desired cabin temperature. The temperature selector/controllers (fig. 3-53) control the positioning of the modulating/temperature mixing valve. The conditioned air is routed through the air ducts for pressurization from the air conditioning system to crew stations, equipment bays and other pressurized compartments. Because of their extreme sizes some larger aircraft come equipped with more than one air conditioning system (left and right side packs). If both packs fail, an emergency ram air inlet valve ventilates the cockpit to allow fresh air to enter the cabin or to remove smoke, vapors, or other hazardous air from failing turbine oil seals.
+*
+Pressurization System
+Pressurization is one of those aircraft systems that is very simple in concept but surprisingly complicated in execution. The principle, of course, is to seal up the airplane’s cabin into a pressure vessel. Air is then pumped in to maintain internal pressure as close as possible to that at sea level in order to create a safe and comfortable environment for crew flying at higher altitudes. This helps to ensure an adequate amount of oxygen is available for breathing. Some aircraft incorporate a cabin pressurization subsystem that will operate automatically when a pressure differential exists inside and outside the aircraft. This is accomplished by the regular release of air through the outflow valve to control the cabin pressure according to a predetermined altitude.
+*
+Pressurization Components
+The efficiency of aircraft pressurization depends on multiple components working in concert to control the internal pressure of the aircraft. The aircrew can select the desired cabin pressure in relation to the aircraft’s actual altitude. The pressurization has four general functions (Table 3-2) controlled by the cabin pressure regulator which automatically positions the outflow valve (fig. 3-55) allowing the escape of pressurized air to maintain cabin pressure within safe structural limits. If the ram air valve is open, the outflow valve with be open to 50% to maintain some pressurization.
+Pressurization Functions
+Description
+Ground Function
+Fully opens outflow valve on ground
+Pre-pressurization
+During takeoff, increases pressure to avoid a surge in cabin during rotation
+Pressurization in flight
+Adjusts cabin altitude, and rate of change to provide comfortable flight in conjunction relief valves (positive or negative)
+Depressurization
+After touchdown, gradually releases residual overpressure before ground function with dump valve
+*
+Oxygen System
+The Human body is dependent on oxygen. As the altitude increases, the consequent decrease in pressure reduces the amount of oxygen the human body can absorb when breathing. To enable flight at high altitudes either the aircraft cabin must be pressurized (normal operation), to replicate the pressure at a lower altitude, or the occupants of the aircraft must be given supplemental oxygen. Depending on the aircraft’s design, oxygen is stored in containers as either liquid or gaseous oxygen or it is created onboard using an on-board oxygen generating system (OBOGS).
+The oxygen system must be able to supply a non-pressurized aircraft during emergency situations such as loss of cabin pressurization. It can also provide oxygen during high altitude cargo/personnel airdrops when the cargo compartment must be open or for the fighter pilot during combat or aerial refueling operations. Regardless of the style of installed system, the aircrew needs a means of delivering the oxygen for use; this is accomplished using oxygen regulators and oxygen masks.
+*
+Oxygen Regulator
+The oxygen regulator (fig. 3-56) serves as the connection between the aircraft’s installed oxygen system to deliver regulated pressure and flow to the aircrew members’ oxygen masks. Internal components automatically combine cabin air and oxygen as needed to provide a proper 21% oxygen concentration to the mask at any altitude. Depending upon the aircraft type, regulators can be constant flow or diluter-demand
+The constant flow regulator provides the same output pressure or flow regardless of altitude. The regulator is therefore optimized for a specific altitude. At altitudes lower than the designed optimum altitude, it will provide more oxygen than is required. This type of regulator is most often found in non-pressurized aircraft and on portable oxygen systems. A single constant flow regulator can control the oxygen flow to all users.
+When installed, diluter-demand regulators will be located at each crew position. Depending upon user selection, the diluter-demand regulator can provide 100% oxygen under positive pressure or a mixture of oxygen "diluted" with cabin air. The regulator also works on "demand". That is, the oxygen or air-oxygen mixture only flows into the mask during inhalation. The regulator might be a standalone unit, or it could be incorporated into the mask itself.
+*
+Liquid Oxygen (LOX) System
+Liquid oxygen (LOX) is a pale blue transparent liquid. It uses an evacuated double-walled insulation design converter cylinder (fig. 3-57) to keep the liquid oxygen under pressure at a very low temperature (-297° F). The liquid has an expansion ratio of about 862 to 1, which means a small quantity of LOX can be converted to an enormous amount of gaseous oxygen, resulting in the use of very little storage space compared to that needed for high-pressure gaseous oxygen cylinders. The liquid is nontoxic but will freeze (burn) the skin severely upon contact. Use extreme caution not to touch components containing LOX unless gloves are worn, bare skin would immediately stick and freeze to the metal surface. LOX will react violently when it encounters oil, grease, asphalt, kerosene and any ignition source such as a spark (static electricity). Aircraft LOX servicing (fig. 3-58) should not be done during refueling, defueling, or other maintenance work, which could provide a source of ignition.
+*
+AFTO Form 134
+The AFTO form 134 is stored on the LOX servicing cart and identifies the aircraft, date and amount serviced from each serving cart. This form must be filled out as it is an easy way to identify what aircraft has been serviced with that particular cart in case it is discovered that the LOX from the cart is contaminated LOX.
+*
+Liquid Oxygen Components
+In the aircraft, oxygen in the liquid state is stored in a container called a converter. This is a double-walled, vacuum-insulated container like the common Thermos bottle. It is necessary to convert LOX into usable gaseous oxygen for crewmembers and/or passengers. The converter is equipped with the necessary valves and tubing inside the container for vaporizing the liquid (converting liquid to gas). From the converter, the extremely low temperature oxygen must travel through a heat exchanger to avoid lung damage. The warmed oxygen is directed to storage cylinders for later usage or to a regulator for immediate use of an oxygen mask.
+To monitor LOX levels within the converter, the quantity gauge receives a signal from the quantity probe on liquid oxygen converter. This probe senses the amount (quantity) of liquid contained in the converter. This information is transmitted to the quantity gauge by an electrical cable. The quantity gauge is marked in liters from zero to the systems maximum storage capacity (i.e., 0 to 10).
+*
+Gaseous Oxygen System
+Gaseous oxygen (GOX) systems are used primarily in large aircraft where space and weight limitations are less important, and the systems are used only periodically. Gaseous oxygen is a colorless, odorless, and tasteless gas at normal atmospheric temperatures. It is stored in high pressure cylinders at pressures near 1,800 psi. Pressure regulators installed in the oxygen system limit the GOX output to safe levels. Delivery of the GOX to the aircrew is accomplished in the same manner as systems that utilize LOX. Associated plumbing, valves and oxygen regulators ensure the aircrew receive oxygen as needed.
+*
+Portable Oxygen Bottle/Cylinder
+Portable oxygen systems include walk-around cylinders (fig. 3-60), survival kits, and bailout units. The portable oxygen cylinders provide aircrew a supply of gaseous oxygen to allow movement around unpressurized aircraft for short periods and when conditions require them to use an oxygen system (e.g., smoke in the cabin). Recharging hoses installed on the aircraft allow the aircrew to recharge the bottles from the main oxygen system.
+*
+On-Board Oxygen Generation System (OBOGS)
+Due to the limitations present in GOX and LOX, the third-generation system, On-Board Oxygen Generation system
+The MSOGS works by separating oxygen from nitrogen and other impurities by means of pressure swing adsorption (PSA) technology. This technique uses a zeolite (natural volcanic mineral) molecular sieve (filter) two bed system which is alternatively pressurized and de-pressurized to absorb the nitrogen. When one bed is de-pressurized and purged of its nitrogen the other bed is in pressurization cycle producing oxygen enriched breathable gas. This is called the concentrator and is sensed by the oxygen monitor to warn the pilot if there is a low pressure of gas. The concentrator boost pumps provide high-pressure oxygen to recharge portable oxygen bottles in flight in the event of a malfunction.
+OBOGS presents considerable advantages over LOX, including significant life cycle cost advantages, improves safety, weighs less, and on some aircraft eliminates the need for LOX generation, servicing and storage.
+*
+Fire and Overheat Warning System
+The fire and overheat warning system help notify aircrew when a potential hazardous or fire condition exists. These detection systems are designed to detect the presence of fires or overheating in zones such as the engine bays or nacelles and to illuminate a warning light in the pilot’s compartment. To detect these fires or overheat conditions units of the system are installed in locations where the greatest possibilities of a fire exist.
+*
+Fire and Overheat Components
+A fire and overheat detection system is used to signal the presence of a fire or overheat condition. Ideally, the system should first indicate an overheat condition well before the malfunction escalates to a fire. Two different detectors used in this system, depending on engine, are the thermal switch and the continuous loop detectors.
+A thermal switch style system has one or more lights in the pilot’s compartment energized by the aircraft power system and the thermal switches located in the engine areas (fig. 3-62) that control operation of the light(s). The thermal switch system uses a bimetallic thermostat switch design that will expand upon the detection (or set value) of temperature increase to complete an electrical circuit to the warning light.
+A continuous loop detector (fig. 3-63) permits more complete coverage of a fire hazard area than any type of thermal switch temperature detector. Two widely used types of continuous-loop thermistor type detectors are the Kidde (top) and the Fenwal (bottom) systems. Wires imbedded in an insulating core within a tube prevent a circuit to complete. Reaching the designated temperature range causes the insulating core to experience a change and become more conductive. This completes the circuit and illuminates warning lights in the pilot’s compartment to alert the pilot of the fire or overheat condition.
+Pilots get aircraft operating status inputs from various indicator (warning, caution, and advisory) lights. The fire/overheat warning indicators are intended to alert the pilot and grab their attention (fig. 3-64). Yellow (or in some cases flashing red) lights are used to indicate an overheat condition exist while a steady red light indicates that a fire has developed. In addition to the lights, some aircraft use an audible warning device that activates at the same time as the lights to get the pilot’s immediate attention. The best time to discover that the fire and overheat warning system does not function properly is before the need for the system arises. Testing system circuit continuity, warning lights and audio signals are accomplished by test switches or buttons located in the cockpit/crew station compartments.
+*
+T-handles/Fire/Overheat Warning Panel
+Fire control T-handles (fig.3-64, 3-65) or fire push button lights used to arm the extinguisher system are centrally located in the cockpit/flight station. The fire detector system will indicate an engine/APU fire by illuminating the MASTER CAUTION light and the light in the respective fire control T-handle or fire push buttons. Pulling the fire control T-handle or pushing the respective engine fire button will electrically arm the extinguisher system and close the fuel shutoff valve stopping the flow of fuel going to that particular engine or APU and stops the bleed air from leaving or entering the engine by closing associated valves.
+*
+Fire Suppression System
+The engine fire suppression (extinguisher) system consists of a supply cylinder, explosive squib, and valve strategically located in each aircraft. When an engine fire button is pushed or a T-handle is pulled, the following happens: the engine stops because the fuel control shuts off, the engine is isolated from the aircraft systems, and the fire extinguishing system is armed. Pushing the lens of the PUSH TO EXTINGUISH fire switch or turning the T-handle will activate the squib, expelling all the agent in the cylinder at one time (fig. 3-66). The non-toxic/noncorrosive agent, called Halon, stored in the spherical container on the aircraft is released into the engine/APU enclosure. The agent surrounds the external engine/APU inside the enclosure and extinguishes the fire by excluding oxygen from the area.
+*
+Utility System Fundamentals SUMMARY
+Systems in this unit have either been developed out of necessity for comfort or safety; they must operate flawlessly to keep our aircraft safe and return the flight crew back to allow them to continue their mission another day.
+*
+Hydraulic System INTRODUCTION
+Aircraft hydraulic systems found on most aircraft perform many functions. Some of the systems operated by hydraulics are flight controls, landing gear, speed brakes, auxiliary systems, and brakes. Hydraulic systems have many advantages as power sources for operating various aircraft units; they combine the advantages of light weight, ease of installation, simplification of inspection, and minimum maintenance requirements. Hydraulic operations are also almost 100 percent efficient, with only negligible loss due to fluid friction. There are disadvantages as well, such as the possibility of leakage, both internal and external that can lead to complete system failure. One of the major reasons for failure of the hydraulic system is contamination of fluid due to foreign material.
+*
+Hydraulic System
+The hydraulic system develops, controls, and directs the fluid under pressure to move various mechanisms on the aircraft. Mechanisms such as flight controls, landing gear, and nose wheel steering are all controlled with hydraulic pressure. The terms below (Table 3-3) will help to understand the hydraulic system.
+Hydraulic Terms
+Hydraulics
+The science of liquids in motion
+Pneumatics
+The science of gases in motion
+Pneudraulics
+The use of liquids and gases within the same system
+Pressure
+Force applied to a unit of area and measured in pounds per square inch (PSI)
+Hydraulic fluid types
+Petroleum
+Synthetic
+May be colored red or purple for identification
+*
+Hydraulic plumbing
+Used to create a complete and closed path throughout the aircraft. Lines are identified with labels that are colored blue, yellow, and white (white bands contain black circles), (fig. 3-68).
+Hydraulic Lines
+Supply Line
+Supplies fluid from the reservoir to the pump
+Pressure Lines
+Delivers fluid from pumps to control valves
+Alternating Lines
+Lines that carry fluid flow to/from control valves and actuating units
+Return Lines
+Returns fluid back to reservoir from control valve
+Hoses
+Used where flexibility is required and can be reinforced with braided metal wire cover when needed, there is also an indicator stripe to show if hose is twisted.
+Tubing
+Aluminum alloy used for low pressure. Titanium or stainless steel are used for high pressure or exposed areas.
+*
+Reservoir
+Used to store hydraulic fluid for system use and may be pressurized or non-pressurized:
+Pressurized
+Pressurized by engine driven pump or engine bleed air for flight operation
+Hydraulic test stand for ground maintenance
+Ensures a constant flow of fluid to the pumps
+Non-pressurized
+Relies on gravity to feed pumps
+Open air vent located at top
+Air filter in vent line prevents fluid contamination
+Quantity Indicating System
+Indicates direct amount of fluid in the reservoir
+*
+Pumps
+The basic function of a pump is to pressurize and supply fluid to the system. May be operated by the following:
+Rotation of main engine
+Electrically using motors
+Manually by hand
+With the pumps being operated by the methods listed above they can also be broken down into different types which are:
+Constant Volume (fig. 3-73)—Maintains a constant flow of fluid at any given pump speed regardless of system demands
+Variable Volume (fig. 3-74)—Output volume varies with system demand but the pressure remains steady
+Hand Pump (fig. 3-75)—Used for ground operations
+*
+Actuating units
+Used to convert hydraulic pressure into mechanical movement and consist of:
+Linear actuating (fig. 3-76) cylinder converts pressure to linear movement
+Hydraulic motor (fig. 3-77) converts pressure to rotary movement
+*
+Accumulator
+Have either a spherical or cylindrical design with two chambers. Filled with either hydraulic fluid or compressed nitrogen and are separated by a movable piston, diaphragm, or bladder:
+Stores hydraulic fluid under pressure
+Aids the pump at peak operating loads
+Dampens pressure surges
+Emergency source of pressure if a hydraulic system fails
+*
+Valves
+Movable devices used to start, stop, or regulate fluid flow through the system. They can be controlled:
+Manually
+Electrically
+Pneumatically
+Mechanically
+Hydraulically
+Combinations of two or more methods
+Types of Hydraulic Valves
+Check Valve
+Designed to only allow fluid flow in one direction
+Pressure relief Valve
+Prevents pressure build up within system caused system malfunctions
+Relieves excess system pressure by returning fluid to the reservoir
+Dump Valve
+Dumps system pressure for maintenance (operation is like pressure relief valve, it is just manually operated instead of relying on an over pressure scenario)
+Control/Selector/Servo Valve
+Directs flow of fluid to and from an actuating unit and controlled differently depending on the application, those methods include the following:
+Mechanically (control valve)
+Manually (selector valve)
+Electrically (servo valve)
+Shut-off Valve
+Stops fluid flow
+Restrictor Valve
+Slows the movement of fluid in one or both directions
+Shuttle Valve
+Used to separate normal from emergency systems
+Allows system with the highest pressure to operate the actuating unit
+Internal mechanism blocks pressure from weaker system
+Charging Valve
+Provides connection for servicing hydraulic and pneumatic components
+*
+Hydraulic Fuse
+Automatically shuts off fluid flow if a line should break
+Hydraulic Fluid Coolers
+Cools hydraulic fluid by ram air or aircraft fuel
+*
+Filters
+Removes foreign particles from hydraulic fluid
+Filter By-Pass Valve—Allows fluid to by-pass the filter element if it becomes clogged
+Differential Pressure Indicator (fig. 3-88a, b) (DPI/Delta-P)—A red indicator pin extends to indicate a clogged filter
+*
+Pressure Indicating System
+Direct Reading Pressure Gauge
+Attached directly to system components to indicate system pressure
+Indirect Reading Pressure Gauge
+Located in the cockpit, receives an electric signal to indicate system pressure
+*
+Hydraulic Schematic/Diagram
+Uses graphics/symbols to represent system components and are used to trace the flow of fluid which helps with troubleshooting and repair. They can also be used to learn overall system operation, troubleshooting and repair.
+Schematic—A simple way to show all the components and connections in a hydraulic system
+Diagrams—These aids in hydraulic component recognition (location) and identification
+*
+Servicing Safety
+Hydraulic fluid servicing
+Hydraulic fluid is toxic which poses a fetal hazard
+Glove and goggles are required as PPE
+Pneumatic Servicing
+Always use proper eye protection
+Inspect servicing equipment and charging valve for serviceability
+Purge air servicing hose before use
+Never service low pressure systems with high pressure air
+*
+Hydraulic System SUMMARY
+The immense power of fluid in motion plays an intricate part in the safe operation of aircraft and makes it possible to perform some amazing missions. Hydraulic systems assist with the movement of large surfaces in flight. The use of these systems is limited only by the imagination of the engineers.
+*
+Electrical System INTRODUCTION
+The purpose of the electrical system on the aircraft is to develop proper electrical voltage and frequency to operate the various aircraft electrical systems and components. These areas that require power are such things as the flight deck/cockpit displays, flight controls, avionics systems and in-flight galleys. This power is produced by either an internal source such as an engine driven generator, APU, or an external source such as a generator set.
+*
+Electrical Terms
+For you to understand the electrical system concept, you first need to have a basic knowledge of the items and terms used in many parts of the electrical system. Electricity is just the process of moving the negatively charges particles of an atom, the electron, through a conductor (fig. 3-93).
+Current
+The flow of electrons through a conducting medium called a conductor (which will be discussed further in this section). In order to have current flow you must have it connected to a negative and positive. To measure how strong the current is, we measure the current flowing through the conductor in amperes, expressed in AMPS.
+Direct Current (DC)
+It is characterized by the continuous flow of electrons in one direction (same direction) through a circuit (fig. 3-94). Batteries are great examples of DC because the electrons always flow from the negative side to the positive side.
+Alternating Current (AC)
+Electrons in an alternating current run back and forth, changing the direction (frequency) of the flow several times per second (fig. 3-95). Therefore, AC earns its name from the way current flows (alternates) in the system.
+*
+Frequency Cycles, or just frequency (fig 3-96), is the number of completed cycles the alternating current makes in one second and is measured in Hertz (Hz). In your home, the current changes direction at a rate of 60 hertz, or 60 times in one second and in most aircraft require 400Hz to be able to pull more amperes. Figure 3-96 shows two different versions of frequency. The left shows a single-phase system, the middle is a three-phase system, and the right shows how to measure one complete cycle. In systems with multiple frequency cycles, each independent cycle is considered a phase. Aircraft AC electrical systems require a three-phase system
+The flow of electrons in either an AC or DC system relies on an additional force to operate systems or components. Voltage (fig. 3-97) is an electromotive force that pushes current through a conductor. Voltage is measured in units called volts (V).
+No matter which electrical current you deal with (AC or DC), there will be some sort of resistance between the two points on a conductor and that resistance is called and measured in ohms (fig. 3-97). The symbol for ohms is the Greek letter omega (Ω). The more resistance the less voltage can push through a conductor
+A conductor (fig. 3-98) is an object or type of material that allow the flow of free electrons (electrical current) in one or more directions. To move this current we mainly use copper conductors due to its low resistance and relative cost to other better conductors such as gold, platinum and other precious metals. To contain the electron flow on a conductor, a barrier called insulation is applied to the conductor. Insulators are materials that prevent or isolate the flow of electrical current through them.
+*
+Protective Devices
+Opens or stops current flow in a circuit when current flow exceeds rated capacity. A fuse is a protective device that is designed to melt, or blow (fig. 3-99), when a specified amount of current is exceeded. It is an expendable protective device that is connected in series and prevents potential damage caused by an excessive current flow on an electric circuit.
+Current limiters (fig. 3-100) are high amperage fuses that isolate buses if a short circuit occurs. This device is a specific type of fuse that absorbs a large amount of excess current for a defined period (usually very short) before melting the metal strip.
+A circuit breaker (fig. 3-101) is a type of protective device that when the electrical current limit is exceeded, will open (trip) to break the circuit and stop current flow. The primary difference between a fuse and a circuit breaker is the reset capability built into the circuit breaker. After the condition causing the excess current flow is corrected and the circuit breaker cools down internally, it can be reset.
+*
+Control Devices
+The units in the electrical circuits of an aircraft are not intended to operate continuously or automatically. Most of them are meant to operate at certain times, under certain conditions, and to perform very definite functions. There must be some means of controlling their operation. Either a switch or a relay, or both, may be included in the circuit for this purpose. Switches and control devices (Table 3-6) are used to start, to stop, vary or change direction of the current flow in the circuit.
+Switches and Circuit Control Devices
+Toggle Switch
+Operates by moving a toggle (lever) to open or close a circuit
+Limit Switch (Micro Switch)
+Operated by contact with or linkage to a moving surface to open or close a circuit—Require very small amount of movement to actuate the switch. (e.g., refrigerator door light switch)
+Rotary Selector Switch
+Rotating a knob connects or disconnects one or more circuits to or from their power source.
+Relay
+Remotely operated device used to connect a circuit to its power source—Normally opened and closed using an electrical control circuit connected to a toggle or limit switch
+Rheostat
+Movement of a control knob varies the amount of current allowed to flow in a circuit
+*
+Guarded Switches
+Switch guards are covers that protect a switch from unintended operation. Prior to the operation of the switch, the guard is usually lifted. Some switches may have a “guard” of some fashion placed over them and some may simply be surrounded on the sides. The purpose for these guard methods is to prevent accidental positioning of switches for flight control systems, landing gear, and high voltage electrical circuits. Covers guard against accidental or undesired system operation, or to prevent injury to personnel, and/or damage to equipment. Accurate installation of switches and guards is critical to safe operation of the protected circuits/systems. Installing a guard that would force a switch to the ON position for a system that is normally OFF could have deadly consequences.
+The style and method of switch guard protection depends on the system design and type of switch being guarded. Emergency systems need to be covered until needed, while a landing gear switch simply needs a locking mechanism installed. One variation of the toggle switch is a red colored toggle switch cover (fig. 3-102). The red switch cover protects the toggle switch from accidentally being turned on. When you flip up the cover, you will have full access to the switch underneath. Upon closing the red cover, it will force the switch arm back into a default position (usually off). It is a safety design mechanism so you can quickly close the cover and deactivate the system. Another toggle switch guard is the black colored toggle switch covers. They serve the same basic purpose as their red covers; however, the hollow underside of the cover does not affect the switch position when it is closed.
+In the case of a push-button style switch, aircraft use two different design styles to guard them. They may have a raised edge around them that creates a hole (consider it a bowl) to protect the switch but allows for finger access. Another variation of these protective devices could have a hinged cover that opens for access to the switch.
+*
+Alternating Current (AC) Electrical System
+AC Electrical Control Panel
+Provides a central location for the major power distribution components such as the buses and power control relays.
+Contains push-button switches, toggle switches, control knobs and annunciator lights
+Switches and knobs control the modes of operation
+Annunciator lights assist in the proper management of the aircraft’s electrical system
+AC Bus Bar—distribution point for all AC circuits.
+AC Generators/Alternator Drive Units
+A generator is a machine that converts mechanical energy into electrical energy.
+AC generators
+Provides mechanical methods necessary to produce AC power
+Constant Speed Drive (CSD)
+Maintains a constant speed to continue frequency within established tolerances
+Integrated Drive Generator (IDG)
+CSD and AC Generator units are combined into one unit
+Generator Control Unit (GCU)
+Regulates generator output to protect the electrical system
+Transformer-Rectifier (TR)
+A component that is used to reduce the AC voltage and change it into DC voltage.
+Charging the battery
+Operating the DC equipment in the aircraft
+*
+External Electrical Power Receptacle
+Connection point (plug) for Aerospace Ground Equipment that produces electrical power. This allows the aircraft’s electrical system to work without the need to run the engines or APU (using the aircraft’s generators). Like using a generator to run the electricity in a house.
+*
+Emergency Power System
+For many years, the battery was the only source of emergency electrical power, but over the years new methods have been used for providing emergency electrical power. Most of our aircraft have emergency generators. The main components of this system are the emergency generator and the emergency generator control unit. Larger aircraft can use their internal APUs to supply emergency power. These power units furnish electrical power when engine driven generators are not operating or when external power is not available.
+*
+Direct Current Electrical System
+Direct Current (DC) is a bit easier to understand than AC. The biggest difference is in how the power moves in the system; DC power flows from one point to another versus the oscillating back and forth pattern of AC. DC provides a constant voltage and is used on systems that must be compatible with battery power. Most airplanes use a 24-to-30-volt DC system that have special equipment requiring a certain amount of 400 cycle AC current. In these aircraft a component called an inverter is installed to change DC to AC.
+The DC electrical systems have many of the same components as the AC system.
+DC electrical control panel
+Provides indicators to operate and monitor the DC electrical system during aircraft operation.
+Determines if the system is functioning correctly
+Batteries provide initial, auxiliary and emergency power
+Charged by the generators during normal aircraft operation
+Battery types
+Lead-Acid
+Nickel-Cadmium (Ni-Cad)
+Rated at 28 volts
+DC Bus Bar
+Receives power from Battery or TR unit
+Distribution point for the DC power
+*
+Electrical Schematic/Diagram
+Much of the information contained in various manuals used by the Air Force are in the form of schematics and diagrams. Electrical schematics and wiring diagrams allow you to learn overall system operations, trace electrical circuits, and troubleshoot electrical problems. Electrical schematics (simplified version of wiring diagrams) are used to learn the overall system operations of an aircraft’s electrical system. Schematics (fig. 3-103) use graphic/electronic symbols to aid in learning overall system operations.
+The wiring diagram (fig. 3-104) uses graphic and electronic symbols as well to represent circuits but in much greater detail than a schematic. The figure provided below shows an example of a circuit for a system. Wires are identified by numbers; the current amount is indicated by the 7.5A at the portion for the Pilot Side CB Panel between the DC bus bar and jack 86 pin G on a cannon plug that connects to the Anti-icing control panel.
+*
+Electrical System SUMMARY
+The electrical distribution system is the link between the aircraft’s source of electrical power and the aircraft’s electrical loads. Power is normally supplied from the aircraft’s own engine-driven generator or APU but can be supplied from an external source (AGE) through a power cord connected to the aircraft’s receptacle. A bus bar is used as a terminal in the aircraft’s electrical system to connect the main electrical systems to the equipment using either AC or DC electricity. Fuses or circuit breakers are used to protect the circuits and equipment from electrical overloads. Control devices such as switches are ways to control the flow (of electricity) much like a valve. Whether the system is AC or DC, you must understand how everything is interconnected and NEVER connect AC to DC.
+*
+Flight Controls INTRODUCTION
+When looking at flight control systems they are either considered a primary or a secondary system. Primary flight controls provide longitudinal, directional, and lateral control of the aircraft around the three axis of rotation. Secondary flight controls provide additional lift during takeoff and landing, decrease aircraft speed during flight, as well as assisting primary flight controls in the movement of the aircraft about its axis. All system consists of flight control surfaces, the respective cockpit controls, connecting linkage, and necessary operating mechanisms.
+*
+Fundamental of flight
+Forces That Affect Aircraft In Flight
+Drag
+The force that tends to hold or slow an aircraft from forward motion
+Affected by the shape of the aircraft's configuration, such as fuel tanks and munitions
+Lift
+Developed by air flowing over the wing faster than under the wing
+Factors affecting lift:
+Degree of wing curvature (camber)
+Size of the wing
+Angle of attack
+Velocity of the airflow across the wing surface
+Air density
+Thrust
+The reaction to the force used to accelerate a mass of air rearward
+Gravity
+The force that attracts an object toward the center of the earth
+*
+Flight Control Systems
+Manual
+Movement of controls position flight control surfaces directly through mechanical linkage
+Mechanical linkage provided using cables and/or push-pull rods
+Boost
+Operates in similar fashion as a manual system
+Hydraulic actuators provide boosted assistance to move surface.
+Movement of the cockpit controls directs hydraulic pressure to move the control surfaces
+If hydraulic pressure is lost flight controls can be manually operated
+Fully powered
+No direct linkage from pilot’s controls to flight control surfaces
+Movement of the cockpit controls mechanically positions hydraulic control valves
+Control valves direct fluid under pressure to actuators which in turn move control surface
+Primary flight control systems are powered by more than one hydraulic system (redundant) as a safety measure (no manual backup)
+Fly-by-Wire
+Control inputs are electrically transmitted to a flight control computer
+Computer sends electrical signals to a servo-valve, which routes hydraulic fluid to appropriate actuator to move control surface
+On some aircraft, the servo valve and actuator are combined into a servo actuator
+Some aircraft have a mechanical backup for the primary flight controls
+*
+Axes of Rotation
+Longitudinal
+Runs lengthwise from nose to tail, movement around the axis is known as ''ROLL'' (wing up or down), controlled by aileron
+Lateral
+Runs wing tip to wing tip, movement around the axis is known as ''PITCH'' (nose up or down), controlled by elevator/stabilator
+Vertical
+Runs vertically through the center of the aircraft, movement around the axis is known as ''YAW'' (nose left or right), controlled by rudder
+*
+Primary Flight Control Surfaces
+The three primary surfaces (fig 3-111) which are used to control the aircraft around the three axes of rotation. They are constructed of aluminum alloy or composite materials with a honeycomb design and consist of the following:
+Ailerons
+Located near the outboard trailing edge of the wing
+Controls ROLL movement around the longitudinal axis
+Controlled by left or right movement of control stick/wheel/or yoke
+Rudder
+Located on the trailing edge of the vertical stabilizer(s)
+Controls YAW movement around the vertical axis
+Controlled by left or right movement of the rudder pedals
+Elevator
+Controls PITCH movement around the lateral axis
+Used on aircraft that fly Subsonic
+Flies at air speeds lower than the speed of sound (e.g., C-130, KC-135)
+Located on the trailing edge of the horizontal stabilizer
+Controlled by forward or aft movement of control stick or wheel
+Stabilator
+Combines both the stabilizer and elevator into one unit to control pitch
+Used on aircraft that fly Supersonic
+Objects moving at supersonic speeds are going faster than the speed of sound. The speed of sound is about 768 miles per hour at sea level. That is about four times faster than a racecar. (e.g., F-22, F-35)
+Two Types:
+Solid—Both sides are connected and move in same direction at the same time
+Differential—Move independently to assist in roll control for aircraft
+*
+Primary Flight Control Trim Systems
+Provides pilot with means to make minor adjustments to roll, pitch, and yaw
+Assists in maintaining a straight and level flight
+Manually, electrically, hydraulically, or electro-hydraulically operated
+Types
+Surface type— Entire primary flight control surface is moved to make adjustments
+Tab type— Small surfaces hinged at the trailing edge of the primary control surface
+*
+Secondary Flight Controls
+Are used to supplement the primary flight controls and are mainly used during take-off and landing which consist of the following components:
+Wing Flaps
+Increase lift and drag
+Installed on trailing edge of the wings
+Variations can include leading edge flaps
+Used at slower airspeeds and during landing roll
+Position is selected by pilot using handle, lever, or switch
+Can be powered electrically or hydraulically
+Slats
+Located on leading edge of wings
+Extend downward into air stream to:
+Increase wing camber and provide additional lift during take off
+Create a channel and force air over wing at high angle-of-attack
+Hydraulically or aerodynamically operated
+Speed brakes
+Increases drag to slow the aircraft in flight or on landing roll
+Located on or near the fuselage
+Hydraulically actuated
+Spoilers
+Attached to upper surface of the wings
+Extend into air stream to decrease lift and increase drag
+On some aircraft assist ailerons with roll movement/act as speed brakes
+Hydraulically actuated
+Note: Depending on the aircraft, some Primary and Secondary flight Control functions can be combined into a single control surface (i.e., Flaperons, Elevons)
+*
+Augmentation Systems
+Stability augmentation system
+Coordinates turns and smooths out bumps due to turbulent air
+On bomber aircraft, makes aircraft a stable platform to launch weapons
+Autopilot System
+Eases the pilot's workload on long missions
+Maintains preset altitude and course
+Artificial Feel System
+Used on fully powered and boost systems
+Provides pilot with feedback resistance to flight control movement
+Used at higher speeds to prevent over-control of aircraft
+*
+Flight Control Hardware
+Provide the means to input movement commands to the flight control surfaces; they are in the pilot and co-pilot stations:
+Control Rod
+Transmits linear motion through the system
+May be fixed in length or adjustable at one or both ends
+Pulley
+guides cables around obstacles and turns
+Turnbuckle
+joins cable ends together and permits adjustment of cable tension
+Quick Disconnect
+Joins cable ends together
+Allows for frequent connection and disconnection of cable ends
+Reduces need to readjust cable tension
+Fairlead
+Keeps cables from contacting aircraft structure to prevent chafing, vibration, and wear
+Pressure Seal
+Allows cables to pass through pressurized bulkheads of aircraft
+Used to prevent pressure loss
+Torque Tube
+Transmits rotary (twisting) motion
+Quadrant
+Interconnects cables, control rods and/or torque tubes
+Changes direction of movement where needed
+Bellcrank
+Changes the direction of force of control rods and cables
+Cable Tension Regulator
+Maintains cable tension during various air loads and changes in ambient temperature
+*
+Flight Controls SUMMARY
+An aircraft in flight is affected by the four major forces: drag, lift, thrust, and gravity. An aircraft may be equipped with manual, boost, fully-powered, or fly-by-wire flight control systems. The aircraft is controlled in flight around the longitudinal, lateral, and vertical axes by the primary flight control surfaces with assistance from the secondary flight control surfaces. Flaps and slats create additional lift and drag while the trim systems provide a means for minor adjustments to primary flight control surfaces in flight. The pilot operationally checks each flight control surfaces prior to flight with the assistance of maintenance personnel performing as ground observers.
+*
+Hardware INTRODUCTION
+Often overlooked is the importance of aircraft hardware because of the small size of most items. However, the safe and efficient operation of any aircraft depends upon the correct selection and use of aircraft hardware. You must make sure that aircraft hardware remains tightly secured on the aircraft. Hardware security (cotter pins, safety wire) is the mechanism that helps in holding items together. In modern aircraft construction, thousands of rivets are used, but many parts require frequent dismantling or replacement. For this reason, it is more practical for you to use some form of threaded fastener. Some joints require greater strength and rigidity than can be provided by riveting. Therefore, we use various types of bolts, screws, and nuts to solve this problem. For example, using an incorrect hardware item can cause it to fail prematurely because the metal is too soft. In addition, this can also cause items not to fail when that is the desired outcome such as in a shearing (cutting) condition. An example of this would be using non-shear bolts on aircraft tow bars when shear bolts are required. When too much stress occurs from turning an aircraft too sharply during a tow, these bolts are supposed to shear. Therefore, you need a basic knowledge of hardware.
+*
+Bolts and screws (fig. 3-128) are similar in that both have a head at one end and a screw thread at the other. However, there are several differences between them. The threaded end of a bolt is always relatively blunt. A screw may be either blunt or pointed. Bolts and screws may have right- or left-hand threads. A right-hand thread advances into engagement when turned clockwise. A left-hand thread advances into engagement when turned counterclockwise. It is essential to always use the correct hardware for the safe and efficient operation of your aircraft. Worn, improperly installed, loose, or missing items of hardware greatly affect the safety of your aircraft. A sample of the hardware items you will use include bolts, washers, nuts, screws, rivets, cotter pins, tubing, safety wire, clips, and clamps.
+Purpose
+Aircraft hardware is the term used to describe the various types of fasteners and miscellaneous small items used in manufacturing and repairing aircraft. In its simplest form, the purpose of hardware is to hold the airplane together.
+*
+Types of Hardware
+Bolts
+Aircraft use many types of bolts and each type used is for fastening something in place. When manufacturing aircraft bolts either for general purpose or for specific use, companies conform them to a rigid set of standards. Manufacturers create bolts of different dimensions using various strengths of materials. The key to replacing aircraft hardware items is always replace hardware items with the item called for in the aircraft’s -4 Illustrated Parts Breakdown. In selecting a bolt, you should know the bolt’s dimensions.
+Parts of a Bolt
+The three principal parts of a bolt are the head, thread, and grip (the unthreaded part) (fig. 3-129). Two main parts make up a bolt, the head and the shank (threads plus grip). The most common type of head is the hex head. This type of head may be thick for greater strength or relatively thin in order to fit in places having limited clearance. In addition, the head may be common or drilled to safety wire the bolt. Some examples of bolt head types include the following:
+Eyebolt (often used in flight control systems)
+Internal-wrenching bolt (tightened and loosened by using a hex wrench)
+Clevis bolt (characteristic round head)
+External-wrenching head (12-point head gives a greater gripping surface)
+Hi-torque style (installed with a special hi-torque adapter)
+Regardless, all bolts have a shank portion. The shank (fig. 3-130) includes the grip length and the threaded area. The grip is the unthreaded part of the bolt shaft. It extends from the threads to the bottom of the bolt head. If a bolt is too long or too short, its grip is usually the wrong length. When using a bolt, the grip length should be approximately the same as the material’s thickness. If the grip is too short, the threads of the bolt will extend into the bolt’s hole and may act like a reamer when the material is vibrating. To prevent reaming, no more than two threads should extend into the bolt’s hole. If the grip is too long, the nut will run out of threads before it tightens. In this event, use a bolt with a shorter grip, or if the bolt grip extends only a short distance through the hole, a washer (shim) may be used. Correct length selection is indicated when the bolt extends through the nut at least two full threads.
+The shank’s remaining length has threads. The diameter of the bolt shank determines its size. The results of using a wrong diameter bolt should be obvious. If the bolt is too big, it cannot enter the bolt’s hole. If the diameter is too small, the bolt has too much play in the bolt’s hole, and it is likely not as strong as the correct bolt. The threads come in one of two types: Coarse and Fine (fig. 3-131). The two are not interchangeable. For any given size of bolt, there are a different number of coarse and fine threads per inch. For instance, consider the 1/4-inch bolt. Some are 1/4-28 bolts because they have 28 fine threads per inch. Others have only 20 coarse threads per inch and are 1/4-20 bolts. To force one size of threads into another size, even though both are 1/4 of an inch, can strip the finer threads of softer metal. The same result is true concerning the other sizes of bolts; therefore, it is important to be certain that the bolts you have selected have the correct type of threads.
+*
+Stresses
+Primary factors in aircraft structures are strength, weight, and reliability. Numerous forces and structural stresses act on an aircraft when it is flying and when it is static. Understanding the stresses that your aircraft’s structure encounters help you in understanding why aircraft are built the way they are. Stresses occur in any material that is subject to a load or any applied force. When your aircraft is static, the force of gravity produces weight, which the landing gear supports. The landing gear also absorbs the forces imposed during takeoffs and landings. During flight, any maneuver that causes acceleration or deceleration increases the forces and stresses on the wings and fuselage. The empennage, or tail section, absorbs the same stresses and transmits them to the fuselage structure. Therefore, the loads experienced by your aircraft include tension, compression, shearing, bending, and torsion. Even though there are many types of stresses, only two main types will be covered: “Tension” (pulling) and “Shear” (cutting).
+Tension stress (fig. 3-132) is the force of stretching an object or pulling at its ends. Tension is produced by two forces pulling in opposite directions along the same straight line. For example, tensile strength indicates the ability of the bolt to withstand the stretching force of tension that occurs when the bolt and nut are tightened or torqued. Tension stress failure is a pulling force that separates the bolt head or threads from the non-threaded area (grip).
+Shear stress (fig. 3-133) is the force that tends to cut or break a bolt across its grip length by sliding one part over the other in opposite directions. Cutting a piece of paper with a pair of scissors is an example of shearing action. Shear strength refers to the hardness or resistance to the cutting action that can occur if the joined materials shift sideways in opposite directions.
+*
+Bolt Types and Uses
+Most aircraft structural bolts are general-purpose hexagon head bolts, internal wrenching bolts, or close tolerance bolts. You need to have a good foundational knowledge about bolts and their intended uses. The following material only represents a small portion of the available variations.
+*
+General-Purpose Bolts
+The hex head aircraft bolt is an all-purpose structural bolt used for general applications involving tension or shear loads where a light drive fit is permissible. Light drive fits are those requiring light assembly pressures and produce permanent assemblies.
+*
+Drilled Head/Shank Bolts
+Drilled head bolts (fig. 3-134) differ from the standard hexagon head bolts. The drilled head bolt has a hole drilled in the head for securing with safety wire. A drilled hole is in each face of the bolt head. Drilled shank bolts have a hole drilled through the shank of the bolt for a cotter pin or safety wire and is commonly used with a castellated nut.
+*
+Close-Tolerance Bolts
+Machined more accurately during manufacturing than general-purpose bolts. Made to precise measurements for use when a tight drive fit is required due to load reversals and vibrations. Use close-tolerance type bolts in areas such as engine mounts, landing gear, and wing mounts, to name a few. To prevent sideways motion that could elongate the hole and/or shear the bolt you must use close-tolerance bolts.
+*
+Internal/External Wrenching Bolts
+These bolts, fabricated from high strength steel, are suitable for use in both tension, and shear applications. Therefore, both bolts are used primarily in high-tension stress areas. The head of the internal wrenching bolt is recessed and designed to allow the insertion of an internal wrench (HEX-wrench) when installing or removing the bolt. The twelve-point external wrench bolt design accepts a 12-point socket for removal or installation.
+*
+Washers
+Different types of washers are used in aircraft structures; they are plain, lockwashers, and special washers. Be sure to use washers under the heads of both bolts and nuts unless specifically omitted by the TO. A washer guards against physical damage to the material secured and prevents corrosion of the structural members. Use aluminum alloy washers under the head and nut of a steel bolt securing aluminum alloy or magnesium alloy components. Corrosion will attack the washer rather than the components themselves. Use steel washers when joining steel members with steel bolts.
+*
+Plain
+Use the plain washer (fig. 3-136) under hexagon nuts to provide a smooth load-bearing surface. A plain washer can act as a shim in obtaining the correct relationship between the threads of the bolt and the nut. The general rule is to use one washer under each nut. However, if one washer fails to cover the under-thread grip or fails to place the nut in the proper position for cotter pins, then one or more washers may be added. Change the bolt length if you need more than two washers. Another function for the plain washer is for it to protect soft surfaces from damage caused by the spring action of a lockwasher.
+*
+Lockwashers
+Use lockwashers (fig. 3-137) whenever the self-locking or castellated type nut is not used. They provide sufficient friction from the spring action of the washer to prevent loosening of the nut because of vibration.
+*
+Special Washers
+Special applications have special washers designed for them. There are many types of special washers used in a wide variety of applications as specified in the applicable technical orders.
+*
+Tab and Keyed
+Tab and keyed washer (fig. 3-138) use are in situations where a need occurs such as in helping to hold items in place. A common example found is under the retaining nuts of switches. The key of the washer engages a groove on the switch shaft and the tab lines up with a hole on the mounting surface. These two features work together to keep the switch body from spinning in its mounting location.
+*
+Countersunk
+Countersunk washers (fig. 3-138), commonly called dimpled washers; used under the heads of bolts having a radius (curved portion) between the head and shank. The countersink feature of the washer provides relief for bolt head to shank radius, allowing a smooth seating surface for the bolt. Install the washer with the countersunk side toward the bolt head.
+*
+Nuts
+Aircraft nuts come in a variety of shapes and sizes. Despite the many and varied differences, they all fall under one of two general groups: self-locking and non-self-locking.
+Purpose
+The purpose of a nut is to properly load a bolted assembly (threaded fastener), such as a bolt, screw, or stud. To do this there must be a mating condition of the thread and a correct torque applied when tightening. A minimum of two threads must extend beyond the nut for proper loading and locking. This applies to both self-locking and plain nuts. Use thick nuts for tension stress and thin nuts for shear stress.
+*
+Types
+Self-locking and non-self-locking aircraft nuts differ in design and material, just as bolts do, because their design is to do a specific job with the bolt. For instance, some of the nuts are made of cadmium-plated carbon steel, stainless steel, brass, or aluminum alloy. Markings on the nuts themselves, does not identify the metal used in their manufacturing process. Instead, the recognition of the material used must come from the luster of the metal.
+*
+Self-Locking Nuts
+Self-locking nuts (fig. 3-139), also referred to as prevailing torque nuts provide tight connections that will not loosen under vibrations. The locking action of these nuts eliminates the need for external locking methods such as safety wire or cotter pins. Self-locking nuts approved for use on aircraft meet critical strength, corrosion-resistance, and temperature specifications. Provided there is no damage to the threads or no permanent distortion, self-locking nuts are generally suitable for reuse in noncritical applications. NOTE: If any doubt exists about the condition of a nut, use a new one! However, new self-locking nuts must be used each time components are installed in critical areas throughout the entire aircraft, including flight, engine, and fuel control linkage and attachments.
+Metallic Self-Locking—these may be used in areas where the temperature will rise above 250° F. The locking action achieved is by metal-to-metal friction, usually a deformed thread pattern or by spring tension at the top of the nut.
+Non-Metallic Self-Locking—these are constructed with a nonmetallic (nylon) insert, which is designed to lock the nut in place. The insert is unthreaded and has a smaller diameter than the inside diameter of the nut. This nylon insert develops a compressive locking force on the bolt threads. Because of the nylon insert, these nuts use must NOT be in an area subjected to temperatures in excess of 250° F.
+*
+Non-Self-Locking Nuts
+The most common of the non-self-locking nuts (fig. 3-140), also referred to as free-spinning nuts are the castle nut, the plain hex nut, the castellated shear nut, and the wing nut. Non-self-locking nuts require the use of a separate external locking device for installation. There are several types of locking devices (cotter pin, check nut, lockwasher, or safety wire) and since there is no single locking device to use with all types of non-self-locking nuts, you will select the one that is most suitable for the type of nut you use.
+Plain Hex Nuts have limited use on aircraft structures. When non-self-locking plain hex nuts are used, they require an auxiliary locking device such as a check nut or a lockwasher.
+Castellated Nuts are used with drilled shank hex-head bolts, clevis bolts, eyebolts, and drilled-head studs. To secure these nuts it will be with a cotter pin or safety wire because of their design.
+Wing Nuts are used where the removal of the assembly is frequent, and the desired tightness is using your fingers. They tighten without using a wrench and sometimes have a drilled hole in one wing for external securing with safety wire as needed.
+*
+Plate Nuts
+Plate Nuts (fig. 3-141) are used for blind mounting in inaccessible locations and for easier maintenance. They are available in a wide range of sizes and shapes. Floating plate nuts provide a controlled amount of nut movement to compensate for subsequent misalignment. They can be either self-locking or plain. You will find these nuts in locations where access is limited, such as your aircraft panels and fairings.
+*
+Screws
+The most common threaded fastener used in aircraft construction is the screw. The three most used types of screws are the machine screw, structural screw, and the self-tapping screw. The three head slots of screws include the straight (common), Phillips, and Reed and Prince. Structural screws differ from structural bolts only in the type of head. Structural screws have a definite grip length and the same shear and tensile strengths as the equivalent size bolt. Structural screws are available in countersunk head and round head types. The commonly used machine screws (fig. 3-142) are the flat head, round head, fillister head, pan head, truss head, and socket head types.
+Head styles vary depending on the application.
+Flat countersunk-head screws—used in countersunk holes where a flush surface is necessary.
+Round/Pan/Truss head screws– used where the raised head height is not detrimental.
+Setscrews (fig.3-143)—used to position and hold components in place, such as gears on a shaft.
+Fillister head screws (fig. 3-144)— have a hole drilled through the head for safety wire.
+*
+Rivets
+A glance at any aircraft will show you the thousands of rivets in the outer skin alone, which is just an indication of how important they are. Besides the riveted skin, rivets used are also for joining spar sections, holding rib sections in place, securing fittings to various parts of the aircraft, and for fastening bracing members and other parts together. It is important for you to know how to inspect rivets. Most rivets used in aircraft construction are made of aluminum alloy. Rivets (fig. 3-145) are metal pins used to join two or more parts together and installed through drilled holes. When inspecting rivets, look for signs of failure like tipped heads, looseness, and chipped/cracked paint. If the tipped heads are in the same direction and rivets are loose in consecutive groups, the joint has undergone excessive load. Tipped rivet heads that are in different directions and are not in groups are usually from improper installation. With chipped/cracked paint, it may be necessary to remove paint to check the true condition of the rivets. The presence of tipped heads, looseness, and chipped/cracked paint indicates a failure of the rivet.
+*
+Pins
+Pins used are in areas that carry shear loads (loads attempting to cut the pins). Three types of pins used are taper, flat, and cotter pins.
+*
+Taper Pins
+Taper pin (fig. 3-146) are used in joints that carry a shear load and where it is important that no free motion (play) exists. The taper of the pin matches up to the tapered socket structure of the component and the when the pin tightens it draws into the joint to keep the joint from moving.
+*
+Flat-Head Pins
+Flat-Head Pin (fig. 3-147) use is with rod end terminals or secondary flight control rods, which do not operate continuously. The flat-head pin is secured with a cotter pin. The pin normally installs with the head up to ensure the flat-head pin remains in the installed position (does not drop out) in case of cotter pin failure.
+*
+Cotter Pins
+Cotter pins are used to secure bolts, screws, nuts, pins, and in applications where such securing is required. Cotter pins will not be re-used on aircrafts (will discuss more later in this section).
+*
+Panel and Quick-Release Fasteners
+Fasteners are used to secure cowlings, plates, doors, and panels that require frequent removal for inspection and servicing. They are generally locked and unlocked with only one-quarter turn of the fastener. The Quick-Release fasteners design does not allow them to carry primary structural loads. These fasteners are available in several different styles and usually referred to by the manufacturer’s trade name like the Camloc, Airloc, and Dzus.
+*
+Cable, Terminal and Turnbuckle
+Use these to connect various controls in the control cabin or flight deck to various operating systems such as flight controls and engine controls.
+*
+Cable (flexible)
+A cable (fig. 3-149) is a group of wires or a group of strands of wires twisted together into a strong wire rope. Cables may be designated as 7x7 or 7x19 according to their construction.
+A 7x7 cable consists of six strands of seven wires each, laid around a center (core) strand of seven wires. A 7x19 cable consists of six strands of 19 wires, laid around a 19-wire central strand. Most aircraft cable is either 7x7 or 7x19. The size of cable given is in terms of diameter measurement. A 1/8-inch cable or a 5/16-inch cable means that the cable measures 1/8-inch or 5/16-inch in diameter. Aircraft control cables vary in diameters, ranging from 1/16-inch to 3/8-inch.
+NOTE: Cables are inspected for broken wires by running a cloth over the length of the cable, NEVER a hand. If the cloth snags, a broken wire is indicated.
+*
+Terminals
+Cable terminals are swaged (tightly compressed) onto the cable, and the joint formed is normally stronger than the cable itself. Styles include fork, eye, ball, and threaded end allowing several installation options.
+*
+Turnbuckle
+A turnbuckle (fig. 3-151) is a mechanical screw device consisting of two threaded terminals and a threaded barrel. Turnbuckles are in the cable assembly for making minor adjustments in cable length and for adjusting cable tension. One of the terminals has right-hand threads and the other has left-handed threads. The barrel has matching right- and left-hand threads internally. The opposite styles of threads (right- and left-handed) allow you to adjust cable tension by turning the barrel assembly. After adjusting a turnbuckle properly, you must secure it with safety wire or safety clips (fig. 3-152).
+*
+Tubing
+Tubing assemblies transport liquids or gases (usually under pressure) between various components of the aircraft system. Tube assemblies are used in aircraft for fuel, oil, hydraulics, breathing oxygen, vent lines, and bleed air. Modern aircraft use corrosion-resistant steel, titanium alloy, and aluminum alloy tubing. Corrosion-resistant steel tubing is used in high-pressure hydraulic systems (3,000 psi and above) such as landing gear, wing flaps, and brakes. Aluminum alloy tubing used is for both high-pressure and general-purpose lines.
+Tubing installation starts with the correct size cushion clamps (fig. 3-153). Cushion clamps, that are too small, can deform the mounting foot of the clamp, too large will allow the tube to move and debris to get in between the clamp and tubing. The clamps supported must be at 15-to-20-inch intervals and close to tubing bends as possible. Flexible grommets (fig. 3-153) provide protection of tubing where the tubing passes through bulkheads (walls). Properly installed grommets prevent chaffing (rubbing) between the tubing and the bulkhead material.
+Fluid line identification color-coded bands (fig. 3-153) used are to indicate the functions, contents, hazards, direction of flow, and pressure in fluid lines.
+*
+Hoses
+There are two basic types of hoses (fig. 3-154) used in military aircraft. They are synthetic rubber and polytetrafluoroethylene, commonly known as Teflon. Hose assemblies are used to connect moving parts with stationary parts (allows for vibration and relative motion between parts) and in locations where flexibility is needed. The indicator stripe (also called the lay line) is a series of dots or dashes use in determining the straightness or lie of a hose (fig. 3-159). Hose sizes are determined by the inside diameter and external wire braiding added to hoses are used in high-pressure applications.
+Proper installation prevents premature failure of the hose and protects it against damage from chafing (rubbing). Clamping also prevents deflection of rigid (solid) connections between hoses and tubing. Clamps (fig. 3-159) shall support hose assemblies at 24-inch intervals and fit snugly around outside diameter of the hose. Grommets are used to protect hoses passing through walls like the method used for tubing. In addition, a hose installs in a manner that prevents excessive bending, crimping, compression or clamping of the hose. The indicator stripe should not indicate any twisting in the hose.
+*
+Fittings
+Fittings for tube connections are made in many configurations and styles out of materials such as aluminum alloy, titanium alloy, corrosion-resistant steel, brass, and bronze. Use fittings to connect tubing and hoses to each other and necessary components. For quick identification purposes, a color code system (fig. 3-155) is used.
+Blue—aluminum alloy
+Black—carbon steel
+Bright/Shiny Surface—stainless steel
+*
+Securing Devices
+There are many different types of securing devices to stop rotation and other movement of fasteners, bolts, screws, and pins that may come loose due to vibration in the aircraft. But the three most common types of securing devices are safety wire, cotter pins, and check nuts.
+*
+Safety Wire
+Safety wiring is the most positive and satisfactory method of securing. It is a method of wiring together two or more units. The tightening of the wire counteracts any tendency of a unit trying to loosen. Safety wire (fig. 3-156) comes in many types and sizes. The zinc coated soft steel wire comes in thickness of .020 inch, .032 inch, and .041 inch diameters.
+*
+Single Wire Method
+The single wire method (fig. 3-157) may be used on small screws in a closely spaced geometrical pattern (triangle, square, circle, or rectangle). Secure the wire when both ends of the wire meet at a fastener.
+*
+Double Twist Method
+The double twist method (fig. 3-158) is the most common type of securing method used to secure hardware. When you are safety wiring closely spaced bolts, the number that can be safety wired by a 24-inch length of wire is the maximum in a series. The wire’s arrangement is in such a manner that if the bolt or screw begins to loosen, the force applied to the wire is in the tightening direction. When you are safety wiring widely spaced bolts by the double-twist method, a group of three should be the maximum number in a series.
+*
+Safety Cable
+Safety cable (fig. 3-159) use may be as a substitute for safety wire to prevent loosening. Safety cable is available in sizes of .020 inch, .032 inch, and .040 inch. When safety cable substitutes for safety wire in an existing installation (maintenance rework, etc.), use the equivalent diameter of safety cable to that of the safety wire. This method of securing cannot be used for any shear or break way applications.
+NOTE: Minimize the mixing of safety wire and safety cable.
+*
+Cotter Pin
+Cotter pins (fig. 3-160) are used to secure castellated nuts on drilled shank bolts and screws. Some cotter pins are utilized to secure flat head straight pins in push pull rods. Regardless of shape or material, all cotter pins are used for the same general purpose—securing. The cotter pin should fit neatly into the hole with very little side or free play. Do not bend the prong over the bolt end beyond the bolt diameter (cut it off if necessary). Do not bend the prong down against the surface of the washer. (Again, cut if off, if necessary). Do not extend the prongs outward from the sides of the nut if you use the optional wraparound method. NEVER reuse cotter pins.
+*
+Check-Nut
+Use these nuts (fig. 3-161) as locking devices for non-self-locking plain hex nuts, setscrews, and threaded rod ends. This method consists of using two plain hex nuts: install one on the bolt and torque, and then thread the second nut down onto the first nut and torque. The friction of the two nuts locked against each other prevents them from loosening.
+*
+Lockwasher
+Lockwasher (fig. 3-162) are used to prevent threaded fasteners from loosening. The most common lockwasher used is the helical spring washer (split ring). The lockwasher flattens when torquing the bolt down. When torqued, it acts as a flat washer contributing normal friction for locking the screw or bolt and the working surface.
+*
+Safety Clip
+The Air Force has adopted only two methods for securing turnbuckles as standard procedures: the safety clip locking (preferred) method (fig. 3-163) and the wire wrapping (safety wire) method as illustrated in (fig. 3-164). You must examine safety clips after assembly for proper engagement of the hook lip in the turnbuckle barrel hole by the application of slight pressure in the disengaging direction. NEVER reuse safety clips, as removal of the clips from the installed position severely damages them.
+*
+Electrical Connectors
+An important part of aircraft electrical maintenance is determining the correct type of electrical hardware for a given job. These maintenance functions normally require a joint effort on the part of you, the crew chief, and the electrician (specialist). It is important to become familiar with wire and cable, connectors, terminals, and bonding devices.
+Purpose
+Electrical connectors are devices attached to the ends of cables and sets of wires to make them easier to connect and disconnect. Many of the components used in aircraft systems rely on several wires to carry electrical signals. Using electrical connectors simplifies installation and maintenance of electrical equipment by making it much easier to remove devices without disconnecting each wire individually.
+*
+Parts
+Each connector consists of a plug assembly and a receptacle assembly. The two assemblies coupled are by means of a coupling nut. Usually mounted on a part of the equipment.
+*
+Receptacle (fig. 3-165),
+The receptacle assembly is the half of the connector to which the plug is connected. It is usually mounted (fixed) on a part of the equipment. An alignment key (fig. 3-166) on the receptacle assembly provides the correct connection with the plug assembly’s notch for proper electrical pin alignment.
+*
+Plug
+The plug assembly attaches to the cable end and is the part of the connector on which the coupling nut (fig. 3-166) is mounted. The plug assembly is the removable part of the connector. A threaded sleeve provides for securing of the two parts of the connector assembly (plug/receptacle) together. You can see the plug assembly’s notch in (fig. 3-166).
+*
+Back Shell
+The back shell (fig. 3-167) is on the back of the plug body to secure the electrical wires going into the plug assembly. It provides strain relief for the inserted wires. The back shell separates into two parts and a threaded ring or screws hold it together.
+*
+Hardware SUMMARY
+You have now received an introduction to the various types of tools and aircraft hardware used on aircraft in the Air Force and the procedures for maintaining their security. It is essential to always use the correct hardware for the safe and efficient operation of our aircraft. Improper installation of even the smallest piece of hardware could cause an accident resulting in the loss of life or loss of your aircraft. To always ensure maintenance safety while working on your aircraft, you must ensure that you possess a solid understanding of each type of tool or piece of hardware used.
+*
+Hand Tools INTRODUCTION
+Each year the Air Force spends millions of dollars repairing aircraft/engines and paying the medical costs for personnel who improperly use tools, hardware, and equipment. You must have a well-rounded knowledge of many different types of tools. You must know the designed purpose for tools. An important attribute that a mechanic must have is the ability to use the right tool for the job. You have often heard that workers are only as good as their tools. The crew chief must not only have the correct tools but must know the proper ways to use the tools.
+*
+Sockets
+The socket (Table 3-8) consists of a round metal sleeve with a square opening cut in one end for insertion of a handle, and a 6 point or 12 point wrench opening in the other. They are available in both common (short) and deep (long) lengths. The length of the socket does not determine its size. The openings that fit onto the bolt or nut determines the size and is graduated in 1/16-inch increments.
+In using the 12 point socket, you need to turn it only half as far as the 6 point socket before lifting it from the nut and refitting it to the nut for a new grip. It can therefore be used in closer quarters where there is less room to move the handle. Determine a socket’s size according to two factors: one is the size of the square opening, which fits on the square drive lug of the handle. This size is the drive size. The other is the size of the opening in the opposite end, which fits the nut or bolt. Composite Tool Kits can be outfitted with sockets having, 1/4, 3/8, and 1/2 inch square drive lugs.
+*
+Socket Handles
+There are many different types of handles (Table 3-8) used with sockets. Each type has special advantages, and the experienced crew chief chooses the best one suited for the job at hand. The square driving lug on a socket handle has a spring-loaded ball that fits into a recess hole in the socket’s square driving receptacle. This mated ball and recess feature works to prevent the socket from detaching off the handle.
+*
+Sockets
+A socket is a cylindrical tool with a different shaped socket at each end. At one end there’s a prismatic hole that fits over the head of a fastener. This hole is most commonly hexagonal to fit the head of a hex-head bolt or hexagonal nut. However, several types of sockets are available to fit a variety of fasteners.
+On the opposite end of the socket is a square hole that engages with another tool to drive the socket. The square drive is either 1/4, 3/8, 1/2 or 3/4-in. Metric sockets still use these sizes for the drive.
+*
+Ratchets
+The ratchet handle has a reversing lever that operates a pawl inside the head of the tool. Pulling the handle in one direction causes the pawl to engage the ratchet teeth and turn the socket. Moving the handle in the opposite direction causes the pawl to slide over the teeth, permitting the handle to back up without moving the socket. This allows rapid turning of the nut or bolt after each partial turn of the handle. With the reversing lever in one position, the handle tightens the bolt/nut. In the other position, it loosens the bolt/nut. Use the ratchet for speed and convenience in places where you cannot make a full 360° turn because of obstructions near the fasteners.
+*
+Hinged Handle
+The hinged handle is also very convenient. The hinged handle is the longest and strongest socket handle. It has a hinged adapter at one end used to break torque on a nut or bolt. After loosening the nut to the point where it turns easily, remove the handle and then turn the handle with your fingers, or change the handle to a ratchet handle to finish removing the nut or bolt.
+*
+Sliding T-bar
+Use the “Sliding T-bar” handle in a similar fashion as the hinged handle to break torque. When you are using the sliding T-bar, the head can be positioned anywhere along the sliding bar. Select the position that is best for the job at hand. This provides you with increased leverage in limited access areas.
+*
+Speed Handle
+Use the speed handle for speed and convenience where you can make a full 360° turn of the handle. After loosening the bolts/nuts with the hinged handle or sliding T-bar, you can switch to the speed handle and use it to remove the bolts and nuts with greater speed.
+*
+Attachments
+Many mechanics think the ratchet is the heart of the tool box. But the attachments play a very important role for the maintenance of aircraft. Different jobs need different attachments (Table 3-9), (fig. 3-168) to remove and install all types of fasteners.
+Attachments
+Extensions
+Designed to allow access to fasteners in recessed areas
+Made in various lengths and drive sizes
+Universals
+Allows access to nuts or bolts from various angles
+Available in multiple drive sizes
+Adapters
+Makes changes to drive sizes on sockets, extensions, and handles
+Used to increase or decrease drive size, thus allowing different drive size sockets to be used
+*
+Crow Foot
+The crowfoot wrench (fig. 3-169) is an open-end wrench head used with a socket handle for tightening and loosening fittings on plumbing or in limited access applications where an obstruction would prevent the use of a regular socket.
+*
+Wrenches
+A wrench is a tool specially designed to tighten or loosen nuts, bolts, studs, and pipes. There are many different types of wrenches (Table 3-10). Each type has its own use. By using the proper wrench correctly for the task to be done, you will not break the wrench, damage the equipment, or cause personal injury. You use wrenches to exert a turning (twisting) force on bolts, nuts, etc. There are a few basic rules that you should keep in mind when using wrenches. They are as follows:
+Always use a wrench that fits the nut properly.
+Keep wrenches clean and free from oil. (May slip, resulting in serious injury)
+Do not increase the length of a wrench by placing a pipe over the handle. (Increased leverage may damage the wrench or the hardware)
+Learn to select your wrenches to fit the type of work you are doing.
+*
+Open-end Wrenches
+All open-end wrenches have open jaws on one or both ends of the wrench. The size of the jaw opening normally determine the length of the wrenches. These wrenches are sized the same as box-end wrenches. The open smooth faced ends of the wrench allow users to place them on aircraft tubing and hose fittings. In addition to the open design of the head, some wrenches have an offset of 15°. This offset works well in close quarter situations where there is not enough clearance between the fastener and an obstruction. A disadvantage of these wrenches is the reduced number of contact surfaces which means more chance of it slipping from the fastener.
+*
+Box-end Wrenches
+Box-end wrenches have a head on each end of a bar. The head surrounds the nut or bolt head on all sides, which decreases the chances that the wrench will slip and provides the best protection to you and the equipment. Box-end wrenches are available with 6-point or 12-point openings. The 12-point opening is more common, as it works on both square and hexagonal bolt heads. Some wrenches have the same 15° offset for the same purpose as the open-end wrench. The major disadvantage of the box-end wrench is that there must be enough clearance above and around the bolt head to place the wrench over it.
+*
+Adjustable Jaw Wrench
+The adjustable jaw wrench has one fixed jaw and a movable or adjustable jaw. The adjustable jaw is set against the face of the nut by turning a knurled worm gear. Use an adjustable jaw wrench for the removal and/or installation of nuts/bolts when the correct size open-/boxed-end wrench or socket is not available. The overall length in inches or millimeters determines the wrenches size. When using the adjustable jaw wrench place the pressure against the stronger stationary jaw to prevent damage to the hardware, the wrench, or injury to you.
+*
+Hex Wrench
+The hex wrench is an L-shaped, six-sided wrench. Both ends of the “L” are the same size so you can turn the wrench either to gain access to the screw head or to obtain an advantage with leverage. Use the hex wrench to remove and/or install hex head (internal wrenching) bolts and set screws. Hex wrench sizes are determined by measuring across the face of the wrench from two opposing flat surfaces.
+*
+Screwdrivers
+Screwdrivers are available in many different shapes and sizes (Table 3-11). Use screwdrivers for driving or removing screws with slotted, recessed, or special heads. The proper way to select and use a screwdriver is to match the screwdriver to the type/size of screw head. The two most commonly classified screwdrivers are the flat tip (common) and the cross tip. They all follow the basic design of a handle, attached to a shank with a style of blade at the end (fig. 3-170). The style of the blade determines the type of screwdriver. The overall length of the shaft and blade, excluding the handle, determines the length of a screwdriver. Screwdrivers, like any other hand tool, are dangerous when not used properly. Therefore, you should always follow these safety precautions:
+The tip of the screwdriver (fig.3-171) must fit the slot of the screw head snugly.
+You must use screwdrivers for their intended purpose. For example; Reed and Prince Screwdrivers and Phillips screwdrivers are not interchangeable. Always use a Reed and Prince Screwdriver with Reed and Prince Screws, and a Phillips screwdriver with Phillips screws. The use of the wrong screwdriver will result in mutilation of the screw head.
+Do not use a screwdriver for prying, punching, chiseling, scoring, or scraping.
+Never use a screwdriver to check an electrical circuit.
+Never try to turn a screwdriver with a pair of pliers.
+NEVER GET ANY PART OF YOUR BODY IN FRONT OF THE SCREWDRIVER BLADE TIP. (This is a good safety rule for any sharp or pointed tool.)
+*
+Types of Screwdrivers
+Flat-Tip (common)
+Use the standard, flat-tip, or common screwdriver on fasteners having a common slotted head.
+Phillips
+Use the Phillips screwdriver on fasteners with cross-slots having rounded corners and a blunt tip.
+Prince and Reed
+Use the Prince and Reed screwdrivers on fasteners with cross-slots having square corners and a sharp tip.
+Hi Torque Tip (coin slot)
+This is a variation of the flat tip type screwdriver with round edges like the edges of coins. Its design allows the blade to reach deeper into the fastener for applying higher removal and installation torque.
+Offset Screwdriver
+Offset screwdrivers utilize a 90° bend at both ends of the blade to allow access to places where space is limited. They may have either a flat-tip or a cross-tip.
+Torque-Set
+This torque-set screwdriver is like the cross-tips; however, the edges of the tips offset. It allows for higher installation and removal torque.
+Hex
+Hex end screwdrivers present an alternative to using hex wrenches for internal wrenching screws and set screws.
+Apex-Bit Holder
+Use an Apex-bit holder to hold securely Apex-bits (screwdriver type tips). Use them with socket handles to provide screwdriver like characteristics.
+*
+Hammers
+As simple as the hammer is, there is a right and a wrong way to use it (fig. 3-172). They all share the same basic design. The size, shape, and material determine a hammers’ purpose. The two, shown in Table 3-12, below represent those most commonly used in aircraft maintenance.
+Hammers are dangerous tools when used carelessly and without consideration. You will use hammers for driving chisels and punches, shaping metal, and installing components by striking the surface. Use of proper eye protection is important and required when using hammers.
+*
+Types of Hammers
+Ball Peen
+You determine the size of a ball peen hammer by the weight of the head in ounces. Its hardened steel head has a flat face with a round (peen) portion on the opposite end. All ball peen hammers have a flat striking face on one end of the head for striking punches and chisels. Use the other end, the peen end for forming, expanding and shaping soft metal, and peening rivet heads.
+Mallet
+Mallets provide a means of striking soft metal for forming and shaping, highly polished surfaces without damaging the surface and in situations where a hammer may produce a spark. The head is made of wood, rubber, rawhide leather, plastic, or brass.
+*
+Pliers
+Many different types of pliers are in use today (Table 3-13). Pliers offer crew chiefs the ability to perform several tasks that involving gripping surfaces, reaching into tight areas, holding components in place, and cutting materials. Their basic design combines two handles held together with a pivot pin. The end of the tool determines its intended use.
+*
+Common Slip Joint
+The slip-joint pliers have adjustable jaws that can change between two jaw-opening widths using a slip joint. Use the pivot to adjust the jaw opening to handle large or small objects. The tips of the jaws provide a means to grip objects with fine teeth near the end and coarse teeth near the throat.
+*
+Multiple Slip Joint
+These pliers are like the common slip-joint pliers. Instead of the single joint, they have several slip-joints to provide multiple jaw widths. The variable size of the jaws provides gripping capabilities for a tighter or wider grip as needed.
+*
+Locking Pliers
+Locking pliers have a locking feature that permits you to lock the pliers onto an object. You can adjust them to various jaw openings by turning the knurled adjusting screw at the end of the handle. By pulling the lever toward the handle, locking pliers clamp and lock in position. In addition, you may use them as a clamp, portable vise, and for many other uses where a locking, plier-type jaw may be used. However, you should use locking pliers with care since the teeth in the jaws tend to damage the object on which they clamp. You should not use them on nuts, bolts, tube fittings, or other objects if you plan to reuse the item
+*
+Long Nose
+Use long nose pliers to reach into places too small for fingers. Long nose jaws taper to a point, have serrations at the nose end and a side cutter near the throat. Use long nose pliers to hold small items steady, to cut and bend wire, or to do numerous other jobs that are too intricate or too difficult to be done by hand alone.
+*
+Duck Bill
+Duckbill pliers have long wide jaws and slender handles. Use duckbills in confined areas where you cannot use your fingers. The scored jaw faces of the pliers aid in holding an item securely. In addition, they work well for pulling and twisting safety wire.
+*
+Diagonal Side Cutters
+Diagonal side-cutters are an important tool for you to use. Use them for cutting small wire, cotter pins, and other small diameter metal items. The inner jaw surface is a diagonal straight cutting edge offset approximately 15-degrees. This design permits cutting objects flush with the surface. The design of the diagonal side-cutter pliers does not allow for the holding of objects. If used to hold an object, the pliers will cut or deform the material.
+*
+Safety Wire Pliers
+When installing equipment, you may need to lock wire (usually referred to as safety wire) designated parts of the installation. You can accomplish the process of safety wiring faster and neater with the use of safety wire pliers. Safety wire pliers are three-way pliers—they hold, twist, and cut. Designed to make a uniform twist and to reduce the time required in twisting double-strand safety wire.
+*
+Safety Wire Pliers Operation
+To operate, grasp the wire between the two diagonal jaws of the pliers. As you squeeze the handles together, use your thumb and forefinger to bring the inner (locking) sleeve into the locked position. Make sure the wire does not become kinked or nicked during twisting operation. If wire is damaged, replace with new wire. A pull on the knob of the pliers makes a uniform twist. Push the spiral rod back into the pliers without unlocking them, and by again pulling on the knob, you can make a tighter twist. Install the wire snugly but not so tight that the wire is overstressed (Table 3-14). A squeeze on the handles unlocks the pliers, and then you can use the safety wire pliers to cut the wire to the proper length using the cutting jaws. These actions all work to speed up the double twist method of safety wiring.
+Table 3-14, Safety Wire Twists
+Safety Wire Size
+Number of Twists (per inch)
+.020 gauge wire
+9-12 turns
+.032 gauge wire
+7-12 turns
+.041 gauge wire
+7-10 turns
+Safety Wire pliers are used for the double twist method (fig. 3-174). When securing widely spaced bolts by the double twist method, the maximum number of bolts that can be wired in a series is 3. Screws or bolts in closely spaced geometrical pattern will use the single wire method (fig. 3-175). When securing closely spaced bolts, the number that can be secured by a 24-inch length of wire is the maximum number in a series.
+*
+Miscellaneous Tools
+Composite Tool Kit (CTK) do not always have all the tools necessary to do a job. Sometimes you will require the use of miscellaneous tools. Listed in the next few paragraphs are a few of the miscellaneous tools you may use.
+Center Punch
+The center punch (fig. 3-176), as the name implies, is used for marking the center of a hole to be drilled by striking it with a hammer. If you try to drill a hole without first punching the center, the drill will “wander” or “walk away” from the desired center. A center punch also secures pins inside hinges by denting the end of the hinge hole.
+Chisel
+The type of chisel most commonly used is the flat cold chisel (fig. 3-176). The cold chisel uses a sharp, beveled edge to cut rivets, split nuts, chip castings, and cut thin metal sheets. When using a chisel, always wear goggles (eye protection) to protect your eyes.
+Cotter Pin Extractor
+The cotter pin extractor is a steel bar with a curved taper on one end and a curved wedge on the other. Use this S-shaped tool (fig. 3-176) to install or to remove cotter pins. Insert the point of the taper into the eye of the cotter pin to remove it. Use the curved wedge end to bend or straighten the ends of a cotter pin.
+*
+Mechanical Fingers
+With the mechanical fingers, you can retrieve small articles (objects) that have fallen into places where you cannot reach them by hand. You can also use this tool when starting nuts or bolts in difficult areas. The mechanical fingers (fig. 3-177) have a tube containing flat springs that extend from the end of the tube to form claw like fingers when thumb pressure is applied to the flat end of the rod. When the user releases the thumb pressure, the tool’s fingers retract back into the tube as far as the object retrieved will allow. Thus, the fingers apply enough pressure on the object to hold it securely. Some mechanical fingers have a flexible end on the tube to permit their use in close quarters or around obstructions.
+*
+Inspection Mirror
+Several types of inspection mirrors are available for use in maintenance. Mirrors come in a variety of sizes and may be round or rectangular. The mirror connects to the end of a rod, and it may be fixed or adjustable. The inspection mirror (fig. 3-178) aids you in making detailed inspections where you cannot directly see the inspection area.
+*
+Measuring Tools
+When performing some maintenance tasks, you must take measurements to determine the amount of service life remaining on a particular item, or to make sure replacement parts used meet established specifications. The accuracy of these measurements often affects the performance and failure rates of the concerned equipment. Some of the measurement tools are very sensitive and require calibration periodically by the Precision Measurement Equipment Laboratory (PMEL).
+Thickness Gauge
+Use a thickness gauge (fig. 3-179) for precision measurement of very close gaps between fitted parts. When you use a combination of blades to get a desired thickness, place the thinner blades between the heavier ones to protect the thinner blades and to prevent their kinking. Do not force blades into openings that are too small; the blades may bend and kink. Most thickness gauges have different graduated sized blades. The graduated sized blades measure in thousandths of an inch or millimeters.
+Ruler
+Of all measuring tools, the simplest and most common is the ruler (fig. 3-180). The ruler is usually 6 or 12 inches long, although other lengths are available. The longest lines represent the inch marks. Using the ruler in figure 3-180, you see that on one edge, each inch divides into 8 equal spaces, so each space represents 1/8 inch. The other edge of this ruler divides into sixteenths.
+*
+Torque Wrench
+A force that produces a rotating or twisting motion is called “torque”. For the nut to properly load the bolt and prevent premature failure, you must apply a designated amount of torque to the nut. Proper torque, with a torque wrench (fig. 3-181), reduces the possibility of fasteners loosening while your aircraft is in flight.
+The three most commonly used torque wrenches are the deflecting beam, dial indicating, and micrometer setting types (breakaway). The torque amounts measure in inch-pounds (in-lbs.) or foot-pounds (ft-lbs.). When using the deflecting beam and the dial indicating torque wrenches, read the torque on the dial or scale mounted on the handle of the wrench.
+*
+Torque Range
+Based on the amount of torque called for in your technical order you make the proper torque wrench selection for the task. You will select a proper size torque wrench for the job in both areas of torque range and drive size. Do not use the tool if it is within the lower 20% of its operating range.
+Setting the torque value (fig. 3-182) requires you to read a combined setting from a vertical and horizontal scale. The vertical scale contains torque settings from lowest to highest, graduated in large-scale increments. The horizontal scale makes small adjustments in the torque settings between each of the larger increments of the vertical scale.
+Reading the torque handle setting is not difficult. In the given example of a breakaway torque wrench (fig. 3-182), each mark on the vertical scale represents 10 foot-pounds of torque and the horizontal scale (on the top of the handle) represents 1 foot-pound values. Rotating the handle until a desired set of numbers line up on each scale sets the torque value. As shown on the left, the vertical scale indicates 50 foot-pounds and 54 foot-pounds in the right picture. To use the micrometer setting type of torque wrench, unlock the grip and adjust the handle to the desired setting on the micrometer-type scale, then relock the grip. Install the required socket or adapter to the square drive of the handle. Place the wrench assembly on the nut or bolt and pull in a clockwise direction with a smooth, steady pulling motion. (A fast or jerky motion will result in an improperly torqued bolt or nut). When the torque applied reaches the torque value, a signal mechanism will automatically give an audible click, and the handle will release/break over, and move freely for a short distance. You can easily feel the release and the free travel if you do not use a fast, jerky motion, so there is no doubt about when the torquing process is complete.
+*
+Precautions for Use
+Torque wrenches are delicate and expensive tools. YOU MUST ENSURE TORQUE WRENCH CALIBRATIONS ARE NOT OVERDUE. The precision nature of torque wrenches requires many precautions to ensure it performs correctly. Technicians must check the calibration information located on the decal for the wrench; overdue dates make the wrench unserviceable for use. Torque wrenches measure the force applied to a fastener; therefore, NEVER use a torque wrench to loosen hardware items. Additionally, if you drop the wrench or it strikes against a hard surface, return it to the support section for calibration.
+You must properly apply torque using a smooth, pulling motion and stop immediately when the wrench gives you indication that you applied the desired torque value. Once the task is completed, you will set the torque wrench to its lowest value indicated on the vertical scale. Do not move the setting handle below the lowest torque setting because it damages the wrench internally and makes it unserviceable.
+*
+Prevailing (Running) Torque
+Prevailing torque is a procedure for checking the serviceability of locking hardware such as self-locking screws and nuts for the possible re-use on the aircraft or component. To obtain the correct recommended torque value on a nut, the nut must be run down until it is one turn from the beginning of seating. Once reached, note the prevailing torque. If the prevailing torque is less than one-third of the recommended torque, it should be disregarded, and the nut tightened to the recommended torque value. If the prevailing torque is one-third or more than one-third of the recommended torque, it should be added to the recommended torque. It is not always necessary to account for prevailing torque. If the appropriate TO specifies using a self-locking screw or nut and does not state that prevailing torque should be compensated for, it must be assumed that the manufacturer of the item has already taken it into consideration. Prevailing torque will be compensated for only if required by specific technical data.
+Example: The recommended torque is 50 to 70 inch-pounds, and it takes 30 in-lbs. of torque just to make the nut turn because it is a lock nut. Then the correct torque wrench setting would be 80 to 100 inch-pounds (30 inch-pounds higher to account for prevailing torque). If the prevailing torque had been 10 inch-pounds, it would have been disregarded and the correct torque wrench setting would have been 50 to 70 inch-pounds.
+*
+Tension meter
+The Tension meter (fig. 3-183) is an instrument used in checking cable tension and cable size (diameter). Tension is the amount of pulling force applied to the cable. The Tension meter, like any other measuring instrument, is a delicate piece of equipment and it requires calibration. Tension meters should never be stored in a toolbox. In addition, it is critical to remember that while rigging flight controls, temperature changes affect the cable’s tension.
+*
+Pressure Gauge
+For safe and efficient operation, the Air Force uses fluid power (gasses, liquids) systems designed to operate at a specific pressure, or within a pressure range. Most fluid power systems come provided with pressure gauges for measuring and indicating the pressure in the system. Maintainers refer to many pressure-measuring instruments as gauges. The pointer position indicates pressure. Most measurements of pressure are in pounds per square inch (psi). You must also check the pressure gauge for calibration on the PMEL sticker.
+*
+Micrometer
+Measurement tool for small distances or thicknesses usually graduated in thousandths of inches that can be measured between two points of an object or assembly. The micrometer (fig. 3-185) has one a movable face that can be moved towards or away from the fixed face by turning a fine threaded adjustment screw and reading the scale near the adjustment screw.
+Scales
+The primary scale is located on the sleeve. This scale contains the 1mm increment and half mm increment reading.
+The second scale is located on the thimble and has 50 marks.
+How to Use the Scales
+When you are measuring your object only count the exposed marks up to the edge of the thimble. In the image you read 7mm. To measure into the hundredth mm increments, use the index line to meet the mark on the Second Scale on the thimble.
+From the example in the image, the measurement on the thimble is 0.14mm. For the total reading simply add the measurement from the primary scale and the measurement from the secondary scale. 7mm + 0.14mm = 7.14 mm. Therefore, the measurement in the image is 7.14 mm.
+Tip: If the half mm increment is showing on the primary scale, add 0.5mm to the total reading.
+*
+Depth Gauge
+A precision instrument for measuring the depth of holes, slots, steps or other grooves or concavities during maintenance. Tires will be the most common item this tool is used on to measure the depth of usable tread or the depth of a cut in the tire comparable to the tread.
+*
+Hand Tools SUMMARY
+You have received an introduction to some of the most frequently used hand tools that you will use during maintenance as a crew chief. Aircraft maintenance depends entirely on sound maintenance practices. The importance that tools play in your job is tremendous. Just as a surgeon needs the right tools to conduct life-saving heart surgeries, you need the right tools to repair an ailing aircraft. It is your job to ensure you properly use tools and keep them in a serviceable condition. Additionally, you must always control and account for all your tools. All it takes is to misplace a $5 screwdriver or fail to account for a $3 wrench to bring down a $130 million aircraft or take the priceless lives of innocent people. You will also find that an in-depth knowledge of equipment and tools is particularly useful when troubleshooting problems, and an understanding of how to use the correct tools at the proper time will make you a more efficient crew chief.
