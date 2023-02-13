@@ -12,7 +12,8 @@
   <div style="float: right; margin-right: 10px;">
     <form action="/logout/" method="POST">
       {% csrf_token %}
-      Current User: {{username}}
+      Current User: {{username}}<br>
+      Token Count: {{userTokens}}<br>
       <input type="submit" value="Logout">
     </form>
   </div>

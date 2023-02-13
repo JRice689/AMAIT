@@ -31,6 +31,9 @@ def as_view(request):
     current_profile = Profile.objects.get(user_profile_id = current_user)
     current_chat_history = Question.objects.filter(submitted_by__profile=current_profile)
     chat_list = list(current_chat_history.values_list('question', 'response'))
+
+    user_tokens = sum(list(current_chat_history.values_list('token_total', flat=True)))
+    print(user_tokens)
     
     if request.method == "POST":
         try:
@@ -55,7 +58,7 @@ def as_view(request):
             new_question.from_study_guide = prompt
             new_question.token_prompt = token_prompt
             new_question.token_completion = token_completion
-            new_question.token_total = token_completion
+            new_question.token_total = token_total
             new_question.save()
             current_profile.user_question.add(new_question)
 
@@ -67,6 +70,7 @@ def as_view(request):
     context = {
         'historyChat' : chat_list,
         'username' : username,
+        'userTokens' : user_tokens,
         'tokenPrompt' : token_prompt,
         'tokenCompletion' : token_completion,
         'tokenTotal' : token_total,
