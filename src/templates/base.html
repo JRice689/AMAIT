@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'styles.css' %}" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <title>AMAIT</title>
+</head>
+
+<body>
+  <script src = "{% static 'scripts.js' %}"></script>
+
+  <div id="sidebar">
+    <img src="{% static '362.jpg' %}" class="icon" />
+    <hr>
+    <form action="/logout/" method="POST">
+      {% csrf_token %}
+      Current User: <br>
+      <ul><li>{{username}}</li></ul>      
+      Token Count: <br>
+      <ul><li>{{userTokens}}</li></ul>  
+
+
+      <input type="submit" value="Logout">
+    </form>
+    <hr>
+    <ul>
+      <li>Chat</li>
+      <li>Quiz</li>
+      <li>Study Guide</li>
+      <li>Help</li>
+      <li>Feedback</li>
+    </ul>
+  </div>
+  
+  <div id="topbar">
+    Aircraft Mx AI Tutor
+  </div>
+  
+  <div id="content">
+    {% block content %}
+    {% endblock %}
+  </div>
+
+
+  
+</body>

@@ -1,51 +1,29 @@
-<!DOCTYPE html>
-<head>
-  {% load static %}
-  <link rel="stylesheet" href="{% static 'styles.css' %}" />
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <title>AMAIT</title>
-</head>
-
-<body onload='courseOptions()'>
-  <script src = "{% static 'scripts.js' %}"></script>
-
-  <div style="float: right; margin-right: 10px;">
-    <form action="/logout/" method="POST">
-      {% csrf_token %}
-      Current User: {{username}}<br>
-      Token Count: {{userTokens}}<br>
-      <input type="submit" value="Logout">
-    </form>
-  </div>
-  
-  <div style="clear: both; text-align: center;">
-    <img src="{% static 'F16.png' %}" class="icon" />
-    <h3>Aircraft Mx AI Tutor</h3>
-  </div>
-  
+{% extends 'base.html'%}
+  {% block content %}
     
-  <div id="history" style="height:360px; width:720px; ; overflow-y: scroll;">
-    {% for pair in historyChat %}
-      <p>{{username}}: {% for chat in pair %}
-        {{ chat }}</p>
+    <div id="history">
+      {% for pair in historyChat %}
+        <p>{{username}}: {% for chat in pair %}
+          {{ chat }}</p>
+        {% endfor %}
       {% endfor %}
-    {% endfor %}
-    <script>
-      var historyDiv = document.getElementById("history");
-      historyDiv.scrollTop = historyDiv.scrollHeight;
-    </script>
-  </div>
+      <script>
+        var historyDiv = document.getElementById("history");
+        historyDiv.scrollTop = historyDiv.scrollHeight;
+      </script>
+    </div>
 
-  <form action="/chat/" method="POST">
-    {% csrf_token %}
-    <input type="text" name="studentInput" placeholder="Ask you question here" required/>
-    <input type="submit" value="Submit" />
-  </form>
-  {{ error }}
 
-  <div>
-    <p>
-      Token Count - Prompt: {{ tokenPrompt }}, Completion: {{ tokenCompletion}}, Total: {{ tokenTotal }}
-    </p>
-  </div>
-</body>
+    <div id="input">
+      <form action="/chat/" method="POST">
+        {% csrf_token %}
+        <input type="text" name="studentInput" placeholder="Ask you question here" required/>
+        <input type="submit" value="Submit" />
+      </form>
+      {{ error }}
+      <p>
+        Token Count - Prompt: {{ tokenPrompt }}, Completion: {{ tokenCompletion}}, Total: {{ tokenTotal }}
+      </p>
+    </div>
+
+  {% endblock %}
