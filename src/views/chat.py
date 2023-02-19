@@ -13,6 +13,7 @@ import numpy as np
 import pandas as pd
 from openai.embeddings_utils import get_embedding
 from openai.embeddings_utils import cosine_similarity
+from datetime import datetime
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -20,7 +21,6 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 @login_required(login_url='/login')
 def as_view(request):
-    TEST_MODE = False
     token_prompt = 0
     token_completion = 0
     token_total = 0
@@ -31,41 +31,45 @@ def as_view(request):
     current_profile = Profile.objects.get(user_profile_id = current_user)
     current_chat_history = Question.objects.filter(submitted_by__profile=current_profile)
     chat_list = list(current_chat_history.values_list('question', 'response'))
+    
 
     user_tokens = sum(list(current_chat_history.values_list('token_total', flat=True)))
-    print(user_tokens)
-    
-    if request.method == "POST":
-        try:
-            studentInput = request.POST["studentInput"]
-            prompt = find_vector(studentInput)
-            short_history = manageHistoyChat(chat_list)
 
-            if TEST_MODE == False:
+    
+
+
+
+    if request.method == "POST":
+        if check_user_tokens(current_user):
+            try:
+                studentInput = request.POST["studentInput"]
+                prompt = find_vector(studentInput)
+                short_history = manageHistoyChat(chat_list)
+
                 full_response = get_openfull_response(prompt, short_history, studentInput)
                 text_response = full_response.choices[0].text
                 token_prompt = full_response.usage.prompt_tokens
                 token_completion = full_response.usage.completion_tokens
                 token_total = full_response.usage.total_tokens
-            else:
-                text_response = "AI Tutor: " + prompt
 
-            new_question = Question()
-            new_question.question = studentInput
-            new_question.response = text_response
-            new_question.submitted_by = current_user
-            new_question.instructor = getattr(current_profile, 'user_instructor')
-            new_question.from_study_guide = prompt
-            new_question.token_prompt = token_prompt
-            new_question.token_completion = token_completion
-            new_question.token_total = token_total
-            new_question.save()
-            current_profile.user_question.add(new_question)
+                new_question = Question()
+                new_question.question = studentInput
+                new_question.response = text_response
+                new_question.submitted_by = current_user
+                new_question.instructor = getattr(current_profile, 'user_instructor')
+                new_question.from_study_guide = prompt
+                new_question.token_prompt = token_prompt
+                new_question.token_completion = token_completion
+                new_question.token_total = token_total
+                new_question.save()
+                current_profile.user_question.add(new_question)
 
-            chat_list = list(current_chat_history.values_list('question', 'response'))       
+                chat_list = list(current_chat_history.values_list('question', 'response'))       
 
-        except:
-           error = "Submission Failed"
+            except:
+                error = "Submission Failed"
+        else:
+            error = "Max daily questions reached"
 
     context = {
         'historyChat' : chat_list,
@@ -131,3 +135,25 @@ def manageHistoyChat(history):
         short_history_str += f" Student: {i[0]} {i[1]}"
 
     return short_history_str
+
+
+def check_user_tokens(user):
+    MAX_DAILY = 30000
+    MAX_MONTHLY = 1000000
+
+    current_profile = Profile.objects.get(user_profile_id = user)
+    current_chat_history = Question.objects.filter(submitted_by__profile=current_profile)
+
+    monthly_query = current_chat_history.filter(date_created__month=datetime.now().month, date_created__year=datetime.now().year)
+    monthly_usage = sum(list(monthly_query.values_list('token_total', flat=True)))
+
+    daily_query = current_chat_history.filter(date_created__day=datetime.now().day, date_created__month=datetime.now().month, date_created__year=datetime.now().year)
+    daily_usage = sum(list(daily_query.values_list('token_total', flat=True)))
+
+    prorated_daily = (datetime.now().day * MAX_DAILY) - monthly_usage
+
+    if monthly_usage < MAX_MONTHLY and prorated_daily > 0:
+        return True 
+    else:
+        return False
+    
