@@ -26,32 +26,40 @@ def as_view(request):
     token_total = 0
     error = ""
 
+    #Gets current username and profile
     current_user = request.user
     username = getattr(current_user, "username")
     current_profile = Profile.objects.get(user_profile_id = current_user)
+
+    #Gets full chat history and put it in a list
     current_chat_history = Question.objects.filter(submitted_by__profile=current_profile)
     chat_list = list(current_chat_history.values_list('question', 'response'))
     
-
+    #Gets total tokens used by user
     user_tokens = sum(list(current_chat_history.values_list('token_total', flat=True)))
 
-    
-
-
-
+    #When the user presses submit
     if request.method == "POST":
+        #Checks to see if user has reached token limit
         if check_user_tokens(current_user):
             try:
+                #Students input from form
                 studentInput = request.POST["studentInput"]
+
+                #Finds correct section of study guide based on student input
                 prompt = find_vector(studentInput)
+
+                #Get a shorted chat history to add to the AI prompt
                 short_history = manageHistoyChat(chat_list)
 
-                full_response = get_openfull_response(prompt, short_history, studentInput)
+                #OpenAI's API
+                full_response = get_openAI_full_response(prompt, short_history, studentInput)
                 text_response = full_response.choices[0].text
                 token_prompt = full_response.usage.prompt_tokens
                 token_completion = full_response.usage.completion_tokens
                 token_total = full_response.usage.total_tokens
 
+                #Saves the students question and AI response
                 new_question = Question()
                 new_question.question = studentInput
                 new_question.response = text_response
@@ -64,13 +72,18 @@ def as_view(request):
                 new_question.save()
                 current_profile.user_question.add(new_question)
 
+                #Updates chat list with new question and response
                 chat_list = list(current_chat_history.values_list('question', 'response'))       
 
+            #If API or Question fails
             except:
                 error = "Submission Failed"
+
+        #When max token limit is reached
         else:
             error = "Max daily questions reached"
 
+    #Data passed to html template
     context = {
         'historyChat' : chat_list,
         'username' : username,
@@ -84,7 +97,18 @@ def as_view(request):
     return render(request, 'chat.html', context)
 
 
-def get_openfull_response(prompt, history, input):
+'''
+Input:
+prompt - related section from study guide
+history - shorted down history for reference
+input - students input from form
+
+Return:
+response - OpenAI's reponse to the student to include token count
+
+This uses OpenAI's davinci completion model to answer the students question
+'''
+def get_openAI_full_response(prompt, history, input):
     response = openai.Completion.create(
         model="text-davinci-003",
         prompt=generate_prompt(prompt, history, input),
@@ -97,19 +121,14 @@ def get_openfull_response(prompt, history, input):
     return response
 
 
-def find_vector(search_text):
-    # Change is ready from DB later
-    filePath = Path(settings.BASE_DIR, 'src', 'static', 'studyGuides', 'fundies.csv')    
-    df = pd.read_csv(filePath)
-    df['embedding'] = df['embedding'].apply(eval).apply(np.array)
+'''
+Input:
+prompt - related section from study guide
+history - shorted down history for reference
+input - students input from form
 
-    search_vector = get_embedding(search_text, engine='text-embedding-ada-002')
-    df["similarities"] = df['embedding'].apply(lambda x: cosine_similarity(x, search_vector))
-    found_vectors = df.sort_values("similarities", ascending=False).head(1)
-    found_text = found_vectors.iloc[0]["text"]
-    return found_text
-
-
+Returns combines text for OpenAI's completion model
+'''
 def generate_prompt(prompt, history, input):
     return """The following is a conversation with an AI tutor for high school graduates 
     trying to become aircraft mechanics. The AI is professional and will answer the student's 
@@ -122,8 +141,49 @@ def generate_prompt(prompt, history, input):
     """.format(input)
 
 
-# Grabs the last 8 chats from history
-# Used to pass to prompt in generate_prompt()
+'''
+Input:
+search_text - student's input from form
+
+Return:
+found_text - Matched study guide section
+
+This uses OpenAI's embedding to search the given Panda's DataFile to find the best matched
+section from the study guide that the user was asking.
+
+TODO:
+Instead of reading from a static CSV file, read it from the database
+'''
+def find_vector(search_text):
+    #Reads static CSV file that contains pre-embedded text and vectors for the study guide
+    filePath = Path(settings.BASE_DIR, 'src', 'static', 'studyGuides', 'fundies.csv')    
+    df = pd.read_csv(filePath)
+    df['embedding'] = df['embedding'].apply(eval).apply(np.array)
+
+    #Use OpenAI's embedding model to change the student's input into vectors
+    search_vector = get_embedding(search_text, engine='text-embedding-ada-002')
+    
+    #Use cosine similarity against each section of the study guide
+    df["similarities"] = df['embedding'].apply(lambda x: cosine_similarity(x, search_vector))
+    
+    #Finds the best matched vector
+    found_vectors = df.sort_values("similarities", ascending=False).head(1)
+    
+    #Selected the text for the best match
+    found_text = found_vectors.iloc[0]["text"]
+    
+    return found_text
+
+
+'''
+Input:
+history - full chat history between user and AI
+
+Returns
+short_history_str - string of text containing the last 4 conversation pieces
+
+This gets the most recent chat history and passes to the prompt so they can ask follow up questions
+'''
 def manageHistoyChat(history):
     deq = deque(maxlen=4)
     for i in history:
@@ -137,6 +197,14 @@ def manageHistoyChat(history):
     return short_history_str
 
 
+'''
+Input
+user - current user loggin in
+
+Return
+True - if user has not exeeded their prorated daily token limit
+False - if user has exeeded their prorated daily token limit or monthly total
+'''
 def check_user_tokens(user):
     MAX_DAILY = 30000
     MAX_MONTHLY = 1000000
