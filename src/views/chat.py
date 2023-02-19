@@ -44,16 +44,16 @@ def as_view(request):
         if check_user_tokens(current_user):
             try:
                 #Students input from form
-                studentInput = request.POST["studentInput"]
+                student_input = request.POST["studentInput"]
 
                 #Finds correct section of study guide based on student input
-                prompt = find_vector(studentInput)
+                prompt = find_vector(student_input)
 
                 #Get a shorted chat history to add to the AI prompt
-                short_history = manageHistoyChat(chat_list)
+                short_history = manage_history_chat(chat_list)
 
                 #OpenAI's API
-                full_response = get_openAI_full_response(prompt, short_history, studentInput)
+                full_response = get_openAI_full_response(prompt, short_history, student_input)
                 text_response = full_response.choices[0].text
                 token_prompt = full_response.usage.prompt_tokens
                 token_completion = full_response.usage.completion_tokens
@@ -61,7 +61,7 @@ def as_view(request):
 
                 #Saves the students question and AI response
                 new_question = Question()
-                new_question.question = studentInput
+                new_question.question = student_input
                 new_question.response = text_response
                 new_question.submitted_by = current_user
                 new_question.instructor = getattr(current_profile, 'user_instructor')
@@ -184,7 +184,7 @@ short_history_str - string of text containing the last 4 conversation pieces
 
 This gets the most recent chat history and passes to the prompt so they can ask follow up questions
 '''
-def manageHistoyChat(history):
+def manage_history_chat(history):
     deq = deque(maxlen=4)
     for i in history:
         deq.append(i)
