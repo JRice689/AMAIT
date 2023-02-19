@@ -1,0 +1,10 @@
+django
+python-dotenv
+openai
+matplotlib
+plotly
+scipy
+scikit-learn
+numpy
+pandas
+whitenoise
