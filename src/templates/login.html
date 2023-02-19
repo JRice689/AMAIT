@@ -2,20 +2,25 @@
 <head>
   {% load static %}
   <link rel="stylesheet" href="{% static 'styles.css' %}">
-  <title>CCAIT</title>
+  <title>AMAIT</title>
 </head>
 
 <body>
-    <img src="{% static 'F16.png' %}" class="icon"/>
-    <h3>Crew Chief AI Tutor</h3>
 
-    <form id="login"  action="/login/" method="POST">
-        {% csrf_token %}
-        
-        <input name="username" placeholder="Username">
-        <br>
-        <input type="password" name="password" placeholder="Password">
-        <br>
-        <input type="submit" id="submit" value="Submit">
-    </form>
+    <div id="logintopbar">
+      Aircraft Mx AI Tutor
+    </div>
+    <div id="login">
+      <img src="{% static '362.jpg' %}" class="icon"/>
+      <form id="login"  action="/login/" method="POST">
+          {% csrf_token %}
+          
+          <input name="username" placeholder="Username">
+          <br>
+          <input type="password" name="password" placeholder="Password">
+          <br>
+          <input type="submit" id="submit" value="Login">
+      </form>
+    </div>
+
 </body>
