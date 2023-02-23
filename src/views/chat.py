@@ -39,13 +39,13 @@ def as_view(request):
     current_chat_history = Question.objects.filter(submitted_by__profile=current_profile)
     chat_list = list(current_chat_history.values_list('question', 'response'))
     
-    #Gets total tokens used by user
-    user_tokens = sum(list(current_chat_history.values_list('token_total', flat=True)))
-
+    #Gets user's daily useage, limit and checks
+    user_daily_tokens, user_daily_limit, user_within_limits = check_user_tokens(current_user)
+    
     #When the user presses submit
     if request.method == "POST":
         #Checks to see if user has reached token limit
-        if check_user_tokens(current_user):
+        if user_within_limits:
             try:
                 #Students input from form
                 student_input = request.POST["studentInput"]
@@ -94,7 +94,8 @@ def as_view(request):
     context = {
         'historyChat' : chat_list,
         'username' : username,
-        'userTokens' : user_tokens,
+        'userTokens' : user_daily_tokens,
+        'userLimit' : user_daily_limit,
         'tokenPrompt' : token_prompt,
         'tokenCompletion' : token_completion,
         'tokenTotal' : token_total,
@@ -105,6 +106,15 @@ def as_view(request):
     return render(request, 'chat.html', context)
 
 
+'''
+Input:
+response - string response from OpenAI
+
+Return:
+audio_base64 - WAV audio file to play on client side
+
+Converts the text response to a playable audio file for the client
+'''
 def response_to_speech(response):
     subscription_key = os.getenv("AZURE_SPEECH")
     region = os.getenv("AZURE_REGION")
@@ -245,8 +255,8 @@ def check_user_tokens(user):
     prorated_daily = (datetime.now().day * MAX_DAILY) - monthly_usage
 
     if monthly_usage < MAX_MONTHLY and prorated_daily > 0:
-        return True 
+        return daily_usage, prorated_daily, True 
     else:
-        return False
+        return daily_usage, prorated_daily, False
     
 

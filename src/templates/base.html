@@ -16,8 +16,10 @@
       {% csrf_token %}
       Current User: <br>
       <ul><li>{{username}}</li></ul>      
-      Token Count: <br>
-      <ul><li>{{userTokens}}</li></ul>  
+      Daily Token Count: <br>
+      <ul><li>{{userTokens}}</li></ul> 
+      Daily Token Limit: <br>
+      <ul><li>{{userLimit}}</li></ul>  
 
 
       <input type="submit" value="Logout">
