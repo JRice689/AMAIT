@@ -62,8 +62,7 @@ def as_view(request):
                 token_prompt = full_response.usage.prompt_tokens
                 token_completion = full_response.usage.completion_tokens
                 token_total = full_response.usage.total_tokens
-
-                audio_response = response_to_speech(text_response)
+               
 
                 #Saves the students question and AI response
                 new_question = Question()
@@ -79,7 +78,9 @@ def as_view(request):
                 current_profile.user_question.add(new_question)
 
                 #Updates chat list with new question and response
-                chat_list = list(current_chat_history.values_list('question', 'response'))       
+                chat_list = list(current_chat_history.values_list('question', 'response'))   
+
+                audio_response = response_to_speech(text_response)    
 
             #If API or Question fails
             except:
@@ -110,7 +111,11 @@ def response_to_speech(response):
 
     speech_config = SpeechConfig(subscription=subscription_key, region=region)
     synthesizer = SpeechSynthesizer(speech_config=speech_config)
-    audio = synthesizer.speak_text_async(response).get()
+
+    #Removed 'AI Tutor: ' from response
+    clean_response = response[10:].strip()
+
+    audio = synthesizer.speak_text_async(clean_response).get()
     audio_base64 = base64.b64encode(audio.audio_data).decode('utf-8')
     
     return audio_base64

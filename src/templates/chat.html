@@ -20,16 +20,19 @@
         <input type="text" name="studentInput" placeholder="Ask you question here" required/>
         <input type="submit" value="Submit" />
       </form>
-      {% if audioResponse %}
-      <audio controls>
-        <source src="data:audio/wav;base64,{{ audio_response }}" type="audio/wav">
-        Your browser does not support the audio element.
-      </audio>
-      {% endif %}
       {{ error }}
       <p>
         Token Count - Prompt: {{ tokenPrompt }}, Completion: {{ tokenCompletion}}, Total: {{ tokenTotal }}
       </p>
+    </div>
+
+    <div id="audio">
+      {% if audioResponse %}
+      <audio>
+        <source src="data:audio/wav;base64,{{ audioResponse }}" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+      {% endif %}
     </div>
 
   {% endblock %}
