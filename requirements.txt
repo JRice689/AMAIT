@@ -8,3 +8,4 @@ scikit-learn
 numpy
 pandas
 whitenoise
+azure-cognitiveservices-speech

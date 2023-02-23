@@ -14,6 +14,9 @@ import pandas as pd
 from openai.embeddings_utils import get_embedding
 from openai.embeddings_utils import cosine_similarity
 from datetime import datetime
+from azure.cognitiveservices.speech import AudioDataStream, SpeechConfig, SpeechSynthesizer
+import base64
+
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -24,6 +27,7 @@ def as_view(request):
     token_prompt = 0
     token_completion = 0
     token_total = 0
+    audio_response = ""
     error = ""
 
     #Gets current username and profile
@@ -59,6 +63,8 @@ def as_view(request):
                 token_completion = full_response.usage.completion_tokens
                 token_total = full_response.usage.total_tokens
 
+                audio_response = response_to_speech(text_response)
+
                 #Saves the students question and AI response
                 new_question = Question()
                 new_question.question = student_input
@@ -91,10 +97,23 @@ def as_view(request):
         'tokenPrompt' : token_prompt,
         'tokenCompletion' : token_completion,
         'tokenTotal' : token_total,
+        'audioResponse' : audio_response,
         'error' : error
     }    
 
     return render(request, 'chat.html', context)
+
+
+def response_to_speech(response):
+    subscription_key = os.getenv("AZURE_SPEECH")
+    region = os.getenv("AZURE_REGION")
+
+    speech_config = SpeechConfig(subscription=subscription_key, region=region)
+    synthesizer = SpeechSynthesizer(speech_config=speech_config)
+    audio = synthesizer.speak_text_async(response).get()
+    audio_base64 = base64.b64encode(audio.audio_data).decode('utf-8')
+    
+    return audio_base64
 
 
 '''
@@ -225,3 +244,4 @@ def check_user_tokens(user):
     else:
         return False
     
+
