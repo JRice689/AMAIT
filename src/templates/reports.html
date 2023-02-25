@@ -1,0 +1,43 @@
+{% extends 'base.html'%}
+  {% block content %}
+    
+    <form method="get">
+        <input type="text" name="instructor" placeholder="Filter by instructor" value="{{ request.GET.instructor }}">
+        <button type="submit">Filter</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Question</th>
+                <th>Response</th>
+                <th>Submitted By</th>
+                <th>Instructor</th>
+                <th>Date Created</th>
+                <th>Is Flagged</th>
+                <th>From Study Guide</th>
+                <th>Token Prompt</th>
+                <th>Token Completion</th>
+                <th>Token Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for question in questions %}
+            <tr>
+                <td>{{ question.question }}</td>
+                <td>{{ question.response }}</td>
+                <td>{{ question.submitted_by }}</td>
+                <td>{{ question.instructor }}</td>
+                <td>{{ question.date_created }}</td>
+                <td>{{ question.is_flagged }}</td>
+                <td>{{ question.from_study_guide }}</td>
+                <td>{{ question.token_prompt }}</td>
+                <td>{{ question.token_completion }}</td>
+                <td>{{ question.token_total }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+
+  {% endblock %}

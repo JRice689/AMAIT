@@ -3,4 +3,5 @@ db.sqlite3
 .env
 src/migrations
 venv/
+.venv/
 .vscode/

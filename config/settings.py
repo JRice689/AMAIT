@@ -29,7 +29,6 @@ SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['amait-dev.azurewebsites.net', '362ai.com']
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 
@@ -134,4 +133,4 @@ STATIC_ROOT = BASE_DIR / 'src/staticfiles'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-# CSRF_TRUSTED_ORIGINS = ['https://amait-dev.azurewebsites.net', 'https://362ai.com', '127.0.0.1:8000']
+# CSRF_TRUSTED_ORIGINS = ['https://localhost', '127.0.0.1:8000']
