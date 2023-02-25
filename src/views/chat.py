@@ -16,6 +16,7 @@ from openai.embeddings_utils import cosine_similarity
 from datetime import datetime
 from azure.cognitiveservices.speech import AudioDataStream, SpeechConfig, SpeechSynthesizer
 import base64
+import logging
 
 
 load_dotenv()
@@ -80,7 +81,8 @@ def as_view(request):
                 #Updates chat list with new question and response
                 chat_list = list(current_chat_history.values_list('question', 'response'))   
 
-                audio_response = response_to_speech(text_response)    
+                #Backend python text to speech
+                audio_response = response_to_speech(text_response)   
 
             #If API or Question fails
             except:
@@ -116,19 +118,23 @@ audio_base64 - WAV audio file to play on client side
 Converts the text response to a playable audio file for the client
 '''
 def response_to_speech(response):
-    subscription_key = os.getenv("AZURE_SPEECH")
-    region = os.getenv("AZURE_REGION")
+    try:
 
-    speech_config = SpeechConfig(subscription=subscription_key, region=region)
-    synthesizer = SpeechSynthesizer(speech_config=speech_config)
+        subscription_key = os.getenv("AZURE_SPEECH")
+        region = os.getenv("AZURE_REGION")
 
-    #Removed 'AI Tutor: ' from response
-    clean_response = response[10:].strip()
+        speech_config = SpeechConfig(subscription=subscription_key, region=region)
+        synthesizer = SpeechSynthesizer(speech_config=speech_config)
 
-    audio = synthesizer.speak_text_async(clean_response).get()
-    audio_base64 = base64.b64encode(audio.audio_data).decode('utf-8')
-    
-    return audio_base64
+        #Removed 'AI Tutor: ' from response
+        clean_response = response[10:].strip()
+
+        audio = synthesizer.speak_text_async(clean_response).get()
+
+    except Exception as ex:
+        logging.error("An error occurred: {}".format(ex))    
+        
+    return audio
 
 
 '''
