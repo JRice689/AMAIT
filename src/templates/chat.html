@@ -28,7 +28,7 @@
 
     <div id="audio">
       {% if audioResponse %}
-      <audio>
+      <audio autoplay>
         <source src="data:audio/wav;base64,{{ audioResponse }}" type="audio/wav">
         Your browser does not support the audio element.
       </audio>

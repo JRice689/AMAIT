@@ -14,7 +14,7 @@ import pandas as pd
 from openai.embeddings_utils import get_embedding
 from openai.embeddings_utils import cosine_similarity
 from datetime import datetime
-from azure.cognitiveservices.speech import AudioDataStream, SpeechConfig, SpeechSynthesizer
+import azure.cognitiveservices.speech as speechsdk
 import base64
 import logging
 
@@ -123,18 +123,26 @@ def response_to_speech(response):
         subscription_key = os.getenv("AZURE_SPEECH")
         region = os.getenv("AZURE_REGION")
 
-        speech_config = SpeechConfig(subscription=subscription_key, region=region)
-        synthesizer = SpeechSynthesizer(speech_config=speech_config)
+        speech_config = speechsdk.SpeechConfig(subscription=subscription_key, region=region)
+        speech_config.speech_synthesis_voice_name='en-US-JennyNeural'
+        file_name = "outputaudio.wav"
+        file_config = speechsdk.audio.AudioOutputConfig(filename=file_name)
+        speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config, audio_config=file_config)
 
         #Removed 'AI Tutor: ' from response
         clean_response = response[10:].strip()
 
-        audio = synthesizer.speak_text_async(clean_response).get()
+        audio = speech_synthesizer.speak_text_async(clean_response).get()
+
+        with open(file_name, 'rb') as f:
+            audio_bytes = f.read()
+
+        audio_base64 = base64.b64encode(audio_bytes).decode('utf-8')
 
     except Exception as ex:
         logging.error("An error occurred: {}".format(ex))    
         
-    return audio
+    return audio_base64
 
 
 '''
