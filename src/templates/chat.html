@@ -2,16 +2,16 @@
   {% block content %}
     
     <div id="history">
-      {% for pair in historyChat %}
-        <p>{{username}}: {% for chat in pair %}
-          {{ chat }}</p>
-        {% endfor %}
+      {% for question, response in historyChat %}
+          <p>{{ username }}: {{ question }}</p>
+          <p>AI Tutor: {{ response }}</p>
       {% endfor %}
       <script>
         var historyDiv = document.getElementById("history");
         historyDiv.scrollTop = historyDiv.scrollHeight;
       </script>
     </div>
+  
 
 
     <div id="input">

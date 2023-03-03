@@ -52,17 +52,18 @@ def as_view(request):
                 student_input = request.POST["studentInput"]
 
                 #Finds correct section of study guide based on student input
-                prompt = find_vector(student_input)
+                found_study_guide = find_vector(student_input)
 
                 #Get a shorted chat history to add to the AI prompt
-                short_history = manage_history_chat(chat_list)
+                short_history = shorten_history_chat(chat_list)
+                
 
-                #OpenAI's API
-                full_response = get_openAI_full_response(prompt, short_history, student_input)
-                text_response = full_response.choices[0].text
-                token_prompt = full_response.usage.prompt_tokens
-                token_completion = full_response.usage.completion_tokens
-                token_total = full_response.usage.total_tokens
+                #OpenAI's GPT Tubrbo 3.5 API
+                full_response = get_openAI_response(found_study_guide, short_history, student_input)
+                text_response = full_response["choices"][0]["message"]["content"]
+                token_prompt = full_response["usage"]["prompt_tokens"]
+                token_completion = full_response["usage"]["completion_tokens"]
+                token_total = full_response["usage"]["total_tokens"]
                
 
                 #Saves the students question and AI response
@@ -71,7 +72,7 @@ def as_view(request):
                 new_question.response = text_response
                 new_question.submitted_by = current_user
                 new_question.instructor = getattr(current_profile, 'user_instructor')
-                new_question.from_study_guide = prompt
+                new_question.from_study_guide = found_study_guide
                 new_question.token_prompt = token_prompt
                 new_question.token_completion = token_completion
                 new_question.token_total = token_total
@@ -82,7 +83,7 @@ def as_view(request):
                 chat_list = list(current_chat_history.values_list('question', 'response'))   
 
                 #Backend python text to speech
-                audio_response = response_to_speech(text_response)   
+                audio_response = response_to_speech(text_response, username)   
 
             #If API or Question fails
             except:
@@ -117,7 +118,7 @@ audio_base64 - WAV audio file to play on client side
 
 Converts the text response to a playable audio file for the client
 '''
-def response_to_speech(response):
+def response_to_speech(response, username):
     try:
 
         subscription_key = os.getenv("AZURE_SPEECH")
@@ -125,7 +126,7 @@ def response_to_speech(response):
 
         speech_config = speechsdk.SpeechConfig(subscription=subscription_key, region=region)
         speech_config.speech_synthesis_voice_name='en-US-JennyNeural'
-        file_name = "outputaudio.wav"
+        file_name = username + "-audio.wav"
         file_config = speechsdk.audio.AudioOutputConfig(filename=file_name)
         speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config, audio_config=file_config)
 
@@ -147,46 +148,39 @@ def response_to_speech(response):
 
 '''
 Input:
-prompt - related section from study guide
+study_guide - related section from study guide
 history - shorted down history for reference
 input - students input from form
 
 Return:
 response - OpenAI's reponse to the student to include token count
 
-This uses OpenAI's davinci completion model to answer the students question
+This uses OpenAI's GPT Turbo 3.5 completion model to answer the students question
 '''
-def get_openAI_full_response(prompt, history, input):
-    response = openai.Completion.create(
-        model="text-davinci-003",
-        prompt=generate_prompt(prompt, history, input),
-        temperature=0.6,
-        max_tokens=400,
-        top_p=1,
-        frequency_penalty=0,
-        presence_penalty=0
+def get_openAI_response(study_guide, history, input):
+
+    prompt = """You are an AI tutor for high school graduates trying to become aircraft mechanics. 
+    The AI is professional and will answer the student's questions correctly.
+    If the student asks a question that does not pertain to aircraft or mechanics please remind 
+    them to stay on topic.  Only use the following information given below when helping the student."""
+
+    response = openai.ChatCompletion.create(
+    model="gpt-3.5-turbo",
+    messages=[
+            {"role": "system", "content": prompt},
+            {"role": "system", "content": study_guide},
+            {"role": "user", "content": history[0][0]},
+            {"role": "assistant", "content": history[0][1]},
+            {"role": "user", "content": history[1][0]},
+            {"role": "assistant", "content": history[1][1]},
+            {"role": "user", "content": history[2][0]},
+            {"role": "assistant", "content": history[2][1]},
+            {"role": "user", "content": history[3][0]},
+            {"role": "assistant", "content": history[3][1]},            
+            {"role": "user", "content": input}
+        ]
     )
     return response
-
-
-'''
-Input:
-prompt - related section from study guide
-history - shorted down history for reference
-input - students input from form
-
-Returns combines text for OpenAI's completion model
-'''
-def generate_prompt(prompt, history, input):
-    return """The following is a conversation with an AI tutor for high school graduates 
-    trying to become aircraft mechanics. The AI is professional and will answer the student's 
-    questions correctly.  If the student asks a question that does not pertain to aircraft or 
-    mechanics please remind them to stay on topic.  Only use the following information given 
-    below when helping the student. \n""" + prompt + """\nStudent: I need help understanding 
-    aircraft mechanics AI Tutor: I am an AI created by OpenAI. What do you need help with 
-    today?""" + history + """
-    Student: {}
-    """.format(input)
 
 
 '''
@@ -228,21 +222,17 @@ Input:
 history - full chat history between user and AI
 
 Returns
-short_history_str - string of text containing the last 4 conversation pieces
+short_history - list of pairs of text containing the last 4 conversation pieces
 
 This gets the most recent chat history and passes to the prompt so they can ask follow up questions
 '''
-def manage_history_chat(history):
+def shorten_history_chat(history):
     deq = deque(maxlen=4)
     for i in history:
         deq.append(i)
-    short_history_pairs = list(deq)
+    short_history = list(deq)
 
-    short_history_str = ""
-    for i in short_history_pairs:
-        short_history_str += f" Student: {i[0]} {i[1]}"
-
-    return short_history_str
+    return short_history
 
 
 '''
