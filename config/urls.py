@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-from src.views import chat, login, logout, reports, quiz, studyguides, feedback, help
+from src.views import chat, login, logout, reports, quiz, studyguides, feedback, help, test
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -28,5 +28,6 @@ urlpatterns = [
     path('quiz/', quiz.as_view),
     path('studyguides/', studyguides.as_view),
     path('feedback/', feedback.as_view),
-    path('help/', help.as_view)
+    path('help/', help.as_view),
+    path('test/', test.as_view)
 ]

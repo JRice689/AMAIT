@@ -73,7 +73,7 @@ ul {
 }
 
 #history {
-  height: 80vh;
+  height: 75vh;
   overflow: auto;
   padding: 0 25%;
 }
@@ -83,7 +83,7 @@ ul {
 }
 
 input[type="text"] {
-  width: 75vh;
+  width: calc(100% - 120px);
   height: 36px;
   padding: 8px 20px;
   margin: 8px 0;
