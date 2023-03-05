@@ -10,7 +10,8 @@ urlpatterns = [
     path('', quiz.as_view, name='quiz'),
     path('', studyguides.as_view, name='studyguides'),
     path('', feedback.as_view, name='feedback'),
-    path('', help.as_view, name='help')
+    path('', help.as_view, name='help'),
+    path('get-chat-list/', chat.get_chat_list, name='get-chat-list')
        
     
     

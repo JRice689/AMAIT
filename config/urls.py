@@ -28,5 +28,6 @@ urlpatterns = [
     path('quiz/', quiz.as_view),
     path('studyguides/', studyguides.as_view),
     path('feedback/', feedback.as_view),
-    path('help/', help.as_view)
+    path('help/', help.as_view),
+    path('get-chat-list/', chat.get_chat_list, name='get-chat-list')
 ]

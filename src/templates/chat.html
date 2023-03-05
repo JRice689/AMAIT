@@ -1,16 +1,42 @@
 {% extends 'base.html'%}
   {% block content %}
     
-    <div id="history">
-      {% for question, response in historyChat %}
-          <p>{{ username }}: {{ question }}</p>
-          <p>AI Tutor: {{ response }}</p>
-      {% endfor %}
+    <div id="history"></div>
+
       <script>
-        var historyDiv = document.getElementById("history");
-        historyDiv.scrollTop = historyDiv.scrollHeight;
+        function getChatList() {
+          $.ajax({
+            type: "GET",
+            url: "/get-chat-list/",
+            success: function(data) {
+              var chatList = data.chat_list;
+              var chatListDiv = $('#history');
+              chatListDiv.empty();
+              $.each(chatList, function(index, item) {
+                var question = item.question;
+                var response = item.response;
+                chatListDiv.append('<p>{{ username }}: ' + question + '</p><p>AI Tutor: ' + response + '</p>');
+              });
+              chatListDiv.scrollTop(chatListDiv.prop('scrollHeight'));
+            }
+          });
+        }
+      
+        // Call the getChatList function initially
+        $(document).ready(function() {
+          getChatList();
+        });
       </script>
-    </div>
+
+      <script>
+        // Call the getChatList function every 5 seconds
+        setInterval(function() {
+          getChatList();
+        }, 1000);
+      </script>
+
+
+    
   
 
 

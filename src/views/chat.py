@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.http import JsonResponse
 from pathlib import Path
 from django.conf import settings
 from django.contrib.auth.decorators import login_required
@@ -56,20 +57,11 @@ def as_view(request):
 
                 #Get a shorted chat history to add to the AI prompt
                 short_history = shorten_history_chat(chat_list)
-                
 
-                #OpenAI's GPT Tubrbo 3.5 API
-                full_response = get_openAI_response(found_study_guide, short_history, student_input)
-                text_response = full_response["choices"][0]["message"]["content"]
-                token_prompt = full_response["usage"]["prompt_tokens"]
-                token_completion = full_response["usage"]["completion_tokens"]
-                token_total = full_response["usage"]["total_tokens"]
-               
-
-                #Saves the students question and AI response
+                #Saves the students question BEFORE AI response
                 new_question = Question()
                 new_question.question = student_input
-                new_question.response = text_response
+                new_question.response = "..." #temp response
                 new_question.submitted_by = current_user
                 new_question.instructor = getattr(current_profile, 'user_instructor')
                 new_question.from_study_guide = found_study_guide
@@ -78,12 +70,28 @@ def as_view(request):
                 new_question.token_total = token_total
                 new_question.save()
                 current_profile.user_question.add(new_question)
+                
+                #OpenAI's GPT Tubrbo 3.5 API
+                full_response = get_openAI_response(found_study_guide, short_history, student_input)
+                text_response = full_response["choices"][0]["message"]["content"]
+                token_prompt = full_response["usage"]["prompt_tokens"]
+                token_completion = full_response["usage"]["completion_tokens"]
+                token_total = full_response["usage"]["total_tokens"]
 
-                #Updates chat list with new question and response
-                chat_list = list(current_chat_history.values_list('question', 'response'))   
+                #Updates chat list with new question and temp response
+                updated_chat_history = Question.objects.filter(submitted_by__profile=current_profile)
+                last_question = updated_chat_history.last() 
+
+                #Update last question with AI response and tokens
+                last_question.response = text_response
+                last_question.token_prompt = token_prompt
+                last_question.token_completion = token_completion
+                last_question.token_total = token_total
+                last_question.save()
 
                 #Backend python text to speech
                 audio_response = response_to_speech(text_response, username)   
+
 
             #If API or Question fails
             except:
@@ -95,7 +103,6 @@ def as_view(request):
 
     #Data passed to html template
     context = {
-        'historyChat' : chat_list,
         'username' : username,
         'userTokens' : user_daily_tokens,
         'userLimit' : user_daily_limit,
@@ -130,10 +137,8 @@ def response_to_speech(response, username):
         file_config = speechsdk.audio.AudioOutputConfig(filename=file_name)
         speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config, audio_config=file_config)
 
-        #Removed 'AI Tutor: ' from response
-        clean_response = response[10:].strip()
 
-        audio = speech_synthesizer.speak_text_async(clean_response).get()
+        audio = speech_synthesizer.speak_text_async(response).get()
 
         with open(file_name, 'rb') as f:
             audio_bytes = f.read()
@@ -264,3 +269,8 @@ def check_user_tokens(user):
         return daily_usage, prorated_daily, False
     
 
+def get_chat_list(request):
+    current_user = request.user
+    current_profile = Profile.objects.get(user_profile_id=current_user)
+    chat_list = list(Question.objects.filter(submitted_by__profile=current_profile).values('question', 'response'))
+    return JsonResponse({'chat_list': chat_list})
