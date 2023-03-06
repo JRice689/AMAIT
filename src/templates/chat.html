@@ -11,16 +11,26 @@
             headers: { "X-CSRFToken": token },
             type: "GET",
             url: "/get-chat-list/",
+            async: true,
             success: function(data) {
               var chatList = data.chat_list;
               var chatListDiv = $('#history');
+              var needAnswer = false;
               chatListDiv.empty();
               $.each(chatList, function(index, item) {
                 var question = item.question;
                 var response = item.response;
+                if (response == "...") {
+                  needAnswer = true;
+                }
                 chatListDiv.append('<p>{{ username }}: ' + question + '</p><p>AI Tutor: ' + response + '</p>');
               });
               chatListDiv.scrollTop(chatListDiv.prop('scrollHeight'));
+
+              if (needAnswer == true){
+                getAnswer();
+                needAnswer = false;
+              };
             }
           });
         }
@@ -29,6 +39,18 @@
         $(document).ready(function() {
           getChatList();
         });
+
+        function getAnswer() {
+          $.ajax({
+            headers: { "X-CSRFToken": token },
+            type: "GET",
+            url: "/get-answer/",
+            async: true,
+            success: function(data) {
+             getChatList();
+            }
+          });
+        }
 
         function getCookie(name) {
               let cookieValue = null;
@@ -47,12 +69,12 @@
         }
       </script>
 
-      <script>
+      <!-- <script>
         // Call the getChatList function every 5 seconds
         setInterval(function() {
           getChatList();
         }, 1000);
-      </script>
+      </script> -->
 
 
     
@@ -70,6 +92,18 @@
         Token Count - Prompt: {{ tokenPrompt }}, Completion: {{ tokenCompletion}}, Total: {{ tokenTotal }}
       </p>
     </div>
+
+    <!-- <script>
+      window.addEventListener('load', function() {
+        var submitBtn = document.querySelector('input[type="submit"]');
+        submitBtn.disabled = true; // disable the button on page load
+
+        document.forms[0].addEventListener('submit', function() {
+          submitBtn.disabled = true; // disable the button when the form is submitted
+        });
+      });
+
+    </script> -->
 
     <div id="audio">
       {% if audioResponse %}

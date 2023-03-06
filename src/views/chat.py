@@ -55,9 +55,6 @@ def as_view(request):
                 #Finds correct section of study guide based on student input
                 found_study_guide = find_vector(student_input)
 
-                #Get a shorted chat history to add to the AI prompt
-                short_history = shorten_history_chat(chat_list)
-
                 #Saves the students question BEFORE AI response
                 new_question = Question()
                 new_question.question = student_input
@@ -71,26 +68,8 @@ def as_view(request):
                 new_question.save()
                 current_profile.user_question.add(new_question)
                 
-                #OpenAI's GPT Tubrbo 3.5 API
-                full_response = get_openAI_response(found_study_guide, short_history, student_input)
-                text_response = full_response["choices"][0]["message"]["content"]
-                token_prompt = full_response["usage"]["prompt_tokens"]
-                token_completion = full_response["usage"]["completion_tokens"]
-                token_total = full_response["usage"]["total_tokens"]
-
-                #Updates chat list with new question and temp response
-                updated_chat_history = Question.objects.filter(submitted_by__profile=current_profile)
-                last_question = updated_chat_history.last() 
-
-                #Update last question with AI response and tokens
-                last_question.response = text_response
-                last_question.token_prompt = token_prompt
-                last_question.token_completion = token_completion
-                last_question.token_total = token_total
-                last_question.save()
-
                 #Backend python text to speech
-                audio_response = response_to_speech(text_response, username)   
+                #audio_response = response_to_speech(text_response, username)   
 
 
             #If API or Question fails
@@ -115,6 +94,43 @@ def as_view(request):
 
     return render(request, 'chat.html', context)
 
+
+def get_answer(request):
+    current_user = request.user
+    current_profile = Profile.objects.get(user_profile_id=current_user)
+
+    current_chat_history = Question.objects.filter(submitted_by__profile=current_profile)
+    chat_list = list(current_chat_history.values_list('question', 'response'))
+
+    try:
+        #Updates chat list with new question and temp response
+        updated_chat_history = Question.objects.filter(submitted_by__profile=current_profile)
+        last_question = updated_chat_history.last() 
+        found_study_guide = getattr(last_question, "from_study_guide")
+        student_input = getattr(last_question, "question")
+
+        #Get a shorted chat history to add to the AI prompt
+        short_history = shorten_history_chat(chat_list)
+
+        #OpenAI's GPT Tubrbo 3.5 API
+        full_response = get_openAI_response(found_study_guide, short_history, student_input)
+        text_response = full_response["choices"][0]["message"]["content"]
+        token_prompt = full_response["usage"]["prompt_tokens"]
+        token_completion = full_response["usage"]["completion_tokens"]
+        token_total = full_response["usage"]["total_tokens"]
+
+        #Update last question with AI response and tokens
+        last_question.response = text_response
+        last_question.token_prompt = token_prompt
+        last_question.token_completion = token_completion
+        last_question.token_total = token_total
+        last_question.save()
+    
+    except:
+        print("ERROR ON GET ANSWER")
+
+
+    return JsonResponse({'chat_list': chat_list})
 
 '''
 Input:
