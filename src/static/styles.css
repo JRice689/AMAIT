@@ -75,11 +75,11 @@ ul {
 #history {
   height: 75vh;
   overflow: auto;
-  padding: 0 25%;
+  padding: 0 10%;
 }
 
 #input {
-  padding: 0 25%;
+  padding: 0 10%;
 }
 
 input[type="text"] {

@@ -1,7 +1,19 @@
 {% extends 'base.html'%}
   {% block content %}
 
-  This is where students can have quizes generated.
+  <p>This is where students can have quizes generated.</p>
+  <p>Currenty this is the raw output from GPT-3.5 but will be put into</p>
+  <p>a more refined web based app where it grades the students and keeps score.</p>
+  <p>Here is an example of a random question and answer:</p>
+
+  <br>
+  <p>Question:</p>
+  <p>{{text_response|linebreaksbr}}</p>
+
+  <br>
+  <p>Selected Section from Study Guide:</p>
+  <p>{{r_text}}</p>
+
   
   {% endblock %}
 
