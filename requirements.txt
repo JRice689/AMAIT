@@ -9,3 +9,4 @@ numpy
 pandas
 whitenoise
 azure-cognitiveservices-speech
+PyPDF2

@@ -48,33 +48,33 @@ def as_view(request):
     if request.method == "POST":
         #Checks to see if user has reached token limit
         if user_within_limits:
-            try:
-                #Students input from form
-                student_input = request.POST["studentInput"]
+            # try:
+            #Students input from form
+            student_input = request.POST["studentInput"]
 
-                #Finds correct section of study guide based on student input
-                found_study_guide = find_vector(student_input)
+            #Finds correct section of study guide based on student input
+            found_study_guide = find_vector(student_input)
 
-                #Saves the students question BEFORE AI response
-                new_question = Question()
-                new_question.question = student_input
-                new_question.response = "..." #temp response
-                new_question.submitted_by = current_user
-                new_question.instructor = getattr(current_profile, 'user_instructor')
-                new_question.from_study_guide = found_study_guide
-                new_question.token_prompt = token_prompt
-                new_question.token_completion = token_completion
-                new_question.token_total = token_total
-                new_question.save()
-                current_profile.user_question.add(new_question)
+            #Saves the students question BEFORE AI response
+            new_question = Question()
+            new_question.question = student_input
+            new_question.response = "..." #temp response
+            new_question.submitted_by = current_user
+            new_question.instructor = getattr(current_profile, 'user_instructor')
+            new_question.from_study_guide = found_study_guide
+            new_question.token_prompt = token_prompt
+            new_question.token_completion = token_completion
+            new_question.token_total = token_total
+            new_question.save()
+            current_profile.user_question.add(new_question)
                 
                 #Backend python text to speech
                 #audio_response = response_to_speech(text_response, username)   
 
 
             #If API or Question fails
-            except:
-                error = "Submission Failed"
+            # except:
+            #     error = "Submission Failed"
 
         #When max token limit is reached
         else:
@@ -102,32 +102,32 @@ def get_answer(request):
     current_chat_history = Question.objects.filter(submitted_by__profile=current_profile)
     chat_list = list(current_chat_history.values_list('question', 'response'))
 
-    try:
-        #Updates chat list with new question and temp response
-        updated_chat_history = Question.objects.filter(submitted_by__profile=current_profile)
-        last_question = updated_chat_history.last() 
-        found_study_guide = getattr(last_question, "from_study_guide")
-        student_input = getattr(last_question, "question")
+    # try:
+    #Updates chat list with new question and temp response
+    updated_chat_history = Question.objects.filter(submitted_by__profile=current_profile)
+    last_question = updated_chat_history.last() 
+    found_study_guide = getattr(last_question, "from_study_guide")
+    student_input = getattr(last_question, "question")
 
-        #Get a shorted chat history to add to the AI prompt
-        short_history = shorten_history_chat(chat_list)
+    #Get a shorted chat history to add to the AI prompt
+    short_history = shorten_history_chat(chat_list)
 
-        #OpenAI's GPT Tubrbo 3.5 API
-        full_response = get_openAI_response(found_study_guide, short_history, student_input)
-        text_response = full_response["choices"][0]["message"]["content"]
-        token_prompt = full_response["usage"]["prompt_tokens"]
-        token_completion = full_response["usage"]["completion_tokens"]
-        token_total = full_response["usage"]["total_tokens"]
+    #OpenAI's GPT Tubrbo 3.5 API
+    full_response = get_openAI_response(found_study_guide, short_history, student_input)
+    text_response = full_response["choices"][0]["message"]["content"]
+    token_prompt = full_response["usage"]["prompt_tokens"]
+    token_completion = full_response["usage"]["completion_tokens"]
+    token_total = full_response["usage"]["total_tokens"]
 
-        #Update last question with AI response and tokens
-        last_question.response = text_response
-        last_question.token_prompt = token_prompt
-        last_question.token_completion = token_completion
-        last_question.token_total = token_total
-        last_question.save()
+    #Update last question with AI response and tokens
+    last_question.response = text_response
+    last_question.token_prompt = token_prompt
+    last_question.token_completion = token_completion
+    last_question.token_total = token_total
+    last_question.save()
     
-    except:
-        print("ERROR ON GET ANSWER")
+    # except:
+    #     print("ERROR ON GET ANSWER")
 
 
     return JsonResponse({'chat_list': chat_list})
@@ -219,7 +219,7 @@ Instead of reading from a static CSV file, read it from the database
 '''
 def find_vector(search_text):
     #Reads static CSV file that contains pre-embedded text and vectors for the study guide
-    filePath = Path(settings.BASE_DIR, 'src', 'static', 'studyGuides', 'fundies.csv')    
+    filePath = Path(settings.BASE_DIR, 'src', 'static', 'studyGuides', 'thisCSV.csv')    
     df = pd.read_csv(filePath)
     df['embedding'] = df['embedding'].apply(eval).apply(np.array)
 
@@ -230,12 +230,16 @@ def find_vector(search_text):
     df["similarities"] = df['embedding'].apply(lambda x: cosine_similarity(x, search_vector))
     
     #Finds the best matched vector
-    found_vectors = df.sort_values("similarities", ascending=False).head(1)
+    found_vectors = df.sort_values("similarities", ascending=False).head(3)
     
     #Selected the text for the best match
     found_text = found_vectors.iloc[0]["text"]
+    found_next_text = found_vectors.iloc[1]["text"]
+
+    combined_text = found_text + "\n" + found_next_text
+
     
-    return found_text
+    return combined_text
 
 
 '''
