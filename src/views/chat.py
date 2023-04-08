@@ -185,22 +185,22 @@ def get_openAI_response(study_guide, history, input):
     If the student asks a question that does not pertain to aircraft or mechanics please remind 
     them to stay on topic.  Only use the following information given below when helping the student."""
 
+    messages = [
+        {"role": "system", "content": prompt},
+        {"role": "system", "content": study_guide},
+    ]
+
+    for i in range(len(history)):
+        messages.append({"role": "user", "content": history[i][0]})
+        messages.append({"role": "assistant", "content": history[i][1]})
+
+    messages.append({"role": "user", "content": input})
+
     response = openai.ChatCompletion.create(
-    model="gpt-3.5-turbo",
-    messages=[
-            {"role": "system", "content": prompt},
-            {"role": "system", "content": study_guide},
-            {"role": "user", "content": history[0][0]},
-            {"role": "assistant", "content": history[0][1]},
-            {"role": "user", "content": history[1][0]},
-            {"role": "assistant", "content": history[1][1]},
-            {"role": "user", "content": history[2][0]},
-            {"role": "assistant", "content": history[2][1]},
-            {"role": "user", "content": history[3][0]},
-            {"role": "assistant", "content": history[3][1]},            
-            {"role": "user", "content": input}
-        ]
+        model="gpt-3.5-turbo",
+        messages=messages
     )
+
     return response
 
 
