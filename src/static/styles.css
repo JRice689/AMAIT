@@ -17,6 +17,20 @@ body {
   font-size: 18px;
 }
 
+#sidebar a {
+  color: #9bbcd1;
+  text-decoration: none;
+}
+
+#sidebar a:hover {
+  color: #9bbcd1;
+  text-decoration: underline;
+}
+
+#sidebar a:visited {
+  color: #9bbcd1;
+}
+
 #sidebar .icon {
   width: 200px;
 }

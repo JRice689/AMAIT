@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-from src.views import chat, login, logout, reports, quiz, studyguides, feedback, help
+from src.views import chat, login, logout, reports, quiz, studyguides, feedback, help, dafis
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -30,5 +30,8 @@ urlpatterns = [
     path('feedback/', feedback.as_view),
     path('help/', help.as_view),
     path('get-chat-list/', chat.get_chat_list, name='get-chat-list'),
-    path('get-answer/', chat.get_answer, name='get-answer')
+    path('get-answer/', chat.get_answer, name='get-answer'),
+    path('dafis/', dafis.as_view),
+    path('get-dafi-chat/', dafis.get_dafi_chat, name='get-dafi-chat'),
+    path('get-dafi/', dafis.get_dafi, name='get-dafi')
 ]

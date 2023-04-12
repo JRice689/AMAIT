@@ -219,7 +219,7 @@ Instead of reading from a static CSV file, read it from the database
 '''
 def find_vector(search_text):
     #Reads static CSV file that contains pre-embedded text and vectors for the study guide
-    filePath = Path(settings.BASE_DIR, 'src', 'static', 'studyGuides', 'thisCSV.csv')    
+    filePath = Path(settings.BASE_DIR, 'src', 'static', 'study_guide.csv')    
     df = pd.read_csv(filePath)
     df['embedding'] = df['embedding'].apply(eval).apply(np.array)
 

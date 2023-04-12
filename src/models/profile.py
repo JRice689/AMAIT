@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 from .question import Question
+from .dafi_question import DAFI_Question
 
 class Profile(models.Model):
 
@@ -16,6 +17,7 @@ class Profile(models.Model):
 
     user_group = models.CharField(max_length=1, choices=USER_TYPE)
     user_question = models.ManyToManyField(Question, blank=True)
+    user_dafi_question = models.ManyToManyField(DAFI_Question, blank=True)
     user_instructor = models.ForeignKey('self', on_delete=models.PROTECT, default=1)
 
     

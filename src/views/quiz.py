@@ -53,7 +53,7 @@ def as_view(request):
                 lines = text_response.split("\n")
 
                 question = lines[0].strip()
-                choices = [line.strip()[3:] for line in lines[2:6]]
+                choices = [f"{chr(ord('A') + index)}. {line.strip()[3:]}" for index, line in enumerate(lines[2:6])]
                 answer = lines[7].strip()[8]
                 reason = "\n".join(lines[9:])
 
