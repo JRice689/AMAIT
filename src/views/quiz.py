@@ -25,20 +25,18 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 @login_required(login_url='/login')
 def as_view(request):
-
+    r_text = ""
+    question = ""
+    choices = []
+    answer = ""
+    reason = ""
 
     #Gets current username and profile
     current_user = request.user
     username = getattr(current_user, "username")
     current_profile = Profile.objects.get(user_profile_id = current_user)
 
-    #testting
-    r_text = random_vector()
-
-    full_response = get_openAI_response(r_text)
-    text_response = full_response["choices"][0]["message"]["content"]
-
-    
+   
     #Gets user's daily useage, limit and checks
     user_daily_tokens, user_daily_limit, user_within_limits = check_user_tokens(current_user)
     
@@ -47,8 +45,17 @@ def as_view(request):
         #Checks to see if user has reached token limit
         if user_within_limits:
             try:
+                r_text = random_vector()
+                full_response = get_openAI_response(r_text)
+                text_response = full_response["choices"][0]["message"]["content"]
 
-                print("do stuff")
+                # Split the text into lines using '\n' as the separator
+                lines = text_response.split("\n")
+
+                question = lines[0].strip()
+                choices = [line.strip()[3:] for line in lines[2:6]]
+                answer = lines[7].strip()[8]
+                reason = "\n".join(lines[9:])
 
             #If API or Question fails
             except:
@@ -61,13 +68,16 @@ def as_view(request):
     #Data passed to html template
     context = {
         'r_text' : r_text,
-        'text_response' : text_response
-
+        'question' : question,
+        'choices' : choices,
+        'answer' : answer,
+        'reason' : reason
     }    
 
     return render(request, 'quiz.html', context)
 
-
+def check_answer():
+    return True
 
 def get_openAI_response(study_guide):
 

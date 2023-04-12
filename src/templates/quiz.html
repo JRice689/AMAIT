@@ -6,13 +6,43 @@
   <p>a more refined web based app where it grades the students and keeps score.</p>
   <p>Here is an example of a random question and answer:</p>
 
-  <br>
-  <p>Question:</p>
-  <p>{{text_response|linebreaksbr}}</p>
+	<form method="POST">
+		{% csrf_token %}
+		<label for="block">Select a block:</label>
+		<select name="block" id="block">
+			<option value="1">Block 1</option>
+			<option value="2">Block 2</option>
+			<option value="3">Block 3</option>
+			<option value="4">Block 4</option>
+		</select>
+		<button type="submit" name="generate">Generate question</button>
+	</form>
 
-  <br>
-  <p>Selected Section from Study Guide:</p>
-  <p>{{r_text}}</p>
+	{% if question %}
+		<p>{{ question }}</p>
+		<form method="POST">
+			{% csrf_token %}
+			{% for choice in choices %}
+				<input type="radio" id="{{ forloop.counter }}" name="answer" value="{{ forloop.counter }}">
+				<label for="{{ forloop.counter }}">{{ forloop.counter }}. {{ choice }}</label><br>
+			{% endfor %}
+			<button type="submit" name="check">Check Answer</button>
+		</form>
+
+    
+		{% if answer %}
+			<p>Your answer: {{ answer }}</p>
+		{% endif %}
+		<ul>
+			{% for choice in choices %}
+				<li>{{ choice }}</li>
+			{% endfor %}
+		</ul>
+		{% if reason %}
+			<p>Reason: {{ reason }}</p>
+		{% endif %}
+	{% endif %}
+
 
   
   {% endblock %}
